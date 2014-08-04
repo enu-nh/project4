@@ -8,7 +8,7 @@
 }
 
 a{
-	color: #205f82;
+	color: #3498DB;
 	text-decoration: none;
 }
 
@@ -26,6 +26,10 @@ body{
 	color: #666;
 }
 
+h2{
+	color: #2ECC71;
+}
+
 .inner{
 	width: 960px;
 	margin: 0 auto;
@@ -40,9 +44,16 @@ body{
 }
 
 #common-header{
-	height: 48px;
-	border-bottom: 1px solid #ccc;
-	margin-bottom: 40px;
+	overflow: hidden;
+	background: url(../images/mainVisual.jpg) no-repeat center;
+	-webkit-background-size: cover;
+	     -o-background-size: cover;
+	        background-size: cover;
+	padding-top: 16px;
+}
+
+#common-header a{
+	color: #FFF;
 }
 
 #logo{
@@ -52,7 +63,6 @@ body{
 #logo a{
 	font-size: 3.2rem; font-size: 32px;
 	text-decoration: none;
-	color: #333;
 	line-height: 48px;
 }
 
@@ -68,14 +78,14 @@ body{
 }
 
 #gnav{
-	margin-top: 16px;	
+	margin-top: 20px;	
 }
 
 #gnav ul li a{
-	color: #333;
-	font-size: 1.6rem; font-size: 16px;
+	font-size: 1.2rem; font-size: 12px;
 	text-decoration: none;
 	margin-left: 24px;
+	font-weight: bold;
 }
 
 #gnav ul li a:hover{
@@ -83,13 +93,14 @@ body{
 }
 
 #mainVisual{
+	padding: 72px 0 104px 0;
 	overflow: hidden;
+	width: 100%;
 }
 
-#mainVisual,
-section{
-	border-bottom: 1px solid #ccc;
-	padding: 32px 0 48px 0;
+section,
+#common-footer{
+	margin-top: 80px;
 }
 
 #mainVisual .fl{
@@ -99,14 +110,16 @@ section{
 #mainVisual .fl h2{
 	font-family: "Times New Roman", "游明朝", YuMincho, "ヒラギノ明朝 ProN W3", "Hiragino Mincho ProN", "メイリオ", Meiryo, serif;
 	font-size: 4.0rem; font-size: 40px;
+	font-weight: normal;
 	line-height: 1.5em;
-	color: #333;
+	color: #fff;
 	margin-bottom: 24px;	
 }
 
 #mainVisual .fl p{
-	font-size: 1.6rem; font-size: 16px;
+	font-size: 1.4rem; font-size: 14px;
 	line-height: 1.5em;
+	color: #FFF;
 }
 
 #mainVisual .fr{
@@ -117,8 +130,8 @@ section{
 	font-size: 2.4rem; font-size: 24px;
 	font-weight: normal;
 	padding-bottom: 4px;
-	border-bottom: 1px solid #333;
-	color: #333;
+	border-bottom: 1px solid #fff;
+	color: #fff;
 }
 
 #mainVisual .fr a{
@@ -126,11 +139,17 @@ section{
 	width: 100%;
 	padding: 16px 0;
 	text-align: center;
-	background: #333;
-	font-size: 1.6rem; font-size: 16px;
-	color: #FFF;
+	border: 2px solid #fff;
+	font-size: 1.4rem; font-size: 14px;
+	color: #fff;
 	text-decoration: none;
 	margin: 24px 0 0 0;
+}
+
+#mainVisual .fr a:hover{
+	background: #fff;
+	color: #333;
+	font-weight: bold;
 }
 
 #contents{
@@ -139,9 +158,10 @@ section{
 
 #contents h2{
 	text-align: center;
-	color: #333;
+	color: #2ECC71;
 	font-size: 3.2rem; font-size: 32px;
 	margin-bottom: 40px;
+	font-weight: normal;
 }
 
 #contents .search .formarea{
@@ -150,13 +170,16 @@ section{
 
 #contents .search input[type=text]{
 	line-height: 3.2rem; line-height: 32px;
+	font-size: 1.6rem; font-size: 16px;
+	color: #666;
 	width: 60%;
 	vertical-align: bottom;
+	border: 2px solid #3498DB;
 }
 
 #contents .search input[type=button]{
-	background: #333;
-	border: 1px solid #333;
+	background: #3498DB;
+	border: 1px solid #3498DB;
 	color: #FFF;
 	padding: 9px 16px;
 	font-size: 1.6rem; font-size: 16px;
@@ -165,14 +188,14 @@ section{
 
 #contents .newest ul{
 	overflow: hidden;
-	margin-left: -16px;
+	margin-left: -20px;
 }
 
 #contents .newest ul li{
 	float: left;
 	width: 176px;
-	margin-left: 16px;
-	height: 252px;
+	margin-left: 20px;
+	height: 268px;
 }
 
 #contents .newest .thumb{
@@ -182,17 +205,114 @@ section{
 	margin-bottom: 8px;
 }
 
-#contents .newest h3{
+#contents .popular .thumb{
+	overflow: hidden;
+	background: #CCC;
+	margin-bottom: 8px;	
+}
+
+#contents .newest h3,
+#contents .popular h3{
 	margin-bottom: 8px;
 	font-size: 1.6rem; font-size: 16px;
 }
 
-#contents .newest .location{
-	background: url(../images/location.jpg) no-repeat left center;
+#contents .newest .location,
+#contents .popular .location{
+	background: url(../images/location.png) no-repeat left center;
 	font-size: 1.2rem; font-size: 12px;
-	padding-left: 16px;
+	padding-left: 14px;
 }
 
-#contents .newest .location a{
+#contents .newest .location a,
+#contents .popular .location a{
 	color: #666;
+}
+
+#contents .popular ul{
+	margin-left: -72px;
+	overflow: hidden;
+}
+
+.rank{
+	text-align: center;
+	font-size: 80px;
+	font-family: serif;
+	margin-bottom: 16px;
+}
+
+.num1 .rank{
+	color: #2ECC71;
+}
+
+.num2 .rank{
+	color: #3498DB;
+}
+
+.num3 .rank{
+	color: #CC2E89;
+}
+
+#contents .popular .num1,
+#contents .popular .num2,
+#contents .popular .num3{
+	float: left;
+	width: 272px;
+	margin-left: 72px;
+}
+
+#contents .more a{
+	margin: 0 auto;
+	display: block;
+	width: 400px;
+	padding: 14px;
+	border: 2px solid #2ECC71;
+	text-align: center;
+	font-size: 1.4rem; font-size: 14px;
+	color: #2ECC71;
+}
+
+#contents .more a:hover{
+	background: #2ECC71;
+	color: #fff;
+	text-decoration: none;
+}
+
+#common-footer{
+	background: #2ECC71;
+	color: #FFF;
+}
+
+#common-footer a{
+	color: #FFF;
+	font-size: 1.2rem; font-size: 12px;
+}
+
+#common-footer #sitemap{
+	float: left;
+	padding-top: 8px;
+}
+
+#common-footer ul{
+	overflow: hidden;
+	margin-bottom: 8px;
+}
+
+#common-footer ul li{
+	line-height: 24px;
+	float: left;
+	margin-right: 24px;
+}
+
+#common-footer .contact input[type=button]{
+	margin-top: 8px;
+	border: none;
+	background: #FFF;
+	padding: 8px 16px;
+}
+
+#copy{
+	clear: both;
+	border-top: 1px solid #fff;
+	padding: 8px 0 16px 0;
 }

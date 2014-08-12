@@ -23,7 +23,7 @@
 							<li><p class="kiyaku">※<a href="">利用規約</a>に同意の上、会員登録をお願いします。</p></li>
 						</ul>
 						
-						<input type="submit" value="登録する">
+						<input type="button" value="登録する">
 					</form>
 				</div>
 			</div>

@@ -1,31 +1,31 @@
+<?php include 'function.php' ?>
 <!doctype html>
 <html lang="ja-JP">
 <head>
-	<link rel="stylesheet" href="http://localhost/project4/css/common.css">
+	<link rel="stylesheet" href="<?php echo $home_url; ?>css/common.css">
 	<meta charset="UTF-8">
 	<meta name="description" content="">
 	<title>test</title>
 </head>
-<?php include 'function.php' ?>
-<body class="<?php print_r($body_class); ?>">
+<body class="<?php echo($body_class); ?>">
 	<div id="wrapper">
 		<header id="common-header" class="cf">
 			<div class="inner">
 				<div id="logo">
-					<a href="">タイトル</a>
+					<a href="<?php echo $home_url; ?>">タイトル</a>
 				</div>
 				<div id="nav">
 					<div id="gnav">
 						<ul>
 							<li><a href="">カテゴリ</a></li>
 							<li><a href="">検索</a></li>
-							<li><a href="">サインアップ</a></li>
+							<li><a href="<?php echo $home_url."signup/signup.php"; ?>">サインアップ</a></li>
 							<li><a href="">ログイン</a></li>
 						</ul>
 					</div>
 				</div>
 			</div>
-			<?php if($url == 'http://localhost/project4/index.php'): ?>
+			<?php if($body_class == 'home'): ?>
 			<div id="mainVisual">
 				<div class="inner">
 					<div class="fl">

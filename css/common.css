@@ -20,9 +20,12 @@ a:hover{
 	display: block;
 }
 
-.cf:before,.cf:after {content:"";display:table;}
-.cf:after {clear:both;}
-.cf {*zoom:1;}
+.cf:before,.cf:after,
+.img-select:before,.img-select:after {content:"";display:table;}
+.cf:after,
+.img-select:after {clear:both;}
+.cf,
+.img-select {*zoom:1;}
 
 body,
 html{
@@ -464,19 +467,19 @@ section{
 
 ******************************/
 
-#main-contnets{
+.posts #main-contnets{
 	overflow: hidden;
 }
 
-.local-area{
+.posts .local-area{
 	overflow: hidden;
 }
 
-.local-area p{
+.posts .local-area p{
 	float: left;
 }
 
-.comments{
+.posts.add .comments{
 	width: 100%;
 	min-height: 24px;
 	border: 1px solid #ccc;	
@@ -544,10 +547,10 @@ section{
 
 .posts section{
 	float: left;
-	width: 640px;
+	width: 620px;
 }
 
-.posts h2{
+.posts.add h2{
 	text-align: left;
 	font-weight: normal;
 	margin-bottom: 16px;
@@ -556,23 +559,26 @@ section{
 
 .posts h1,
 .posts p,
+.img-select,
 .posts .local-area,
-#thumb-area{
+.posts .thumb-area,
+.posts #main-contents .comments,
+.posts #main-contents .area-info{
 	margin-bottom: 40px;
 }
 
-.posts .local-area{
+.posts.add .local-area{
 	border: 1px solid #2ECC71;
 	padding-top: 24px;
 	padding-right: 24px;
 }
 
-.posts .local-area input{
+.posts.add .local-area input{
 	font-size: 1.6rem; font-size: 16px;
 	margin-right: 4px;
 }
 
-.posts .local-area p{
+.posts.add .local-area p{
 	margin:0 0 24px 24px;
 }
 
@@ -581,9 +587,9 @@ section{
 	float: right;
 }
 
-#thumb-area{
-	width: 320px;
-	height: 320px;
+.posts .thumb-area{
+	width: 300px;
+	height: 300px;
 	background: #F3f3f3;
 	line-height: 320px;
 	text-align: center;
@@ -591,18 +597,184 @@ section{
 	font-size: 2.4rem; font-size: 24px;
 }
 
-.posts #main-contnets{
+.posts .thumb-area img{
+	width: 100%;
+	height: auto;
+}
+
+.posts #main-contents{
 	border-top: 1px solid #ccc;
 	padding-top: 24px;
 }
 
-.posts #main-contnets .time input[type=number]{
+.posts #main-contents .time input[type=number]{
 	line-height: 2.4rem; line-height: 24px;
 	vertical-align: bottom;
 	margin-right: 8px;
 	font-size: 1.6rem; font-size: 16px;
 }
 
-.posts #main-contnets .time span{
+.posts #main-contents .time span{
 	margin-right: 24px;
+}
+
+.posts #contents .post-title input[type=text]{
+	width: 100%;
+	line-height: 32px;
+	font-size: 2.4rem; font-size: 24px;
+}
+
+.posts #main-contents .event-title input[type=text]{
+	width: 100%;
+	line-height: 24px;
+	font-size: 1.6rem; font-size: 16px;
+	box-sizing: border-box;
+}
+
+.posts #addpost-support{
+	clear: both;
+	width: 620px;
+	overflow: hidden;
+}
+
+.posts #main-contents .img-select li{
+	width: 290px;
+	height: 290px;
+	line-height: 300px;
+	background: #F3F3F3;
+	text-align: center;
+	font-size: 2.4rem; font-size: 24px;
+	float: left;
+	cursor: pointer;
+}
+
+.posts #main-contents .img-select li img{
+	width: 100%;
+	height: 100%;
+}
+
+.posts #main-contents .img-select li:nth-child(odd){
+	margin: 0 40px 0 0 ;
+}
+
+.posts.add #main-contents .comments,
+.posts.add #main-contents .area-info{
+	clear: both;
+	min-height: 70px;
+	border: 1px solid #ccc;	
+	box-sizing: border-box;
+}
+
+.posts #main-contents section{
+	margin: 0 0 40px 0;
+}
+
+#addpost-support a{
+	text-align: center;
+	width: 30%;
+	line-height: 60px;
+	height: 60px;
+	display: block;
+	float: left;
+	margin: 0 5% 0 0;
+}
+
+#addpost-support a:last-child{
+	margin: 0;
+}
+
+#addpost-support a.add-tday{
+	border: 2px solid #2ECC71;
+	background: #fff;
+	color: #2ECC71;
+	box-sizing: border-box;
+}
+
+#addpost-support a.add-tday:hover{
+	background: #2ECC71;
+	color: #FFF;
+	text-decoration: none;
+}
+
+#addpost-support a.add-nday{
+	border: 2px solid #3498DB;
+	background: #fff;
+	color: #3498DB;
+	box-sizing: border-box;
+}
+
+#addpost-support a.add-nday:hover{
+	background: #3498DB;
+	color: #FFF;
+	text-decoration: none;
+}
+
+#addpost-support a.end-trip{
+	border: 2px solid #999;
+	box-sizing: border-box;
+	color: #999;
+}
+
+#addpost-support a.end-trip:hover{
+	background: #999;
+	color: #FFF;
+	text-decoration: none;
+}
+
+/******************************
+
+	▼posts/confirm.php
+
+******************************/
+
+.confirm #contents .post-title{
+	font-size: 2.4rem; font-size: 24px;
+}
+
+.posts.confirm h2{
+	font-weight: normal;
+	font-size: 1.6rem; font-size: 16px;
+	margin: 0 0 16px 0;
+}
+
+.posts.confirm .txt-area{
+	float: left;
+	width: 620px;
+}
+
+.posts.confirm .img-area{
+	float: right;
+}
+
+.posts.confirm #main-contents{
+	clear: both;
+}
+
+.posts.confirm #main-contents .time span{
+	margin: 0 8px 0 0;
+}
+
+.posts.confirm #main-contents .time p{
+	margin: 0 0 16px 0;
+}
+
+.posts.confirm #main-contents .time p:before{
+	content: "ー ";
+}
+
+.posts.confirm #main-contents .event-title{
+	font-size: 2.4rem; font-size: 24px;
+}
+
+.posts.confirm #main-contents .comments{
+	line-height: 24px;
+	padding-bottom: 24px;
+	border-bottom: 1px solid #ccc;
+	margin: 0 0 16px 0;
+}
+
+.posts.confirm #main-contents .area-info{
+	background: url(../images/location.png) no-repeat left center;
+	padding: 0 0 0 14px;
+	color: #999;
 }

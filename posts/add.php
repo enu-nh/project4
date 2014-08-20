@@ -19,7 +19,7 @@
 				<form action="">
 					<h1>新規投稿</h1>
 					<h2>タイトル</h2>
-					<p><input type="text"></p>
+					<p class="post-title"><input type="text"></p>
 					<h2>地域を選択</h2>
 					<div class="local-area">
 							<?php
@@ -34,10 +34,10 @@
 							?>
 					</div>
 					<h2>旅の動画を追加（この動画が一覧トップに表示されます）</h2>
-					<div id="thumb-area">
+					<div class="thumb-area">
 						動画を掲載する
 					</div>
-					<article id="main-contnets">
+					<article id="main-contents">
 						<div id="map">
 							<div id="map-area">
 								<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d834187.9442673218!2d135.45388895000002!3d35.24265369999999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x5fff7420f91f1b61%3A0x590a7bc238b19538!2z5Lqs6YO95bqc!5e0!3m2!1sja!2sjp!4v1407832057924" width="300" height="300" frameborder="0" style="border:0"></iframe>
@@ -48,21 +48,19 @@
 							<div class="time">
 								<p><input type="number" max="24"><span>時</span><input type="number" max="60"><span>分</span></p>
 							</div>
-							<p class="title"><input type="text" value="タイトルを入力してください"></p>
-							<div class="img-select">
-								<p>動画を掲載する</p>
-							</div>
-							<div class="img-select">
-								<p>動画を掲載する</p>
-							</div>
-							<div class="comments" contenteditable="true"><p>コメントを入力</p></div>
+							<p class="event-title"><input type="text" value="タイトルを入力してください"></p>
+							<ul class="img-select">
+								<li>動画を掲載する</li>
+								<li>動画を掲載する</li>
+							</ul>
+							<div class="comments" contenteditable="true">コメントを入力</div>
 							<div class="area-info" contenteditable="true"><p>地名を入力</p></div>
 						</section>
 					</article>
 					<nav id="addpost-support">
-						<a href="">同じ日に追加</a>
-						<a href="">次の日に追加</a>
-						<a href="">旅を終える</a>
+						<a class="add-tday" href="">同じ日に追加</a>
+						<a class="add-nday" href="">次の日に追加</a>
+						<a class="end-trip" href="confirm.php">旅を終える</a>
 					</nav>	
 				</form>
 			</div>

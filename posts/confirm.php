@@ -38,8 +38,8 @@
 						</section>
 					</article>
 					<nav id="addpost-support">
-						<a class="add-tday" href="">修正する</a>
-						<a class="add-nday" href="">完了する</a>
+						<a class="post-amend" href="">修正する</a>
+						<a class="post-complete" href="">完了する</a>
 					</nav>	
 				</form>
 			</div>

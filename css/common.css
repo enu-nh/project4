@@ -73,9 +73,6 @@ h2{
 	padding-top: 16px;
 }
 
-.signup #contents{
-	background: url(../images/mainVisual.jpg) no-repeat center;
-}
 
 #common-header{
 	border-bottom: 1px solid #ccc;
@@ -125,7 +122,7 @@ h2{
 	text-decoration: underline;
 }
 
-#mainVisual{
+.home #mainVisual{
 	padding: 72px 0 104px 0;
 	overflow: hidden;
 	width: 100%;
@@ -135,11 +132,11 @@ section{
 	margin-bottom: 80px;
 }
 
-#mainVisual .fl{
+.home #mainVisual .fl{
 	width: 560px;
 }
 
-#mainVisual .fl h2{
+.home #mainVisual .fl h2{
 	font-family: "Times New Roman", "游明朝", YuMincho, "ヒラギノ明朝 ProN W3", "Hiragino Mincho ProN", "メイリオ", Meiryo, serif;
 	font-size: 4.0rem; font-size: 40px;
 	font-weight: normal;
@@ -148,17 +145,17 @@ section{
 	margin-bottom: 24px;	
 }
 
-#mainVisual .fl p{
+.home #mainVisual .fl p{
 	font-size: 1.4rem; font-size: 14px;
 	line-height: 1.5em;
 	color: #FFF;
 }
 
-#mainVisual .fr{
+.home #mainVisual .fr{
 	width: 320px;
 }
 
-#mainVisual .fr h2{
+.home #mainVisual .fr h2{
 	font-size: 2.4rem; font-size: 24px;
 	font-weight: normal;
 	padding-bottom: 4px;
@@ -166,7 +163,7 @@ section{
 	color: #fff;
 }
 
-#mainVisual .fr a{
+.home #mainVisual .fr a{
 	display: block;
 	width: 100%;
 	padding: 16px 0;
@@ -178,7 +175,7 @@ section{
 	margin: 24px 0 0 0;
 }
 
-#mainVisual .fr a:hover{
+.home #mainVisual .fr a:hover{
 	background: #fff;
 	color: #333;
 	font-weight: bold;
@@ -206,7 +203,7 @@ section{
 	text-align: center;
 	color: #2ECC71;
 	font-size: 3.2rem; font-size: 32px;
-	margin-bottom: 40px;
+	margin-bottom: 30px;
 	font-weight: normal;
 }
 
@@ -422,6 +419,12 @@ section{
 	font-size: 1.6rem; font-size: 16px;
 }
 
+.signup .formarea input[type=submit]:hover{
+	border: 2px solid #2ECC71;
+	background: #2ECC71;
+	color: #fff;
+}
+
 .signup .err{
 	margin: 0 auto;
 	width: 508px;
@@ -545,7 +548,9 @@ section{
 	cursor: pointer
 }
 
-.posts section{
+.posts.add section,
+.posts.edit section,
+.posts.confirm section{
 	float: left;
 	width: 620px;
 }
@@ -564,7 +569,7 @@ section{
 .posts .thumb-area,
 .posts #main-contents .comments,
 .posts #main-contents .area-info{
-	margin-bottom: 40px;
+	margin-bottom: 30px;
 }
 
 .posts.add .local-area{
@@ -654,7 +659,7 @@ section{
 }
 
 .posts #main-contents .img-select li:nth-child(odd){
-	margin: 0 40px 0 0 ;
+	margin: 0 30px 0 0 ;
 }
 
 .posts.add #main-contents .comments,
@@ -666,7 +671,7 @@ section{
 }
 
 .posts #main-contents section{
-	margin: 0 0 40px 0;
+	margin: 0 0 30px 0;
 }
 
 #addpost-support a{
@@ -776,5 +781,292 @@ section{
 .posts.confirm #main-contents .area-info{
 	background: url(../images/location.png) no-repeat left center;
 	padding: 0 0 0 14px;
+	color: #999;
+}
+
+.posts.confirm .post-amend{
+	border: 2px solid #2ECC71;
+	background: #fff;
+	color: #2ECC71;
+	box-sizing: border-box;
+	
+}
+.posts.confirm .post-complete{
+	border: 2px solid #2ECC71;
+	background: #fff;
+	color: #2ECC71;
+	box-sizing: border-box;	
+}
+
+.posts.confirm .post-amend{
+	border: 2px solid #2ECC71;
+	background: #fff;
+	color: #2ECC71;
+	box-sizing: border-box;
+}
+
+.posts.confirm .post-complete:hover{
+	background: #2ECC71;
+	color: #FFF;
+	text-decoration: none;
+}
+
+.posts.confirm .post-amend:hover{
+	background: #2ECC71;
+	color: #FFF;
+	text-decoration: none;
+}
+
+/******************************
+
+	▼post/view.php
+
+******************************/
+
+.posts.view #main{
+	float: left;
+	width: 620px;
+}
+
+.posts.view #sub{
+	float: right;
+	width: 300px;
+}
+
+.posts.view #contents{
+	overflow: hidden;
+}
+
+.posts.view #main #art-header h1{
+	padding: 0 0 10px 0;
+	border-bottom: 1px solid #ccc;
+	margin: 0 0 10px 0;
+	line-height: 1.5;
+}
+
+.posts.view #main #art-header p.local{
+	margin: 0 0 20px 0;
+}
+
+.posts.view #main #art-header{
+	margin: 0 0 30px 0;
+}
+
+.posts.view #main #art-header #mainVisual{
+	text-align: center;
+}
+
+.posts.view #main .day{
+	border-top: 1px solid #ccc;
+	padding: 10px 0 0 0;
+	margin: 0 0 50px 0;
+}
+
+.posts.view #main .day .day-data{
+	font-size: 2.4rem; font-size: 24px;
+	font-weight: bold;
+}
+
+.posts.view #main .time .time-data{
+	margin: 0 0 10px 0;
+}
+
+.posts.view #main .time .time-data:before {
+	content: "ー ";
+}
+
+.posts.view #main .event-title{
+	font-size: 2.4rem; font-size: 24px;
+	margin: 0 0 30px 0;
+}
+
+.posts.view #main .img-select{
+	overflow: hidden;
+}
+
+.posts.view #main .img-select li{
+	float: left;
+}
+
+.posts.view #main .img-select li:nth-child(odd){
+	margin: 0 30px 0 0;
+}
+
+.posts.view #main section.time{
+	margin: 0 0 30px 0;
+}
+
+.posts.view #main .comments{
+	line-height: 1.5;
+}
+
+.posts.view #main .area-info{
+	background: url(../images/location.png) no-repeat left center;
+	padding: 0 0 0 14px;
+	color: #999;
+	margin: 10px 0 0 0;
+}
+
+.posts.view #main #art-comments h2{
+	margin: 0 0 20px 0;
+}
+
+ #add-area{
+	padding: 10px;
+	border: 1px solid #ccc;
+	overflow: hidden;
+	margin: 0 0 20px 0;
+}
+
+.posts.view #main #add-area .my-icon{
+	width: 48px;
+	height: 48px;
+	background: url(/images/user-icon-default.png) no-repeat 0 top;
+	background-size: 100%;
+	border: 1px solid #ccc;
+	float: left;
+	margin: 0 20px 0 0;
+}
+
+.posts.view #main #add-area .comments{
+	float: left;
+	width: 526px;
+	min-height: 48px;
+	border: 1px solid #ccc;
+}
+
+.posts.view #main #add-area .comments p{
+	min-height: 48px;
+	margin: 0;
+}
+
+.posts.view #main #add-area input[type=submit]{
+	height: 24px;
+	border: none;
+	padding: 0 10px;
+	margin: 10px 0 0 70px;
+	cursor: pointer;
+}
+
+.posts.view #main #art-comments #comment-list li{
+	padding: 15px 0;
+	border-bottom: 1px solid #ccc;
+	overflow: hidden;
+}
+
+.posts.view #main #art-comments #comment-list li:nth-child(odd) .user-icon{
+	float: left;
+}
+
+.posts.view #main #art-comments #comment-list li:nth-child(even) .user-icon{
+	float: right;
+}
+
+.posts.view #main #art-comments #comment-list li:nth-child(odd) p{
+	margin: 0 0 0 70px;
+}
+
+.posts.view #main #art-comments #comment-list li:nth-child(even) p{
+	margin: 0 70px 0 0;
+}
+
+.posts.view #main #art-comments #comment-list li p{
+	margin: 0 0 10px 0;
+}
+
+.posts.view #main #art-comments #comment-list li:nth-child(odd) p.data span{
+	margin: 0 20px 0 0;
+	color: #999;
+}
+
+.posts.view #main #art-comments #comment-list li:nth-child(odd) p.data{
+	font-size: 1.2rem; font-size: 12px;
+	margin: 0 0 10px 70px;
+}
+
+.posts.view #main #art-comments #comment-list li:nth-child(even) p.data{
+	font-size: 1.2rem; font-size: 12px;
+	margin: 0 70px 10px 0;
+}
+
+.posts.view #main #art-comments #comment-list .user-icon{
+	width: 48px;
+	height: 48px;
+	background: url(/images/user-icon-default.png) no-repeat 0 top;
+	background-size: 100%;
+	border: 1px solid #ccc;
+}
+
+.posts.view #sub .user-prof{
+	border: 3px solid #333;
+	padding: 10px;
+	overflow: hidden;
+	margin: 0 0 10px 0;
+}
+
+.posts.view #sub .user-prof .thumb{
+	width: 48px;
+	height: 48px;
+	background: url(/images/user-icon-default.png) no-repeat 0 top;
+	background-size: 100%;
+	float: right;
+	border: 1px solid #ccc;
+}
+
+.posts.view #sub .user-prof .name{
+	margin: 0 0 10px 0;
+	font-size: 1.6rem; font-size: 16px;
+}
+
+.posts.view #sub .local{
+	margin: 0;
+	background: url(../images/location.png) no-repeat left center;
+	padding: 0 0 0 14px;
+	font-size: 1.2rem; font-size: 12px;
+}
+
+.posts.view #sub .bookmark{
+	border: 3px solid #2ECC71;
+	padding: 15px 15px 15px 40px;
+	overflow: hidden;
+	margin: 0 0 30px 0;
+	background: url(../images/bookmark.png) no-repeat 10px 50%;
+	background-size: 20px 20px;
+}
+
+.posts.view #sub .related  li{
+	padding: 10px 0;
+	border-top: 1px solid #ccc;
+	overflow: hidden;
+}
+
+.posts.view #sub .map{
+	margin: 0 0 30px 0;
+}
+
+.posts.view #sub .related  ul{
+	border-bottom: 1px solid #ccc;
+}
+
+.posts.view #sub .related  ul a.thumb{
+	float: left;
+}
+
+.posts.view #sub .related  ul a.thumb img{
+	width: 100px;
+	height: 100px;
+}
+
+.posts.view #sub .related ul .txt{
+	float: right;
+	width: 190px;
+}
+
+.posts.view #sub .related  ul .txt h3{
+	margin: 0 0 10px 0;
+}
+
+.posts.view #sub .related ul .txt p.data{
+	font-size: 1.2rem; font-size: 12px;
 	color: #999;
 }

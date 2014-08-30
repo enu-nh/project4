@@ -19,7 +19,7 @@
 						<ul>
 							<li><a href="">カテゴリ</a></li>
 							<li><a href="">検索</a></li>
-							<li><a href="<?php echo $home_url."signup/signup.php"; ?>">サインアップ</a></li>
+							<li><a href="<?php echo $home_url."/signup/index.php"; ?>">サインアップ</a></li>
 							<li><a href="">ログイン</a></li>
 						</ul>
 					</div>
@@ -34,8 +34,8 @@
 					</div>
 					<div class="fr">
 						<h2>新規ユーザ登録</h2>
-						<a href="">メールで登録</a>
-						<a href="">Instagramで登録</a>
+						<a href="/signup/index.php">メールで登録</a>
+						<a href="/signup/index.php">Instagramで登録</a>
 					</div>
 				</div>
 			</div>

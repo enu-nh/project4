@@ -18,8 +18,6 @@
 							<li><p class="question">E-mail</p><p class="answer"><input type="text"></p></li>
 							<li><p class="question">パスワード</p><p class="answer"><input type="text"></p></li>
 							<li><p class="question">パスワード（確認）</p><p class="answer"><input type="text"></p></li>
-							<li><p class="question">生年月日</p><p class="answer"><input type="text"></p></li>
-							<li><p class="question">性別</p><p class="answer"><input type="radio" name="sex" value="男性" id="signup_men"><label for="signup_men">男性</label><input type="radio" name="sex" value="女性" id="signup_women"><label for="signup_women">女性</label></p></li>
 							<li><p class="kiyaku">※<a href="">利用規約</a>に同意の上、会員登録をお願いします。</p></li>
 						</ul>
 						

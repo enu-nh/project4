@@ -9,8 +9,6 @@
 							<li><p class="question">E-mail</p><p class="answer">入力した内容</p></li>
 							<li><p class="question">パスワード</p><p class="answer">入力した内容</p></li>
 							<li><p class="question">パスワード（確認）</p><p class="answer">入力した内容</p></li>
-							<li><p class="question">生年月日</p><p class="answer">入力した内容</p></li>
-							<li><p class="question">性別</p><p class="answer">入力した内容</p></li>
 							<li><p class="confirm">入力いただいた情報に問題がなければ登録を完了してください</p></li>
 						</ul>
 						

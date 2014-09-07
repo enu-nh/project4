@@ -40,18 +40,15 @@ limitations under the License.
     position: relative;
     display: block;
     line-height: 16px;
-    padding-left: 0.769em;
-    padding-right: 0.769em;
-    color: #454545 !important;
+    color: #454545;
     text-decoration: none;
-    box-shadow: inset 1px 1px 0 #fff;
     z-index: inherit;
 }
 
 
 .accessible-megamenu .accessible-megamenu-top-nav-item a[aria-haspopup]:hover, 
 .accessible-megamenu .accessible-megamenu-top-nav-item a[aria-haspopup]:focus {
-    color: #333 !important;
+    color: #333;
     outline-offset: -1px;
 }
 
@@ -64,7 +61,6 @@ limitations under the License.
 }
 
 .accessible-megamenu .accessible-megamenu-top-nav-item a[aria-haspopup].open {
-    background: #f5f8fa none;
     padding-bottom: 2px;
 }
 
@@ -74,8 +70,6 @@ limitations under the License.
 
 .accessible-megamenu .accessible-megamenu-top-nav-item:first-child a[aria-haspopup].open {
     border-bottom-left-radius: 0px;
-    border-left: 1px solid #b3b3b3;
-    border-left-color: rgba(0,0,0,0.3);
     left: -1px;
     margin-right: -1px;
 }
@@ -92,9 +86,6 @@ limitations under the License.
     background-image: -ms-linear-gradient(top,#f5f8fa,#e3e5e5);
     background-image: -o-linear-gradient(top,#f5f8fa,#e3e5e5);
     cursor: default;
-    -webkit-box-shadow: 0 4px 6px -2px rgba(0,0,0,.5), inset 1px 1px 0 #fff;
-       -moz-box-shadow: 0 4px 6px -2px -moz-rgba(0,0,0,.5), inset 1px 1px 0 #fff;
-            box-shadow: 0 4px 6px -2px rgba(0,0,0,.5), inset 1px 1px 0 #fff;
     
     visibility: hidden;
     top: -9999em;

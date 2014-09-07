@@ -101,7 +101,7 @@ h2{
 }
 
 #gnav,
-#gnav ul li,
+#gnav>ul>li,
 #sign,
 #sign p{
 	float: left;
@@ -111,15 +111,22 @@ h2{
 	margin-top: 20px;	
 }
 
-#gnav ul li a{
+#gnav>ul>li>a{
 	font-size: 1.2rem; font-size: 12px;
 	text-decoration: none;
 	margin-left: 24px;
 	font-weight: bold;
 }
 
-#gnav ul li a:hover{
+#gnav>ul li a:hover{
 	text-decoration: underline;
+}
+
+#gnav ul li ul li{
+	list-style: disc;
+}
+
+#gnav ul li a{
 }
 
 .home #mainVisual{
@@ -482,7 +489,8 @@ section{
 	float: left;
 }
 
-.posts.add .comments{
+.posts.add .comments,
+.posts.edit .comments{
 	width: 100%;
 	min-height: 24px;
 	border: 1px solid #ccc;	
@@ -555,7 +563,8 @@ section{
 	width: 620px;
 }
 
-.posts.add h2{
+.posts.add h2,
+.posts.edit h2{
 	text-align: left;
 	font-weight: normal;
 	margin-bottom: 16px;
@@ -572,18 +581,21 @@ section{
 	margin-bottom: 30px;
 }
 
-.posts.add .local-area{
+.posts.add .local-area,
+.posts.edit .local-area{
 	border: 1px solid #2ECC71;
 	padding-top: 24px;
 	padding-right: 24px;
 }
 
-.posts.add .local-area input{
+.posts.add .local-area input,
+.posts.edit .local-area input{
 	font-size: 1.6rem; font-size: 16px;
 	margin-right: 4px;
 }
 
-.posts.add .local-area p{
+.posts.add .local-area p,
+.posts.edit .local-area p{
 	margin:0 0 24px 24px;
 }
 
@@ -663,7 +675,9 @@ section{
 }
 
 .posts.add #main-contents .comments,
-.posts.add #main-contents .area-info{
+.posts.add #main-contents .area-info,
+.posts.edit #main-contents .comments,
+.posts.edit #main-contents .area-info{
 	clear: both;
 	min-height: 70px;
 	border: 1px solid #ccc;	

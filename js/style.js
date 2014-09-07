@@ -39,5 +39,6 @@ $(function () {
 
 	$(".thumb-area").lightbox();
 	$(".img-select li").lightbox();
-
+	
+	$("#gnav").accessibleMegaMenu();
 });

@@ -1,4 +1,5 @@
 <li class="nav-item"><a href="<?php echo $home_url."posts/add.php"; ?>">アルバム投稿</a></li>
+<li class="nav-item"><a href="<?php echo $home_url."mypage/"; ?>">マイページ</a></li>
 <li class="nav-item">
 	<a href="">ログアウト</a>
 	<div class="cities-menu sub-nav">

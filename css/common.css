@@ -311,7 +311,8 @@ section{
 	margin-left: 72px;
 }
 
-#contents .more a{
+#contents #main .more a,
+.home #contents .more a{
 	margin: 0 auto;
 	display: block;
 	width: 400px;
@@ -322,7 +323,8 @@ section{
 	color: #2ECC71;
 }
 
-#contents .more a:hover{
+#contents #main .more a:hover,
+.home #contents .more a:hover{
 	background: #2ECC71;
 	color: #fff;
 	text-decoration: none;
@@ -836,17 +838,17 @@ section{
 
 ******************************/
 
-.posts.view #main{
+#main{
 	float: left;
 	width: 620px;
 }
 
-.posts.view #sub{
+#sub{
 	float: right;
 	width: 300px;
 }
 
-.posts.view #contents{
+#contents{
 	overflow: hidden;
 }
 
@@ -1082,4 +1084,280 @@ section{
 .posts.view #sub .related ul .txt p.data{
 	font-size: 1.2rem; font-size: 12px;
 	color: #999;
+}
+
+/******************************
+
+	▼mypage/index.php
+
+******************************/
+
+.title-tab ul {
+	border-bottom: 1px solid #ccc;
+}
+
+.title-tab {
+	margin: 0 0 10px 0;
+}
+
+.title-tab ul li {
+	border: 1px solid #ccc;
+	background: #f3f3f3;
+}
+
+.title-tab ul li.ui-state-active {
+	background: #FFF;
+}
+
+.title-tab ul li.ui-state-focus {
+	outline: none;
+}
+
+.post-list ul {
+	overflow: hidden;
+	margin-left: -19px;
+}
+
+.post-list ul li{
+	float: left;
+	width: 194px;
+	margin-left: 19px;
+	height: 268px;
+}
+
+.post-list ul li img{
+height: 194px;
+overflow: hidden;
+background: #CCC;
+margin-bottom: 8px;
+}
+
+.post-list ul h3{
+	font-size: 1.6rem; font-size: 16px;
+	margin-bottom: 8px;
+}
+
+.post-list ul .location{
+	background: url(../images/location.png) no-repeat left center;
+	font-size: 1.2rem;
+	font-size: 12px;
+	padding-left: 14px;
+}
+
+.post-list ul .location a{
+	color: #333;
+}
+
+.timeline .user-info {
+	overflow: hidden;
+	padding: 0 0 15px 0;
+	margin: 0 0 15px 0;
+	border-bottom: 1px solid #ccc;
+}
+
+.timeline .user-info .user-img{
+	float: left;
+	margin: 0 10px 0 0;
+}
+
+.timeline .user-info .user-img img{
+	display: block;
+}
+
+.timeline .user-info .user-name{
+	font-size: 1.6rem; font-size: 16px;
+	margin: 0 0 10px 0;
+}
+
+.timeline .user-things {
+	overflow: hidden;
+}
+
+.timeline .user-things .img{
+	float: left;
+	margin: 0 20px 0 0;
+}
+
+.timeline .user-things .ttl{
+	font-size: 1.6rem; font-size: 16px;
+	font-weight: bold;
+	margin: 0 0 10px 0;
+}
+
+.timeline .user-things .txt{
+	line-height: 1.25;
+	margin: 0 0 10px 0;
+}
+
+.timeline .user-things .location{
+	background: url(../images/location.png) no-repeat left top;
+	float: left;
+	padding: 0 0 0 14px;
+	font-size: 1.2rem; font-size: 12px;
+}
+
+.timeline ul li{
+	padding: 20px;
+	background: #f3f3f3;
+	margin: 0 0 20px 0;
+}
+
+.timeline ul li .user-things a{
+	color: #666;
+	display: block;
+	overflow: hidden;
+}
+
+.timeline ul li .user-things a:hover{
+	text-decoration: none;
+}
+
+.timeline ul li a .ttl{
+	color: #333;
+}
+
+.post-list,
+.timeline {
+	margin: 0 0 40px 0;
+}
+
+.post-list h2,
+.timeline h2 {
+	margin-bottom: 20px;
+}
+
+.user-area {
+	border: 1px solid #ccc;
+	width: 100%;
+}
+
+.user-area .user-head {
+	border-bottom: 1px solid #ccc;
+	overflow: hidden;
+	padding: 5px 10px;
+}
+
+.user-area .user-head .txt {
+	float: left;
+}
+
+.user-area .user-head .user-edit {
+	float: right;
+}
+
+.user-area .user-info {
+	overflow: hidden;
+}
+
+.user-area .user-info .user-img {
+	float: right;
+}
+
+.user-area .user-info .user-img img{
+	display: block;
+}
+
+.user-area .user-info .user-name {
+	font-size: 1.6rem; font-size: 16px;
+	padding: 10px;
+}
+
+.user-area .user-info .location {
+	margin: 0 0 0 10px;
+	padding: 0 10px 10px 14px;
+	background: url(../images/location.png) no-repeat left top;
+	font-size: 1.2rem; font-size: 12px;
+}
+
+.user-area .user-meta ul {
+	overflow: hidden;
+}
+
+.user-area .user-meta ul li{
+	width: 50%;
+	float: left;
+	box-sizing: border-box;
+	border-right: 1px solid #ccc;
+	border-top: 1px solid #ccc;
+}
+
+.user-area .user-meta ul li:nth-child(even){
+	border-right: none;
+}
+
+.user-area .user-meta a .txt {
+	color: #666;
+}
+
+.user-area .user-meta a {
+	padding: 10px 20px;
+	display: block;
+}
+
+.user-area .user-meta a:hover{
+	text-decoration: none;
+	background: #f3f3f3;
+}
+
+.user-area .user-meta a .num {
+	text-align: right;
+	padding: 20px 0 0 0;
+	font-size: 2.4rem; font-size: 24px;
+}
+
+#sub .sub-button a{
+	background: #666;
+	padding: 20px;
+	display: block;
+	color: #FFF;
+}
+#sub .sub-button a:hover{
+	background: #fff;
+	border: 3px solid #666;
+	color: #666;
+	padding: 17px;
+	text-decoration: none;
+}
+#sub .user-area,
+#sub .sub-button {
+	margin: 0 0 10px 0;
+}
+
+.comment-history {
+	border: 1px solid #ccc;
+}
+
+.comment-history .ttl {
+	padding: 5px 10px;
+	border-bottom: 1px solid #ccc;
+}
+
+.comment-history ul {
+	padding: 0 10px;
+	border-bottom: 1px solid #ccc;
+}
+
+.comment-history ul li {
+	max-height: 60px;
+	padding: 10px 0;
+	border-bottom: 1px solid #ccc;
+	font-size: 12px;
+}
+
+.comment-history ul li .txt a {
+	line-height: 1.5;	
+}
+
+.comment-history ul li .time{
+	color: #999;
+}
+
+.comment-history ul li:last-child {
+	border: none;
+}
+
+.comment-history .more{
+	padding: 7px 10px;
+	text-align: right;
+	font-size: 1.2rem; font-size: 12px;
 }

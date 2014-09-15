@@ -41,4 +41,10 @@ $(function () {
 	$(".img-select li").lightbox();
 	
 	$("#gnav").accessibleMegaMenu();
+
+	$( ".tab-contents" ).tabs();
+
+	$('.ui-tabs-nav a').focusin(function(){
+    this.blur();
+});
 });

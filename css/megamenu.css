@@ -78,7 +78,6 @@ limitations under the License.
     position: absolute;
     display: block;
     color: #454545;
-    padding: 0.769em;
     line-height: normal;
     background-color: #f5f8fa;    
     background-image: -webkit-gradient(linear,left top,left bottom,from(#f5f8fa),to(#e3e5e5));
@@ -92,23 +91,26 @@ limitations under the License.
     max-height: 0px;
     overflow: hidden;
     opacity: 0;
+    /*
     -webkit-transition: opacity 250ms ease 250ms, max-height 500ms ease, visibility 0s linear 500ms, top 0s linear 500ms;
        -moz-transition: opacity 250ms ease 250ms, max-height 500ms ease, visibility 0s linear 500ms, top 0s linear 500ms;
         -ms-transition: opacity 250ms ease 250ms, max-height 500ms ease, visibility 0s linear 500ms, top 0s linear 500ms;
          -o-transition: opacity 250ms ease 250ms, max-height 500ms ease, visibility 0s linear 500ms, top 0s linear 500ms;
             transition: opacity 250ms ease 250ms, max-height 500ms ease, visibility 0s linear 500ms, top 0s linear 500ms;
-    
-    border: 1px solid #b3b3b3;
-    border-color: rgba(0,0,0,0.3);
-    border-top-right-radius: 3px;
-    border-bottom-right-radius: 3px;
-    border-bottom-left-radius: 3px;
+    */
     width: 960px;
     margin-left: -480px;
     left: 50%;
     top: 49px;
 }
-
+.accessible-megamenu-panel {
+    border: 1px solid #b3b3b3;
+    border-color: rgba(0,0,0,0.3);
+    border-top-right-radius: 3px;
+    border-bottom-right-radius: 3px;
+    border-bottom-left-radius: 3px;
+    padding: 0.769em;
+}
 .accessible-megamenu .accessible-megamenu-panel.open {
     visibility: visible;
     max-height: 600px;

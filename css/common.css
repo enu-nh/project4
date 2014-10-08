@@ -1123,7 +1123,7 @@ h2{
 	float: left;
 	width: 194px;
 	margin-left: 19px;
-	height: 268px;
+	height: 296px;
 }
 
 .post-list ul li img{
@@ -1263,11 +1263,12 @@ margin-bottom: 8px;
 	padding: 10px;
 }
 
-.user-area .user-info .location {
+.user-info .location {
 	margin: 0 0 0 10px;
 	padding: 0 10px 10px 14px;
 	background: url(../images/location.png) no-repeat left top;
 	font-size: 1.2rem; font-size: 12px;
+	color: #666;
 }
 
 .user-area .user-meta ul {
@@ -1488,4 +1489,74 @@ margin-bottom: 8px;
 	font-size: 24px;
 	float: left;
 	margin: 0 20px 20px 0;
+}
+
+/******************************
+
+	▼mypage/follow/index.php
+
+******************************/
+
+.follow-list ul  {
+	border-top: 1px solid #ccc;
+	margin-bottom: 20px;
+	overflow: hidden;
+}
+
+.follow-list ul li:nth-child(odd) {
+	border-right: 1px solid #ccc;
+}
+
+.follow-list ul li {
+	width: 310px;
+	padding: 10px;
+	display: block;
+	float: left;
+	box-sizing: border-box;
+}
+
+.follow-list ul li {
+	border-bottom: 1px solid #ccc;
+}
+
+.follow-list .more {
+	clear: both;
+}
+
+.follow-list .user-info .user-img {
+	float: left;
+}
+
+.follow-list .user-info .fr {
+	width: 200px;
+}
+
+.follow-list .user-info .user-name {
+	margin: 0 0 5px 0;
+	color: #333;
+}
+
+.follow-list .user-info .fr .txt {
+	font-size: 1.2rem; font-size: 12px;
+	color: #666;
+	overflow: hidden;
+	-ms-text-overflow: ellipsis;
+	    text-overflow: ellipsis;
+	margin: 0 0 5px 0;
+}
+.follow-list .user-info .location {
+	margin: 0;
+	padding: 0 0 0 14px;
+}
+
+.follow-list .user-info {
+	overflow: hidden;
+}
+
+.follow-list a {
+	display: block;
+}
+
+.follow-list li:hover {
+	background: #f3f3f3;
 }

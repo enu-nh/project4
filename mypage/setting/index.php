@@ -5,84 +5,84 @@
 					<h1>会員情報の変更</h1>
 					<section>
 						<div class="thumb-area">
-					</div>
-					<form>
-						<input type="file" name="ファイル呼び出し" size="30">
-					</form>
-					<div class="mysetting">
-						<table>
-							<tr>
-								<th>名前</th>
-								<td><input type="text"></td>	
-							</tr>
-							<tr>
-								<th>生年月日</th>
-								<td><input type="text"></td>
-							</tr>
-							<tr>
-								<th>所在地</th>
-								<td><input type="text"></td>
-							</tr>
-							<tr>
-								<th>コメント</th>
-								<td><textarea name="" id="" cols="30" rows="10"></textarea></td>
-							</tr>
-							<tr class="tag-cell">
-								<th>タグを追加</th>
-								<td>
-									<input type="text"><a class="btn" href="">追加</a>
-									<ul class="tag-list">
-										<li class="tag-item">
-											<span>タグアイテム</span>
-											<a class="tag-close" href="#"></a>
-										</li>
-										<li class="tag-item">
-											<span>タグアイテム</span>
-											<a class="tag-close" href="#"></a>
-										</li>
-										<li class="tag-item">
-											<span>タグアイテム</span>
-											<a class="tag-close" href="#"></a>
-										</li>
-										<li class="tag-item">
-											<span>タグアイテム</span>
-											<a class="tag-close" href="#"></a>
-										</li>
-										<li class="tag-item">
-											<span>タグアイテム</span>
-											<a class="tag-close" href="#"></a>
-										</li>
-										<li class="tag-item">
-											<span>タグアイテム</span>
-											<a class="tag-close" href="#"></a>
-										</li>
-									</ul>
-								</td>
-							</tr>
-							<tr>
-								<th>メールアドレス</th>
-								<td>
-									<input type="text">
-									<p class="attention">現在のメールアドレス：<span>test@test.jp</span></p>
-								</td>
-							</tr>
-							<tr>
-								<th>パスワード</th>
-								<td>
-									<p class="ttl">現在のパスワード</p>
-									<input type="text">
-									<p class="ttl">新しいパスワード</p>
-									<input type="text">
-									<p class="attention">パスワードは英数字6文字以上にしてください</p>
-									<p class="ttl">再度入力（確認）</p>
-									<input type="text">
-								</td>
-							</tr>
-						</table>
-						<div class="confirm-btn">
-							<a href="">更新</a>
 						</div>
-					</div>
+						<form>
+							<input type="file" name="ファイル呼び出し" size="30">
+						</form>
+						<div class="mysetting">
+							<table>
+								<tr>
+									<th>名前</th>
+									<td><input type="text"></td>	
+								</tr>
+								<tr>
+									<th>生年月日</th>
+									<td><input type="text"></td>
+								</tr>
+								<tr>
+									<th>所在地</th>
+									<td><input type="text"></td>
+								</tr>
+								<tr>
+									<th>コメント</th>
+									<td><textarea name="" id="" cols="30" rows="10"></textarea></td>
+								</tr>
+								<tr class="tag-cell">
+									<th>タグを追加</th>
+									<td>
+										<input type="text"><a class="btn" href="">追加</a>
+										<ul class="tag-list">
+											<li class="tag-item">
+												<span>タグアイテム</span>
+												<a class="tag-close" href="#"></a>
+											</li>
+											<li class="tag-item">
+												<span>タグアイテム</span>
+												<a class="tag-close" href="#"></a>
+											</li>
+											<li class="tag-item">
+												<span>タグアイテム</span>
+												<a class="tag-close" href="#"></a>
+											</li>
+											<li class="tag-item">
+												<span>タグアイテム</span>
+												<a class="tag-close" href="#"></a>
+											</li>
+											<li class="tag-item">
+												<span>タグアイテム</span>
+												<a class="tag-close" href="#"></a>
+											</li>
+											<li class="tag-item">
+												<span>タグアイテム</span>
+												<a class="tag-close" href="#"></a>
+											</li>
+										</ul>
+									</td>
+								</tr>
+								<tr>
+									<th>メールアドレス</th>
+									<td>
+										<input type="text">
+										<p class="attention">現在のメールアドレス：<span>test@test.jp</span></p>
+									</td>
+								</tr>
+								<tr>
+									<th>パスワード</th>
+									<td>
+										<p class="ttl">現在のパスワード</p>
+										<input type="text">
+										<p class="ttl">新しいパスワード</p>
+										<input type="text">
+										<p class="attention">パスワードは英数字6文字以上にしてください</p>
+										<p class="ttl">再度入力（確認）</p>
+										<input type="text">
+									</td>
+								</tr>
+							</table>
+							<div class="confirm-btn">
+								<a href="">更新</a>
+							</div>
+						</div>
 					</section>
 					<section>
 						<h2>Instagramと連携</h2>

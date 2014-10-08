@@ -2,6 +2,515 @@
 	<div id="contents">
 			<div class="inner">
 				<div id="main">
+					<h1>フォローリスト</h1>
+					<section>
+						<div class="tab-contents">
+							<div class="title-tab">
+								<ul>
+									<li><a href="#tabs-1">フォローユーザ</a></li>
+									<li><a href="#tabs-2">フォロワーユーザ</a></li>
+								</ul>
+							</div>
+							<div id="tabs-1">
+								<div class="follow-list">
+									<ul>
+										<li>
+											<a href="">
+												<div class="user-info">
+													<div class="user-img"><img src="/images/user-icon-default.png" width="60" height="" alt=""></div>
+													<div class="fr">
+														<div class="user-name">Nagata Hiroaki</div>
+														<div class="txt">二泊三日で京都旅行をアルバム投稿しました。二泊三日で…</div>
+														<div class="location">京都</div>
+													</div>
+												</div>
+											</a>
+										</li>
+										<li>
+											<a href="">
+												<div class="user-info">
+													<div class="user-img"><img src="/images/user-icon-default.png" width="60" height="" alt=""></div>
+													<div class="fr">
+														<div class="user-name">Nagata Hiroaki</div>
+														<div class="txt">二泊三日で京都旅行をアルバム投稿しました。二泊三日で…</div>
+														<div class="location">京都</div>
+													</div>
+												</div>
+											</a>
+										</li>
+										<li>
+											<a href="">
+												<div class="user-info">
+													<div class="user-img"><img src="/images/user-icon-default.png" width="60" height="" alt=""></div>
+													<div class="fr">
+														<div class="user-name">Nagata Hiroaki</div>
+														<div class="txt">二泊三日で京都旅行をアルバム投稿しました。二泊三日で…</div>
+														<div class="location">京都</div>
+													</div>
+												</div>
+											</a>
+										</li>
+										<li>
+											<a href="">
+												<div class="user-info">
+													<div class="user-img"><img src="/images/user-icon-default.png" width="60" height="" alt=""></div>
+													<div class="fr">
+														<div class="user-name">Nagata Hiroaki</div>
+														<div class="txt">二泊三日で京都旅行をアルバム投稿しました。二泊三日で…</div>
+														<div class="location">京都</div>
+													</div>
+												</div>
+											</a>
+										</li>
+										<li>
+											<a href="">
+												<div class="user-info">
+													<div class="user-img"><img src="/images/user-icon-default.png" width="60" height="" alt=""></div>
+													<div class="fr">
+														<div class="user-name">Nagata Hiroaki</div>
+														<div class="txt">二泊三日で京都旅行をアルバム投稿しました。二泊三日で…</div>
+														<div class="location">京都</div>
+													</div>
+												</div>
+											</a>
+										</li>
+										<li>
+											<a href="">
+												<div class="user-info">
+													<div class="user-img"><img src="/images/user-icon-default.png" width="60" height="" alt=""></div>
+													<div class="fr">
+														<div class="user-name">Nagata Hiroaki</div>
+														<div class="txt">二泊三日で京都旅行をアルバム投稿しました。二泊三日で…</div>
+														<div class="location">京都</div>
+													</div>
+												</div>
+											</a>
+										</li>
+										<li>
+											<a href="">
+												<div class="user-info">
+													<div class="user-img"><img src="/images/user-icon-default.png" width="60" height="" alt=""></div>
+													<div class="fr">
+														<div class="user-name">Nagata Hiroaki</div>
+														<div class="txt">二泊三日で京都旅行をアルバム投稿しました。二泊三日で…</div>
+														<div class="location">京都</div>
+													</div>
+												</div>
+											</a>
+										</li>
+										<li>
+											<a href="">
+												<div class="user-info">
+													<div class="user-img"><img src="/images/user-icon-default.png" width="60" height="" alt=""></div>
+													<div class="fr">
+														<div class="user-name">Nagata Hiroaki</div>
+														<div class="txt">二泊三日で京都旅行をアルバム投稿しました。二泊三日で…</div>
+														<div class="location">京都</div>
+													</div>
+												</div>
+											</a>
+										</li>
+										<li>
+											<a href="">
+												<div class="user-info">
+													<div class="user-img"><img src="/images/user-icon-default.png" width="60" height="" alt=""></div>
+													<div class="fr">
+														<div class="user-name">Nagata Hiroaki</div>
+														<div class="txt">二泊三日で京都旅行をアルバム投稿しました。二泊三日で…</div>
+														<div class="location">京都</div>
+													</div>
+												</div>
+											</a>
+										</li>
+										<li>
+											<a href="">
+												<div class="user-info">
+													<div class="user-img"><img src="/images/user-icon-default.png" width="60" height="" alt=""></div>
+													<div class="fr">
+														<div class="user-name">Nagata Hiroaki</div>
+														<div class="txt">二泊三日で京都旅行をアルバム投稿しました。二泊三日で…</div>
+														<div class="location">京都</div>
+													</div>
+												</div>
+											</a>
+										</li>
+										<li>
+											<a href="">
+												<div class="user-info">
+													<div class="user-img"><img src="/images/user-icon-default.png" width="60" height="" alt=""></div>
+													<div class="fr">
+														<div class="user-name">Nagata Hiroaki</div>
+														<div class="txt">二泊三日で京都旅行をアルバム投稿しました。二泊三日で…</div>
+														<div class="location">京都</div>
+													</div>
+												</div>
+											</a>
+										</li>
+										<li>
+											<a href="">
+												<div class="user-info">
+													<div class="user-img"><img src="/images/user-icon-default.png" width="60" height="" alt=""></div>
+													<div class="fr">
+														<div class="user-name">Nagata Hiroaki</div>
+														<div class="txt">二泊三日で京都旅行をアルバム投稿しました。二泊三日で…</div>
+														<div class="location">京都</div>
+													</div>
+												</div>
+											</a>
+										</li>
+										<li>
+											<a href="">
+												<div class="user-info">
+													<div class="user-img"><img src="/images/user-icon-default.png" width="60" height="" alt=""></div>
+													<div class="fr">
+														<div class="user-name">Nagata Hiroaki</div>
+														<div class="txt">二泊三日で京都旅行をアルバム投稿しました。二泊三日で…</div>
+														<div class="location">京都</div>
+													</div>
+												</div>
+											</a>
+										</li>
+										<li>
+											<a href="">
+												<div class="user-info">
+													<div class="user-img"><img src="/images/user-icon-default.png" width="60" height="" alt=""></div>
+													<div class="fr">
+														<div class="user-name">Nagata Hiroaki</div>
+														<div class="txt">二泊三日で京都旅行をアルバム投稿しました。二泊三日で…</div>
+														<div class="location">京都</div>
+													</div>
+												</div>
+											</a>
+										</li>
+										<li>
+											<a href="">
+												<div class="user-info">
+													<div class="user-img"><img src="/images/user-icon-default.png" width="60" height="" alt=""></div>
+													<div class="fr">
+														<div class="user-name">Nagata Hiroaki</div>
+														<div class="txt">二泊三日で京都旅行をアルバム投稿しました。二泊三日で…</div>
+														<div class="location">京都</div>
+													</div>
+												</div>
+											</a>
+										</li>
+										<li>
+											<a href="">
+												<div class="user-info">
+													<div class="user-img"><img src="/images/user-icon-default.png" width="60" height="" alt=""></div>
+													<div class="fr">
+														<div class="user-name">Nagata Hiroaki</div>
+														<div class="txt">二泊三日で京都旅行をアルバム投稿しました。二泊三日で…</div>
+														<div class="location">京都</div>
+													</div>
+												</div>
+											</a>
+										</li>
+										<li>
+											<a href="">
+												<div class="user-info">
+													<div class="user-img"><img src="/images/user-icon-default.png" width="60" height="" alt=""></div>
+													<div class="fr">
+														<div class="user-name">Nagata Hiroaki</div>
+														<div class="txt">二泊三日で京都旅行をアルバム投稿しました。二泊三日で…</div>
+														<div class="location">京都</div>
+													</div>
+												</div>
+											</a>
+										</li>
+										<li>
+											<a href="">
+												<div class="user-info">
+													<div class="user-img"><img src="/images/user-icon-default.png" width="60" height="" alt=""></div>
+													<div class="fr">
+														<div class="user-name">Nagata Hiroaki</div>
+														<div class="txt">二泊三日で京都旅行をアルバム投稿しました。二泊三日で…</div>
+														<div class="location">京都</div>
+													</div>
+												</div>
+											</a>
+										</li>
+										<li>
+											<a href="">
+												<div class="user-info">
+													<div class="user-img"><img src="/images/user-icon-default.png" width="60" height="" alt=""></div>
+													<div class="fr">
+														<div class="user-name">Nagata Hiroaki</div>
+														<div class="txt">二泊三日で京都旅行をアルバム投稿しました。二泊三日で…</div>
+														<div class="location">京都</div>
+													</div>
+												</div>
+											</a>
+										</li>
+										<li>
+											<a href="">
+												<div class="user-info">
+													<div class="user-img"><img src="/images/user-icon-default.png" width="60" height="" alt=""></div>
+													<div class="fr">
+														<div class="user-name">Nagata Hiroaki</div>
+														<div class="txt">二泊三日で京都旅行をアルバム投稿しました。二泊三日で…</div>
+														<div class="location">京都</div>
+													</div>
+												</div>
+											</a>
+										</li>
+									</ul>
+									<div class="more">
+										<a href="">もっと見る</a>
+									</div>
+								</div>
+							</div>
+							<div id="tabs-2">
+								<div class="follow-list">
+									<ul>
+										<li>
+											<a href="">
+												<div class="user-info">
+													<div class="user-img"><img src="/images/user-icon-default.png" width="60" height="" alt=""></div>
+													<div class="fr">
+														<div class="user-name">Nagata Hiroaki</div>
+														<div class="txt">二泊三日で京都旅行をアルバム投稿しました。二泊三日で…</div>
+														<div class="location">京都</div>
+													</div>
+												</div>
+											</a>
+										</li>
+										<li>
+											<a href="">
+												<div class="user-info">
+													<div class="user-img"><img src="/images/user-icon-default.png" width="60" height="" alt=""></div>
+													<div class="fr">
+														<div class="user-name">Nagata Hiroaki</div>
+														<div class="txt">二泊三日で京都旅行をアルバム投稿しました。二泊三日で…</div>
+														<div class="location">京都</div>
+													</div>
+												</div>
+											</a>
+										</li>
+										<li>
+											<a href="">
+												<div class="user-info">
+													<div class="user-img"><img src="/images/user-icon-default.png" width="60" height="" alt=""></div>
+													<div class="fr">
+														<div class="user-name">Nagata Hiroaki</div>
+														<div class="txt">二泊三日で京都旅行をアルバム投稿しました。二泊三日で…</div>
+														<div class="location">京都</div>
+													</div>
+												</div>
+											</a>
+										</li>
+										<li>
+											<a href="">
+												<div class="user-info">
+													<div class="user-img"><img src="/images/user-icon-default.png" width="60" height="" alt=""></div>
+													<div class="fr">
+														<div class="user-name">Nagata Hiroaki</div>
+														<div class="txt">二泊三日で京都旅行をアルバム投稿しました。二泊三日で…</div>
+														<div class="location">京都</div>
+													</div>
+												</div>
+											</a>
+										</li>
+										<li>
+											<a href="">
+												<div class="user-info">
+													<div class="user-img"><img src="/images/user-icon-default.png" width="60" height="" alt=""></div>
+													<div class="fr">
+														<div class="user-name">Nagata Hiroaki</div>
+														<div class="txt">二泊三日で京都旅行をアルバム投稿しました。二泊三日で…</div>
+														<div class="location">京都</div>
+													</div>
+												</div>
+											</a>
+										</li>
+										<li>
+											<a href="">
+												<div class="user-info">
+													<div class="user-img"><img src="/images/user-icon-default.png" width="60" height="" alt=""></div>
+													<div class="fr">
+														<div class="user-name">Nagata Hiroaki</div>
+														<div class="txt">二泊三日で京都旅行をアルバム投稿しました。二泊三日で…</div>
+														<div class="location">京都</div>
+													</div>
+												</div>
+											</a>
+										</li>
+										<li>
+											<a href="">
+												<div class="user-info">
+													<div class="user-img"><img src="/images/user-icon-default.png" width="60" height="" alt=""></div>
+													<div class="fr">
+														<div class="user-name">Nagata Hiroaki</div>
+														<div class="txt">二泊三日で京都旅行をアルバム投稿しました。二泊三日で…</div>
+														<div class="location">京都</div>
+													</div>
+												</div>
+											</a>
+										</li>
+										<li>
+											<a href="">
+												<div class="user-info">
+													<div class="user-img"><img src="/images/user-icon-default.png" width="60" height="" alt=""></div>
+													<div class="fr">
+														<div class="user-name">Nagata Hiroaki</div>
+														<div class="txt">二泊三日で京都旅行をアルバム投稿しました。二泊三日で…</div>
+														<div class="location">京都</div>
+													</div>
+												</div>
+											</a>
+										</li>
+										<li>
+											<a href="">
+												<div class="user-info">
+													<div class="user-img"><img src="/images/user-icon-default.png" width="60" height="" alt=""></div>
+													<div class="fr">
+														<div class="user-name">Nagata Hiroaki</div>
+														<div class="txt">二泊三日で京都旅行をアルバム投稿しました。二泊三日で…</div>
+														<div class="location">京都</div>
+													</div>
+												</div>
+											</a>
+										</li>
+										<li>
+											<a href="">
+												<div class="user-info">
+													<div class="user-img"><img src="/images/user-icon-default.png" width="60" height="" alt=""></div>
+													<div class="fr">
+														<div class="user-name">Nagata Hiroaki</div>
+														<div class="txt">二泊三日で京都旅行をアルバム投稿しました。二泊三日で…</div>
+														<div class="location">京都</div>
+													</div>
+												</div>
+											</a>
+										</li>
+										<li>
+											<a href="">
+												<div class="user-info">
+													<div class="user-img"><img src="/images/user-icon-default.png" width="60" height="" alt=""></div>
+													<div class="fr">
+														<div class="user-name">Nagata Hiroaki</div>
+														<div class="txt">二泊三日で京都旅行をアルバム投稿しました。二泊三日で…</div>
+														<div class="location">京都</div>
+													</div>
+												</div>
+											</a>
+										</li>
+										<li>
+											<a href="">
+												<div class="user-info">
+													<div class="user-img"><img src="/images/user-icon-default.png" width="60" height="" alt=""></div>
+													<div class="fr">
+														<div class="user-name">Nagata Hiroaki</div>
+														<div class="txt">二泊三日で京都旅行をアルバム投稿しました。二泊三日で…</div>
+														<div class="location">京都</div>
+													</div>
+												</div>
+											</a>
+										</li>
+										<li>
+											<a href="">
+												<div class="user-info">
+													<div class="user-img"><img src="/images/user-icon-default.png" width="60" height="" alt=""></div>
+													<div class="fr">
+														<div class="user-name">Nagata Hiroaki</div>
+														<div class="txt">二泊三日で京都旅行をアルバム投稿しました。二泊三日で…</div>
+														<div class="location">京都</div>
+													</div>
+												</div>
+											</a>
+										</li>
+										<li>
+											<a href="">
+												<div class="user-info">
+													<div class="user-img"><img src="/images/user-icon-default.png" width="60" height="" alt=""></div>
+													<div class="fr">
+														<div class="user-name">Nagata Hiroaki</div>
+														<div class="txt">二泊三日で京都旅行をアルバム投稿しました。二泊三日で…</div>
+														<div class="location">京都</div>
+													</div>
+												</div>
+											</a>
+										</li>
+										<li>
+											<a href="">
+												<div class="user-info">
+													<div class="user-img"><img src="/images/user-icon-default.png" width="60" height="" alt=""></div>
+													<div class="fr">
+														<div class="user-name">Nagata Hiroaki</div>
+														<div class="txt">二泊三日で京都旅行をアルバム投稿しました。二泊三日で…</div>
+														<div class="location">京都</div>
+													</div>
+												</div>
+											</a>
+										</li>
+										<li>
+											<a href="">
+												<div class="user-info">
+													<div class="user-img"><img src="/images/user-icon-default.png" width="60" height="" alt=""></div>
+													<div class="fr">
+														<div class="user-name">Nagata Hiroaki</div>
+														<div class="txt">二泊三日で京都旅行をアルバム投稿しました。二泊三日で…</div>
+														<div class="location">京都</div>
+													</div>
+												</div>
+											</a>
+										</li>
+										<li>
+											<a href="">
+												<div class="user-info">
+													<div class="user-img"><img src="/images/user-icon-default.png" width="60" height="" alt=""></div>
+													<div class="fr">
+														<div class="user-name">Nagata Hiroaki</div>
+														<div class="txt">二泊三日で京都旅行をアルバム投稿しました。二泊三日で…</div>
+														<div class="location">京都</div>
+													</div>
+												</div>
+											</a>
+										</li>
+										<li>
+											<a href="">
+												<div class="user-info">
+													<div class="user-img"><img src="/images/user-icon-default.png" width="60" height="" alt=""></div>
+													<div class="fr">
+														<div class="user-name">Nagata Hiroaki</div>
+														<div class="txt">二泊三日で京都旅行をアルバム投稿しました。二泊三日で…</div>
+														<div class="location">京都</div>
+													</div>
+												</div>
+											</a>
+										</li>
+										<li>
+											<a href="">
+												<div class="user-info">
+													<div class="user-img"><img src="/images/user-icon-default.png" width="60" height="" alt=""></div>
+													<div class="fr">
+														<div class="user-name">Nagata Hiroaki</div>
+														<div class="txt">二泊三日で京都旅行をアルバム投稿しました。二泊三日で…</div>
+														<div class="location">京都</div>
+													</div>
+												</div>
+											</a>
+										</li>
+										<li>
+											<a href="">
+												<div class="user-info">
+													<div class="user-img"><img src="/images/user-icon-default.png" width="60" height="" alt=""></div>
+													<div class="fr">
+														<div class="user-name">Nagata Hiroaki</div>
+														<div class="txt">二泊三日で京都旅行をアルバム投稿しました。二泊三日で…</div>
+														<div class="location">京都</div>
+													</div>
+												</div>
+											</a>
+										</li>
+									</ul>
+									<div class="more">
+										<a href="">もっと見る</a>
+									</div>
+								</div>
+							</div>
+						</div>
+					</section>
 				</div>
 				<div id="sub">
 					<div class="user-area">
@@ -23,7 +532,7 @@
 									</a>
 								</li>
 								<li>
-									<a href="/mypage/follow/index.php">
+									<a href="/mypage/follow/index.php?tab=1">
 										<p class="txt">フォロワー</p>
 										<p class="num">80</p>
 									</a>

@@ -14,83 +14,83 @@
 								<ul>
 									<li>
 										<p class="thumb">
-											<a href="">
+											<a href="/posts/view.php">
 												<img src="http://lorempixel.com/194/194" alt="">
 											</a>
 										</p>
-										<h3><a href="">タイトルタイトルタイトルタイトル</a></h3>
+										<h3><a href="/posts/view.php">タイトルタイトルタイトルタイトル</a></h3>
 										<p class="location"><a href="">京都</a></p>
 									</li>
 									<li>
 										<p class="thumb">
-											<a href="">
+											<a href="/posts/view.php">
 												<img src="http://lorempixel.com/194/194" alt="">
 											</a>
 										</p>
-										<h3><a href="">タイトルタイトルタイトルタイトル</a></h3>
+										<h3><a href="/posts/view.php">タイトルタイトルタイトルタイトル</a></h3>
 										<p class="location"><a href="">京都</a></p>
 									</li>
 									<li>
 										<p class="thumb">
-											<a href="">
+											<a href="/posts/view.php">
 												<img src="http://lorempixel.com/194/194" alt="">
 											</a>
 										</p>
-										<h3><a href="">タイトルタイトルタイトルタイトル</a></h3>
+										<h3><a href="/posts/view.php">タイトルタイトルタイトルタイトル</a></h3>
 										<p class="location"><a href="">京都</a></p>
 									</li>
 									<li>
 										<p class="thumb">
-											<a href="">
+											<a href="/posts/view.php">
 												<img src="http://lorempixel.com/194/194" alt="">
 											</a>
 										</p>
-										<h3><a href="">タイトルタイトルタイトルタイトル</a></h3>
+										<h3><a href="/posts/view.php">タイトルタイトルタイトルタイトル</a></h3>
 										<p class="location"><a href="">京都</a></p>
 									</li>
 									<li>
 										<p class="thumb">
-											<a href="">
+											<a href="/posts/view.php">
 												<img src="http://lorempixel.com/194/194" alt="">
 											</a>
 										</p>
-										<h3><a href="">タイトルタイトルタイトルタイトル</a></h3>
+										<h3><a href="/posts/view.php">タイトルタイトルタイトルタイトル</a></h3>
 										<p class="location"><a href="">京都</a></p>
 									</li>
 									<li>
 										<p class="thumb">
-											<a href="">
+											<a href="/posts/view.php">
 												<img src="http://lorempixel.com/194/194" alt="">
 											</a>
 										</p>
-										<h3><a href="">タイトルタイトルタイトルタイトル</a></h3>
+										<h3><a href="/posts/view.php">タイトルタイトルタイトルタイトル</a></h3>
 										<p class="location"><a href="">京都</a></p>
 									</li>
 									<li>
 										<p class="thumb">
-											<a href="">
+											<a href="/posts/view.php">
 												<img src="http://lorempixel.com/194/194" alt="">
 											</a>
 										</p>
-										<h3><a href="">タイトルタイトルタイトルタイトル</a></h3>
+										<h3><a href="/posts/view.php">タイトルタイトルタイトルタイトル</a></h3>
 										<p class="location"><a href="">京都</a></p>
 									</li>
 									<li>
 										<p class="thumb">
-											<a href="">
+											<a href="/posts/view.php">
 												<img src="http://lorempixel.com/194/194" alt="">
 											</a>
 										</p>
-										<h3><a href="">タイトルタイトルタイトルタイトル</a></h3>
+										<h3><a href="/posts/view.php">タイトルタイトルタイトルタイトル</a></h3>
 										<p class="location"><a href="">京都</a></p>
 									</li>
 									<li>
 										<p class="thumb">
-											<a href="">
+											<a href="/posts/view.php">
 												<img src="http://lorempixel.com/194/194" alt="">
 											</a>
 										</p>
-										<h3><a href="">タイトルタイトルタイトルタイトル</a></h3>
+										<h3><a href="/posts/view.php">タイトルタイトルタイトルタイトル</a></h3>
 										<p class="location"><a href="">京都</a></p>
 									</li>
 								</ul>
@@ -104,9 +104,9 @@
 								<ul>
 									<li>		
 										<div class="user-info">
-											<div class="user-img"><img src="/images/user-icon-default.png" width="60" height="" alt=""></div>
+											<div class="user-img"><img src="/images/user-icon-default.png" width="60" height="60" alt="Nagata Hiroaki"></div>
 											<div class="user-name">Nagata Hiroaki</div>
-											<div class="txt"><a href="">二泊三日で京都旅行</a>をアルバム投稿しました。</div>
+											<div class="txt"><a href="/posts/view.php">二泊三日で京都旅行</a>をアルバム投稿しました。</div>
 										</div>
 										<div class="user-things">
 											<a href="/posts/view.php">
@@ -123,7 +123,7 @@
 										<div class="user-info">
 											<div class="user-img"><img src="/images/user-icon-default.png" width="60" height="" alt=""></div>
 											<div class="user-name">Nagata Hiroaki</div>
-											<div class="txt"><a href="">二泊三日で京都旅行</a>をアルバム投稿しました。</div>
+											<div class="txt"><a href="/posts/view.php">二泊三日で京都旅行</a>をアルバム投稿しました。</div>
 										</div>
 										<div class="user-things">
 											<a href="/posts/view.php">
@@ -140,7 +140,7 @@
 										<div class="user-info">
 											<div class="user-img"><img src="/images/user-icon-default.png" width="60" height="" alt=""></div>
 											<div class="user-name">Nagata Hiroaki</div>
-											<div class="txt"><a href="">二泊三日で京都旅行</a>をアルバム投稿しました。</div>
+											<div class="txt"><a href="/posts/view.php">二泊三日で京都旅行</a>をアルバム投稿しました。</div>
 										</div>
 										<div class="user-things">
 											<a href="/posts/view.php">
@@ -162,83 +162,83 @@
 							<ul>
 								<li>
 									<p class="thumb">
-										<a href="">
+										<a href="/posts/view.php">
 											<img src="http://lorempixel.com/194/194" alt="">
 										</a>
 									</p>
-									<h3><a href="">タイトルタイトルタイトルタイトル</a></h3>
+									<h3><a href="/posts/view.php">タイトルタイトルタイトルタイトル</a></h3>
 									<p class="location"><a href="">京都</a></p>
 								</li>
 								<li>
 									<p class="thumb">
-										<a href="">
+										<a href="/posts/view.php">
 											<img src="http://lorempixel.com/194/194" alt="">
 										</a>
 									</p>
-									<h3><a href="">タイトルタイトルタイトルタイトル</a></h3>
+									<h3><a href="/posts/view.php">タイトルタイトルタイトルタイトル</a></h3>
 									<p class="location"><a href="">京都</a></p>
 								</li>
 								<li>
 									<p class="thumb">
-										<a href="">
+										<a href="/posts/view.php">
 											<img src="http://lorempixel.com/194/194" alt="">
 										</a>
 									</p>
-									<h3><a href="">タイトルタイトルタイトルタイトル</a></h3>
+									<h3><a href="/posts/view.php">タイトルタイトルタイトルタイトル</a></h3>
 									<p class="location"><a href="">京都</a></p>
 								</li>
 								<li>
 									<p class="thumb">
-										<a href="">
+										<a href="/posts/view.php">
 											<img src="http://lorempixel.com/194/194" alt="">
 										</a>
 									</p>
-									<h3><a href="">タイトルタイトルタイトルタイトル</a></h3>
+									<h3><a href="/posts/view.php">タイトルタイトルタイトルタイトル</a></h3>
 									<p class="location"><a href="">京都</a></p>
 								</li>
 								<li>
 									<p class="thumb">
-										<a href="">
+										<a href="/posts/view.php">
 											<img src="http://lorempixel.com/194/194" alt="">
 										</a>
 									</p>
-									<h3><a href="">タイトルタイトルタイトルタイトル</a></h3>
+									<h3><a href="/posts/view.php">タイトルタイトルタイトルタイトル</a></h3>
 									<p class="location"><a href="">京都</a></p>
 								</li>
 								<li>
 									<p class="thumb">
-										<a href="">
+										<a href="/posts/view.php">
 											<img src="http://lorempixel.com/194/194" alt="">
 										</a>
 									</p>
-									<h3><a href="">タイトルタイトルタイトルタイトル</a></h3>
+									<h3><a href="/posts/view.php">タイトルタイトルタイトルタイトル</a></h3>
 									<p class="location"><a href="">京都</a></p>
 								</li>
 								<li>
 									<p class="thumb">
-										<a href="">
+										<a href="/posts/view.php">
 											<img src="http://lorempixel.com/194/194" alt="">
 										</a>
 									</p>
-									<h3><a href="">タイトルタイトルタイトルタイトル</a></h3>
+									<h3><a href="/posts/view.php">タイトルタイトルタイトルタイトル</a></h3>
 									<p class="location"><a href="">京都</a></p>
 								</li>
 								<li>
 									<p class="thumb">
-										<a href="">
+										<a href="/posts/view.php">
 											<img src="http://lorempixel.com/194/194" alt="">
 										</a>
 									</p>
-									<h3><a href="">タイトルタイトルタイトルタイトル</a></h3>
+									<h3><a href="/posts/view.php">タイトルタイトルタイトルタイトル</a></h3>
 									<p class="location"><a href="">京都</a></p>
 								</li>
 								<li>
 									<p class="thumb">
-										<a href="">
+										<a href="/posts/view.php">
 											<img src="http://lorempixel.com/194/194" alt="">
 										</a>
 									</p>
-									<h3><a href="">タイトルタイトルタイトルタイトル</a></h3>
+									<h3><a href="/posts/view.php">タイトルタイトルタイトルタイトル</a></h3>
 									<p class="location"><a href="">京都</a></p>
 								</li>
 							</ul>
@@ -267,7 +267,7 @@
 									</a>
 								</li>
 								<li>
-									<a href="/mypage/follow/index.php">
+									<a href="/mypage/follow/index.php?tab=1">
 										<p class="txt">フォロワー</p>
 										<p class="num">80</p>
 									</a>

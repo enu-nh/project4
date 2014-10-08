@@ -36,13 +36,15 @@ $(function () {
 		});
 		return false;
 	});
-
+	//画像拡大
 	$(".thumb-area").lightbox();
 	$(".img-select li").lightbox();
-	
+	//メガメニュー		
 	$("#gnav").accessibleMegaMenu();
-
-	$( ".tab-contents" ).tabs();
+	//tab化
+	var pn = location.search.match(/(\?|&)tab=(\d+)(&|\b)/)?RegExp.$2:'0';
+	
+	$( ".tab-contents" ).tabs().tabs( "option", "active", parseInt(pn));
 
 	$('.ui-tabs-nav a').focusin(function(){
     this.blur();

@@ -2,6 +2,106 @@
 	<div id="contents">
 			<div class="inner">
 				<div id="main">
+                		<section class="section">
+                			<h1>投稿アルバム一覧</h1>
+                          <div class="post-list">
+                             <ul>
+                                <li>
+                                    <p class="thumb">
+                                        <a href="">
+                                            <img src="http://lorempixel.com/194/194" alt="">
+                                        </a>
+                                    </p>
+                                    <h3><a href="">タイトルタイトルタイトルタイトル</a></h3>
+                                    <p class="location"><a href="">京都</a></p>
+                                    <p class="post-edit"><a href="">投稿を編集する</a></p>
+                                </li>
+                                <li>
+                                    <p class="thumb">
+                                        <a href="">
+                                            <img src="http://lorempixel.com/194/194" alt="">
+                                        </a>
+                                    </p>
+                                    <h3><a href="">タイトルタイトルタイトルタイトル</a></h3>
+                                    <p class="location"><a href="">京都</a></p>
+                                    <p class="post-edit"><a href="">投稿を編集する</a></p>
+                                </li>
+                                <li>
+                                    <p class="thumb">
+                                        <a href="">
+                                            <img src="http://lorempixel.com/194/194" alt="">
+                                        </a>
+                                    </p>
+                                    <h3><a href="">タイトルタイトルタイトルタイトル</a></h3>
+                                    <p class="location"><a href="">京都</a></p>
+                                    <p class="post-edit"><a href="">投稿を編集する</a></p>
+                                </li>
+                                <li>
+                                    <p class="thumb">
+                                        <a href="">
+                                            <img src="http://lorempixel.com/194/194" alt="">
+                                        </a>
+                                    </p>
+                                    <h3><a href="">タイトルタイトルタイトルタイトル</a></h3>
+                                    <p class="location"><a href="">京都</a></p>
+                                    <p class="post-edit"><a href="">投稿を編集する</a></p>
+                                </li>
+                                <li>
+                                    <p class="thumb">
+                                        <a href="">
+                                            <img src="http://lorempixel.com/194/194" alt="">
+                                        </a>
+                                    </p>
+                                    <h3><a href="">タイトルタイトルタイトルタイトル</a></h3>
+                                    <p class="location"><a href="">京都</a></p>
+                                    <p class="post-edit"><a href="">投稿を編集する</a></p>
+                                </li>
+                                <li>
+                                    <p class="thumb">
+                                        <a href="">
+                                            <img src="http://lorempixel.com/194/194" alt="">
+                                        </a>
+                                    </p>
+                                    <h3><a href="">タイトルタイトルタイトルタイトル</a></h3>
+                                    <p class="location"><a href="">京都</a></p>
+                                    <p class="post-edit"><a href="">投稿を編集する</a></p>
+                                </li>
+                                <li>
+                                    <p class="thumb">
+                                        <a href="">
+                                            <img src="http://lorempixel.com/194/194" alt="">
+                                        </a>
+                                    </p>
+                                    <h3><a href="">タイトルタイトルタイトルタイトル</a></h3>
+                                    <p class="location"><a href="">京都</a></p>
+                                    <p class="post-edit"><a href="">投稿を編集する</a></p>
+                                </li>
+                                <li>
+                                    <p class="thumb">
+                                        <a href="">
+                                            <img src="http://lorempixel.com/194/194" alt="">
+                                        </a>
+                                    </p>
+                                    <h3><a href="">タイトルタイトルタイトルタイトル</a></h3>
+                                    <p class="location"><a href="">京都</a></p>
+                                    <p class="post-edit"><a href="">投稿を編集する</a></p>
+                                </li>
+                                <li>
+                                    <p class="thumb">
+                                        <a href="">
+                                            <img src="http://lorempixel.com/194/194" alt="">
+                                        </a>
+                                    </p>
+                                    <h3><a href="">タイトルタイトルタイトルタイトル</a></h3>
+                                    <p class="location"><a href="">京都</a></p>
+                                    <p class="post-edit"><a href="">投稿を編集する</a></p>
+                                </li>
+                            </ul>
+                            <div class="more">
+                                <a href="">もっと見る</a>
+                            </div>
+                        </div>
+                     </section>
 				</div>
 				<div id="sub">
 					<div class="user-area">

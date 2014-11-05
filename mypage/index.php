@@ -10,7 +10,7 @@
 							</ul>
 						</div>
 						<div id="tabs-1">
-							<div class="post-list">
+							<div class="post-list post-style-01">
 								<ul>
 									<li>
 										<p class="thumb">
@@ -157,7 +157,7 @@
 							</div>
 						</div>
 					</div>
-						<div class="post-list">
+						<div class="post-list post-style-01">
 							<h2>最近人気のあるアルバム</h2>
 							<ul>
 								<li>
@@ -289,9 +289,6 @@
 					</div>
 					<div class="sub-button">
 						<a href="">新規投稿</a>
-					</div>
-					<div class="sub-button">
-						<a href="">フレンドを探す</a>
 					</div>
 					<div class="comment-history">
 						<div class="ttl">あなたのコメント履歴</div>

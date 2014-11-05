@@ -3,7 +3,7 @@
 		<section class="search">
 			<div class="inner">
 				<h2>記事を探す</h2>
-				<div class="formarea">
+				<div class="formarea searchbox-content">
 					<form action="">
 						<input type="text">
 						<input type="button" value="Search">

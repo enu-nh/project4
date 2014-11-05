@@ -2,25 +2,16 @@
 	<div id="contents">
 			<div class="inner">
 				<h2>新規会員登録</h2>
-				<div class="err">
-					<h3>入力内容をご確認ください</h3>
-					<p>氏名が入力されていません</p>
-					<p>E-mailが入力されていません</p>
-					<p>パスワードが入力されていません</p>
-					<p>パスワードが一致しません</p>
-					<p>生年月日が入力されていません</p>
-					<p>性別が入力されていません</p>
-				</div>
 				<div class="formarea">
 					<form action="confirm.php">
 						<ul>
-							<li><p class="question">氏名</p><p class="answer"><input type="text"></p></li>
-							<li><p class="question">E-mail</p><p class="answer"><input type="text"></p></li>
-							<li><p class="question">パスワード</p><p class="answer"><input type="text"></p></li>
-							<li><p class="question">パスワード（確認）</p><p class="answer"><input type="text"></p></li>
+							<li><p class="question">氏名<span class="attention">(必須)</span></p><p class="answer"><span class="half first"><span class="txt">性</span><input type="text"></span><span class="half"><span class="txt">名</span><input type="text"></span><span class="attention">英字のみ使用出来ます</span></p></li>
+							<li><p class="question">ニックネーム</p><p class="answer"><input type="text"><span class="attention">英字のみ使用出来ます</span></p></li>
+							<li><p class="question">E-mail<span class="attention">(必須)</span></p><p class="answer"><input type="text"></p></li>
+							<li><p class="question">パスワード<span class="attention">(必須)</span></p><p class="answer"><input type="password"><span class="attention">8〜16文字で入力してください</span></p></li>
+							<li><p class="question">パスワード<span class="attention">(確認・必須)</span></p><p class="answer"><input type="password"></p></li>
 							<li><p class="kiyaku">※<a href="">利用規約</a>に同意の上、会員登録をお願いします。</p></li>
 						</ul>
-						
 						<input type="submit" value="登録する">
 					</form>
 				</div>

@@ -2,59 +2,58 @@
 <?php
 	////// 都道府県用配列 //////
 	$preflist = array(
-		'0'=>'北海道', '1'=>'青森県', '2'=>'岩手県', 
-		'3'=>'宮城県', '4'=>'秋田県','5'=>'山形県', '6'=>'福島県', '7'=>'茨城県', 
-		'8'=>'栃木県', '9'=>'群馬県','10'=>'埼玉県', '11'=>'千葉県', '12'=>'東京都', 
-		'13'=>'神奈川県', '14'=>'新潟県','15'=>'富山県', '16'=>'石川県', '17'=>'福井県', 
-		'18'=>'山梨県', '19'=>'長野県','20'=>'岐阜県', '21'=>'静岡県', '22'=>'愛知県', 
-		'23'=>'三重県', '24'=>'滋賀県','25'=>'京都府', '26'=>'大阪府', '27'=>'兵庫県', 
-		'28'=>'奈良県', '29'=>'和歌山県','30'=>'鳥取県', '31'=>'島根県', '32'=>'岡山県', 
-		'33'=>'広島県', '34'=>'山口県','35'=>'徳島県', '36'=>'香川県', '37'=>'愛媛県', 
+		'0'=>'北海道', '1'=>'青森県', '2'=>'秋田県', 
+		'3'=>'山形県', '4'=>'岩手県','5'=>'宮城県', '6'=>'福島県', '7'=>'東京都', 
+		'8'=>'神奈川県', '9'=>'埼玉県','10'=>'千葉県', '11'=>'栃木県', '12'=>'茨城県', 
+		'13'=>'群馬県', '14'=>'愛知県','15'=>'岐阜県', '16'=>'静岡県', '17'=>'三重県', 
+		'18'=>'新潟県', '19'=>'山梨県','20'=>'長野県', '21'=>'石川県', '22'=>'富山県', 
+		'23'=>'福井県', '24'=>'大阪府','25'=>'兵庫県', '26'=>'京都府', '27'=>'滋賀県', 
+		'28'=>'奈良県', '29'=>'和歌山県','30'=>'岡山県', '31'=>'広島県', '32'=>'鳥取県', 
+		'33'=>'島根県', '34'=>'山口県','35'=>'香川県', '36'=>'徳島県', '37'=>'愛媛県', 
 		'38'=>'高知県', '39'=>'福岡県','40'=>'佐賀県', '41'=>'長崎県', '42'=>'熊本県', 
 		'43'=>'大分県', '43'=>'宮崎県','45'=>'鹿児島県', '46'=>'沖縄県'
 	);
 ?>
 	<div id="contents">
-			<div class="inner">
+		<div class="inner">
+			<div id="main">
 				<form action="">
 					<h1>新規投稿</h1>
-					<h2>タイトル</h2>
+					<h2>タイトル<span class="attention">32文字以内で入力してください</span></h2>
 					<p class="post-title"><input type="text"></p>
-					<h2>地域を選択</h2>
+					<h2>地域を選択<span class="attention">複数選択可。訪問した地域を選択してください.</span></h2>
 					<div class="local-area">
 							<?php
 							//配列リストからoptionタグに展開。
 							foreach($preflist as $key => $value){
 							 if($value == $_POST["pref_return"]){
-							        echo "<p><input type='checkbox' name='prefecture' value='$value'>".$value."</p>";
+							        echo "<p><input type='checkbox' name='".$key."' value='$value'>".$value."</p>";
 							    }else{
-							        echo "<p><input type='checkbox' name='prefecture' value='$value'>".$value."</p>";
+							        echo "<p><input type='checkbox' name='".$key."' value='$value'>".$value."</p>";
 							    }
 							}
 							?>
 					</div>
-					<h2>旅の動画を追加（この動画が一覧トップに表示されます）</h2>
+					<h2>旅の動画を追加<span class="attention">この動画が一覧トップに表示されます</span></h2>
 					<div class="thumb-area">
 						動画を掲載する
 					</div>
 					<article id="main-contents">
-						<div id="map">
-							<div id="map-area">
-								<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d834187.9442673218!2d135.45388895000002!3d35.24265369999999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x5fff7420f91f1b61%3A0x590a7bc238b19538!2z5Lqs6YO95bqc!5e0!3m2!1sja!2sjp!4v1407832057924" width="300" height="300" frameborder="0" style="border:0"></iframe>
-							</div>
-						</div>
 						<section class="day1">
 							<h1>１日目</h1>
 							<div class="time">
 								<p><input type="number" max="24"><span>時</span><input type="number" max="60"><span>分</span></p>
 							</div>
-							<p class="event-title"><input type="text" value="タイトルを入力してください"></p>
+							<h2>タイトルを入力してください</h2>
+							<p class="event-title"><input type="text" value=""></p>
 							<ul class="img-select">
-								<li>動画を掲載する</li>
-								<li>動画を掲載する</li>
+								<li>動画・画像を掲載する</li>
+								<li>動画・画像を掲載する</li>
 							</ul>
-							<div class="comments" contenteditable="true">コメントを入力</div>
-							<div class="area-info" contenteditable="true"><p>地名を入力</p></div>
+							<h2>コメントを入力<span class="attention">150字以内で入力してください 。</span></h2>	
+							<div class="comments" contenteditable="true"></div>
+							<h2>地名を入力</h2>
+							<div class="area-info" contenteditable="true"><p></p></div>
 						</section>
 					</article>
 					<nav id="addpost-support">
@@ -64,6 +63,68 @@
 					</nav>	
 				</form>
 			</div>
+			<div id="sub">
+					<div class="user-area">
+						<div class="user-head">
+							<div class="txt">プロフィール</div>
+							<div class="user-edit"><a href="/mypage/setting/index.php">編集</a></div>
+						</div>
+						<div class="user-info">
+							<div class="user-img"><img src="/images/user-icon-default.png" width="60" height="" alt=""></div>
+							<div class="user-name">Nagata Hiroaki</div>
+							<div class="location">京都</div>
+						</div>
+						<div class="user-meta">
+							<ul>
+								<li>
+									<a href="/mypage/follow/index.php">
+										<p class="txt">フォロー</p>
+										<p class="num">100</p>
+									</a>
+								</li>
+								<li>
+									<a href="/mypage/follow/index.php?tab=1">
+										<p class="txt">フォロワー</p>
+										<p class="num">80</p>
+									</a>
+								</li>
+								<li>
+									<a href="/mypage/favorite/index.php">
+										<p class="txt">お気に入り</p>
+										<p class="num">6</p>
+									</a>
+								</li>
+								<li>
+									<a href="/mypage/album/index.php">
+										<p class="txt">アルバム</p>
+										<p class="num">8</p>
+									</a>
+								</li>
+							</ul>
+						</div>
+					</div>
+					<div class="sub-button">
+						<a href="">新規投稿</a>
+					</div>
+					<div class="comment-history">
+						<div class="ttl">あなたのコメント履歴</div>
+						<ul>
+							<li>
+								<div class="txt"><a href="">私もそこに行ってみたいです。</a><span class="time">（9月14日）</span></div>
+							</li>
+							<li>
+								<div class="txt"><a href="">そのお店は定休日はございますか。</a><span class="time">（9月14日）</span></div>
+							</li>
+							<li>
+								<div class="txt"><a href="">近辺に住んでいる私の友人に聞いたところ、観光客は少なく穴場スポットであるようです。</a><span class="time">（9月14日）</span></div>
+							</li>
+						</ul>
+						<div class="more">
+							<a href="">もっと見る</a>
+						</div>
+					</div>
+				</div>
+		</div>
 	</div>
 	<!-- /#contents -->
 	<div id="whitelayer">

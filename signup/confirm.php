@@ -12,8 +12,8 @@
 							<li><p class="confirm">入力いただいた情報に問題がなければ登録を完了してください</p></li>
 						</ul>
 						
+						<p class="fl"><a href="index.php" class="return">修正</a></p>
 						<p class="fl"><input type="submit" value="完了"></p>
-						<p class="fl"><input type="submit" value="修正"></p>
 					</form>
 				</div>
 			</div>

@@ -555,9 +555,6 @@
 					<div class="sub-button">
 						<a href="">新規投稿</a>
 					</div>
-					<div class="sub-button">
-						<a href="">フレンドを探す</a>
-					</div>
 					<div class="comment-history">
 						<div class="ttl">あなたのコメント履歴</div>
 						<ul>

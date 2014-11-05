@@ -15,13 +15,13 @@
 		<header id="common-header" class="cf">
 			<div class="inner">
 				<div id="logo">
-					<a href="<?php echo $home_url; ?>">タイトル</a>
+					<a href="<?php echo $home_url; ?>">trippost</a>
 				</div>
 				<div id="nav">
 					<div id="gnav">
 						<ul class="nav-menu">
 							<li class="nav-item">
-								<a href="">地域</a>
+								<a href="">地域別掲示板</a>
 								<div class="cities-menu sub-nav">
 									<div class="cities-list sub-nav-group">
 										<h3>北海道・東北</h3>

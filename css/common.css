@@ -72,6 +72,21 @@ h2{
 	float: right;
 }
 
+span.attention{
+	color: #f00;
+	font-size: 1.1rem; font-size: 11px;
+}
+h2 span.attention{
+	display: block;
+	margin: 6px 0 0 0;
+	color: #666;
+}
+
+/******************************
+
+	▼home
+
+******************************/
 .home #common-header{
 	overflow: hidden;
 	background: url(../images/mainVisual.jpg) no-repeat center;
@@ -221,11 +236,11 @@ section{
 	font-weight: normal;
 }
 
-#contents .search .formarea{
+.formarea.searchbox-content{
 	text-align: center;
 }
 
-#contents .search input[type=text]{
+.formarea.searchbox-content input[type=text]{
 	line-height: 3.2rem; line-height: 32px;
 	font-size: 1.6rem; font-size: 16px;
 	color: #666;
@@ -234,7 +249,7 @@ section{
 	border: 2px solid #3498DB;
 }
 
-#contents .search input[type=button]{
+.formarea.searchbox-content input[type=button]{
 	cursor: pointer;
 	background: #3498DB;
 	border: 1px solid #3498DB;
@@ -384,10 +399,17 @@ section{
 	margin: 0 auto 24px auto;
 	overflow: hidden;
 }
-
-.signup .formarea ul li{
+.signup .formarea>form>ul {
+	border-top: 1px solid #ccc;
+	padding-top: 24px;
+}
+.signup .formarea>form>ul>li{
 	margin-bottom: 24px;
 	overflow: hidden;
+	border-bottom: 1px solid #ccc;
+}
+.signup .formarea ul li:last-child{
+	border: none;
 }
 
 .signup .formarea ul li p.question,
@@ -401,6 +423,7 @@ section{
 
 .signup .formarea ul li p.answer{
 	color: #999;
+	width: 70%;
 }
 
 .signup .formarea ul li .answer{
@@ -408,13 +431,26 @@ section{
 	width: 400px;
 }
 
-.signup .formarea ul li input[type=text]{
+.signup .formarea ul li input[type=text],
+.signup .formarea ul li input[type=password]{
 	font-size: 1.6rem; font-size: 16px;
 	line-height: 3.2rem; line-height: 32px;
-	width: 396px;
+	width: 100%;
 	color: #666;	
 }
-
+.signup .formarea p span.half.first{
+	margin: 0 20px 0 0;
+}
+.signup .formarea p span.half{
+	width: 186px;
+	float: left;
+}
+.signup .formarea p span.half span.txt {
+	margin: 0 15px 0 0;
+}
+.signup .formarea p span.half input{
+	width: 151px;
+}
 .signup .formarea ul li label{
 	font-size: 1.6rem; font-size: 16px;
 	line-height: 3.2rem; line-height: 32px;
@@ -424,8 +460,13 @@ section{
 .signup .formarea ul li .kiyaku{
 	font-size: 1.4rem; font-size: 14px;
 }
-
-.signup .formarea input[type=submit]{
+.signup .formarea a.return{
+	display: block;
+	text-align: center;
+	text-decoration: none;
+}
+.signup .formarea input[type=submit],
+.signup .formarea a.return{
 	cursor: pointer;
 	border: 2px solid #2ECC71;
 	color: #2ECC71;
@@ -435,31 +476,11 @@ section{
 	font-size: 1.6rem; font-size: 16px;
 }
 
-.signup .formarea input[type=submit]:hover{
+.signup .formarea input[type=submit]:hover,
+.signup .formarea a.return:hover{
 	border: 2px solid #2ECC71;
 	background: #2ECC71;
 	color: #fff;
-}
-
-.signup .err{
-	margin: 0 auto;
-	width: 508px;
-	margin-bottom: 24px;
-	padding: 24px;
-	border: 2px solid #CC712E;
-	color: #CC712E;
-}
-
-.signup .err h3{
-	font-size: 2.4rem; font-size: 24px;
-	text-align: center;
-	border-bottom: 1px solid #CC712E;
-	padding-bottom: 8px;	
-}
-
-.signup .err p{
-	font-size: 1.6rem; font-size: 16px;
-	margin-top: 16px;
 }
 
 .signup p.fl{
@@ -1123,16 +1144,34 @@ h2{
 	float: left;
 	width: 194px;
 	margin-left: 19px;
-	height: 296px;
 }
 
 .post-list ul li img{
-height: 194px;
-overflow: hidden;
-background: #CCC;
-margin-bottom: 8px;
+	height: 194px;
+	overflow: hidden;
+	background: #CCC;
+	margin-bottom: 8px;
 }
 
+.post-list.post-style-01 li{
+	height: 296px;
+}
+
+.post-list.post-style-02 li{
+	height: 321px;
+}
+
+.post-list.post-style-02 li .location{
+	margin: 0 0 8px 0;
+}
+
+.post-list.post-style-02 li .post-edit{
+	font-size: 1.2rem; font-size: 12px;
+}
+
+.post-list.post-style-02 li .post-edit a:before{
+	content: ">";
+}
 .post-list ul h3{
 	font-size: 1.6rem; font-size: 16px;
 	margin-bottom: 8px;

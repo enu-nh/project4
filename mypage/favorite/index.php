@@ -4,7 +4,7 @@
 				<div id="main">
                 		<section class="section">
                 			<h1>お気に入りのアルバム一覧</h1>
-                          <div class="post-list">
+                          <div class="post-list post-style-01">
                              <ul>
                                 <li>
                                     <p class="thumb">
@@ -136,9 +136,6 @@
 					</div>
 					<div class="sub-button">
 						<a href="">新規投稿</a>
-					</div>
-					<div class="sub-button">
-						<a href="">フレンドを探す</a>
 					</div>
 					<div class="comment-history">
 						<div class="ttl">あなたのコメント履歴</div>

@@ -25,11 +25,13 @@
 					<div class="local-area">
 							<?php
 							//配列リストからoptionタグに展開。
+							$num = 1;
 							foreach($preflist as $key => $value){
 							 if($value == $_POST["pref_return"]){
-							        echo "<p><input type='checkbox' name='".$key."' value='$value'>".$value."</p>";
+							 	$num = $num+1;
+							        echo "<p><input type='checkbox' name='".$num."' value='$value'>".$value."</p>";
 							    }else{
-							        echo "<p><input type='checkbox' name='".$key."' value='$value'>".$value."</p>";
+							        echo "<p><input type='checkbox' name='".$num."' value='$value'>".$value."</p>";
 							    }
 							}
 							?>

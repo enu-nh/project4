@@ -19,9 +19,20 @@
 			<div id="main">
 				<form action="">
 					<h1>新規投稿</h1>
-					<h2>タイトル<span class="attention">32文字以内で入力してください</span></h2>
-					<p class="post-title"><input type="text"></p>
-					<h2>地域を選択<span class="attention">複数選択可。訪問した地域を選択してください.</span></h2>
+					<h2>タイトル<span class="red">*</span><span class="attention">32文字以内で入力してください</span></h2>
+					<p class="trip-title"><input type="text"></p>
+					<h2>出発日<span class="red">*</span></h2>
+					<p class="trip-departure"><input type="text"></p>
+					<h2>旅の目的<span class="red">*</span><span class="attention">複数選択可。訪問した地域を選択してください.</span></h2>
+					<div class="trip-type">
+						<input type="radio" name="trip-type" value="家族旅行"> 家族旅行
+						<input type="radio" name="trip-type" value="社員旅行"> 社員旅行
+						<input type="radio" name="trip-type" value="卒業旅行"> 卒業旅行
+						<input type="radio" name="trip-type" value="新婚旅行"> 新婚旅行
+						<input type="radio" name="trip-type" value="女子旅"> 女子旅
+						<input type="radio" name="trip-type" value="友人と"> 友人と
+					</div>
+					<h2>地域<span class="red">*</span><span class="attention">複数選択可。訪問した地域を選択してください.</span></h2>
 					<div class="local-area">
 							<?php
 							//配列リストからoptionタグに展開。
@@ -36,7 +47,7 @@
 							}
 							?>
 					</div>
-					<h2>旅の動画を追加<span class="attention">この動画が一覧トップに表示されます</span></h2>
+					<h2>旅の動画を追加<span class="red">*</span><span class="attention">この動画が一覧トップに表示されます</span></h2>
 					<div class="thumb-area">
 						動画を掲載する
 					</div>
@@ -46,15 +57,15 @@
 							<div class="time">
 								<p><input type="number" max="24"><span>時</span><input type="number" max="60"><span>分</span></p>
 							</div>
-							<h2>タイトルを入力してください</h2>
+							<h2>タイトルを入力<span class="red">*</span><span class="attention">32文字以内で入力してください。</span></h2>
 							<p class="event-title"><input type="text" value=""></p>
 							<ul class="img-select">
 								<li>動画・画像を掲載する</li>
 								<li>動画・画像を掲載する</li>
 							</ul>
-							<h2>コメントを入力<span class="attention">150字以内で入力してください 。</span></h2>	
+							<h2>コメントを入力<span class="attention">150文字以内で入力してください 。</span></h2>	
 							<div class="comments" contenteditable="true"></div>
-							<h2>地名を入力</h2>
+							<h2>スポット名を入力</h2>
 							<div class="area-info" contenteditable="true"><p></p></div>
 						</section>
 					</article>
@@ -155,4 +166,10 @@
 		</ul>
 	</div>
 	<div id="blacklayer"></div>
-<?php include '../footer.php'; ?>
+	<?php include '../footer.php'; ?>
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+	<script src="<?php echo $home_url; ?>js/jquery-accessibleMegaMenu.js"></script>
+	<script src="<?php echo $home_url; ?>js/jquery-ui.min.js"></script>
+	<script src="<?php echo $home_url; ?>js/style.js"></script>
+</body>
+</html>

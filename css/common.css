@@ -1,1113 +1,998 @@
 @charset "utf-8";
-
-*{
-	margin: 0;
-	padding: 0;
-	line-height: 1em;
-	list-style: none;
+ * {
+  margin: 0;
+  padding: 0;
+  line-height: 1em;
+  list-style: none;
 }
-
-a{
-	color: #3498DB;
-	text-decoration: none;
+a {
+  color: #3498DB;
+  text-decoration: none;
 }
-
-a:hover{
-	text-decoration: underline;
+a:hover {
+  text-decoration: underline;
 }
-
-.thumb img{
-	display: block;
+.thumb img {
+  display: block;
 }
-
-.cf:before,.cf:after,
-.img-select:before,.img-select:after {content:"";display:table;}
+.cf:before,
 .cf:after,
-.img-select:after {clear:both;}
+.img-select:before,
+.img-select:after {
+  content: "";
+  display: table;
+}
+.cf:after,
+.img-select:after {
+  clear: both;
+}
 .cf,
-.img-select {*zoom:1;}
-
+.img-select {
+  *zoom: 1;
+}
 body,
-html{
-	font-family: Verdana, "游ゴシック", YuGothic, "ヒラギノ角ゴ ProN W3", "Hiragino Kaku Gothic ProN", "メイリオ", Meiryo, sans-serif;
-	font-size: 62.5%;
-	color: #666;
-	height: 100%;
-	font-size: 1.4rem; font-size: 14px;
+html {
+  font-family: Verdana, "游ゴシック", YuGothic, "ヒラギノ角ゴ ProN W3", "Hiragino Kaku Gothic ProN", "メイリオ", Meiryo, sans-serif;
+  font-size: 62.5%;
+  color: #666;
+  height: 100%;
+  font-size: 1.4rem;
+  font-size: 14px;
 }
-
-#wrapper{
-	min-height: 100%;
-	position: relative;
+#wrapper {
+  min-height: 100%;
+  position: relative;
 }
-
-p{
-	margin: 0 0 20px 0;
+p {
+  margin: 0 0 20px 0;
 }
-
-h1{
-	color: #2a2a2a;
-	font-size: 3.0rem; font-size: 30px;
-	font-weight: bold;
-	padding: 0 0 10px 0;
-	border-bottom: 1px solid #ccc;
-	margin: 0 0 10px 0;
-	line-height: 1.5;
+h1 {
+  color: #2a2a2a;
+  font-size: 3.0rem;
+  font-size: 30px;
+  font-weight: bold;
+  padding: 0 0 10px 0;
+  border-bottom: 1px solid #ccc;
+  margin: 0 0 10px 0;
+  line-height: 1.5;
 }
-
-h2{
-	color: #2ECC71;
+h2 {
+  color: #2ECC71;
 }
-
-.inner{
-	width: 960px;
-	margin: 0 auto;
+.inner {
+  width: 960px;
+  margin: 0 auto;
 }
-
-.fl{
-	float: left;
+.fl {
+  float: left;
 }
-
-.fr{
-	float: right;
+.fr {
+  float: right;
 }
-
-span.attention{
-	color: #f00;
-	font-size: 1.1rem; font-size: 11px;
+.attention,
+.passStrengthify {
+  color: #f00;
+  font-size: 1.1rem;
+  font-size: 11px;
 }
-h2 span.attention{
-	display: block;
-	margin: 6px 0 0 0;
-	color: #666;
+.req {
+  vertical-align: top;
+  color: #f00;
+  font-size: 1.1rem;
+  font-size: 11px;
 }
-
+h2 span.attention {
+  display: block;
+  margin: 6px 0 0 0;
+  color: #666;
+}
 /******************************
 
 	▼home
 
 ******************************/
-.home #common-header{
-	overflow: hidden;
-	background: url(../images/mainVisual.jpg) no-repeat center;
-	-webkit-background-size: cover;
-	     -o-background-size: cover;
-	        background-size: cover;
+
+.home #common-header {
+  overflow: hidden;
+  background: url(../images/mainVisual.jpg) no-repeat center;
+  -webkit-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 }
-
-
-#common-header{
-	border-bottom: 1px solid #ccc;
+#common-header {
+  border-bottom: 1px solid #ccc;
 }
-
-#common-header a{
-	color: #333;
+#common-header a {
+  color: #333;
 }
-
-.home #common-header #gnav>ul>li>a{
-	color: #FFF;
+.home #common-header #gnav>ul>li>a {
+  color: #FFF;
 }
-
-#logo{
-	float: left;
+#logo {
+  float: left;
 }
-
-#logo a{
-	font-size: 3.2rem; font-size: 32px;
-	text-decoration: none;
-	line-height: 48px;
+#logo a {
+  font-size: 3.2rem;
+  font-size: 32px;
+  text-decoration: none;
+  line-height: 48px;
 }
-
-#nav{
-	float: right;
+#nav {
+  float: right;
 }
-
 #gnav,
 #gnav>ul>li,
 #sign,
-#sign p{
-	float: left;
+#sign p {
+  float: left;
 }
-
-#gnav{
-	margin-top: 20px;	
+#gnav {
+  margin-top: 20px;
 }
-
-#gnav>ul>li>a{
-	font-size: 1.2rem; font-size: 12px;
-	text-decoration: none;
-	margin-left: 24px;
-	font-weight: bold;
+#gnav>ul>li>a {
+  font-size: 1.2rem;
+  font-size: 12px;
+  text-decoration: none;
+  margin-left: 24px;
+  font-weight: bold;
 }
-
-#gnav>ul li a:hover{
-	text-decoration: underline;
+#gnav>ul li a:hover {
+  text-decoration: underline;
 }
-
-#gnav ul li ul li{
-	list-style: disc;
+#gnav ul li ul li {
+  list-style: disc;
 }
-
-#gnav ul li a{
+#gnav ul li a {} .home #mainVisual {
+  padding: 72px 0 104px 0;
+  overflow: hidden;
+  width: 100%;
 }
-
-.home #mainVisual{
-	padding: 72px 0 104px 0;
-	overflow: hidden;
-	width: 100%;
+section {
+  margin-bottom: 80px;
 }
-
-section{
-	margin-bottom: 80px;
+.home #mainVisual .fl {
+  width: 560px;
 }
-
-.home #mainVisual .fl{
-	width: 560px;
+.home #mainVisual .fl h2 {
+  font-family: "Times New Roman", "游明朝", YuMincho, "ヒラギノ明朝 ProN W3", "Hiragino Mincho ProN", "メイリオ", Meiryo, serif;
+  font-size: 4.0rem;
+  font-size: 40px;
+  font-weight: normal;
+  line-height: 1.5em;
+  color: #fff;
+  margin-bottom: 24px;
 }
-
-.home #mainVisual .fl h2{
-	font-family: "Times New Roman", "游明朝", YuMincho, "ヒラギノ明朝 ProN W3", "Hiragino Mincho ProN", "メイリオ", Meiryo, serif;
-	font-size: 4.0rem; font-size: 40px;
-	font-weight: normal;
-	line-height: 1.5em;
-	color: #fff;
-	margin-bottom: 24px;	
+.home #mainVisual .fl p {
+  font-size: 1.4rem;
+  font-size: 14px;
+  line-height: 1.5em;
+  color: #FFF;
 }
-
-.home #mainVisual .fl p{
-	font-size: 1.4rem; font-size: 14px;
-	line-height: 1.5em;
-	color: #FFF;
+.home #mainVisual .fr {
+  width: 320px;
 }
-
-.home #mainVisual .fr{
-	width: 320px;
+.home #mainVisual .fr h2 {
+  font-size: 2.4rem;
+  font-size: 24px;
+  font-weight: normal;
+  padding-bottom: 4px;
+  border-bottom: 1px solid #fff;
+  color: #fff;
 }
-
-.home #mainVisual .fr h2{
-	font-size: 2.4rem; font-size: 24px;
-	font-weight: normal;
-	padding-bottom: 4px;
-	border-bottom: 1px solid #fff;
-	color: #fff;
+.home #mainVisual .fr a {
+  display: block;
+  width: 100%;
+  padding: 16px 0;
+  text-align: center;
+  border: 2px solid #fff;
+  font-size: 1.4rem;
+  font-size: 14px;
+  color: #fff;
+  text-decoration: none;
+  margin: 24px 0 0 0;
 }
-
-.home #mainVisual .fr a{
-	display: block;
-	width: 100%;
-	padding: 16px 0;
-	text-align: center;
-	border: 2px solid #fff;
-	font-size: 1.4rem; font-size: 14px;
-	color: #fff;
-	text-decoration: none;
-	margin: 24px 0 0 0;
+.home #mainVisual .fr a:hover {
+  background: #fff;
+  color: #333;
+  font-weight: bold;
 }
-
-.home #mainVisual .fr a:hover{
-	background: #fff;
-	color: #333;
-	font-weight: bold;
-}
-
 .home #contents,
-.signup #contents{
-	clear: both;
-	padding: 80px 0 155px 0 ;   
+.signup #contents {
+  clear: both;
+  padding: 80px 0 155px 0;
 }
-
- #contents{
-	clear: both;
-	padding: 40px 0 155px 0 ; 
- 	
- }
-
-.home #contents{
-	
-	padding-bottom: 75px;	
+#contents {
+  clear: both;
+  padding: 40px 0 155px 0;
 }
-
+.home #contents {
+  padding-bottom: 75px;
+}
 .home #contents h2,
-.signup #contents h2{
-	text-align: center;
-	color: #2ECC71;
-	font-size: 3.2rem; font-size: 32px;
-	margin-bottom: 30px;
-	font-weight: normal;
+.signup #contents h2 {
+  text-align: center;
+  color: #2ECC71;
+  font-size: 3.2rem;
+  font-size: 32px;
+  margin-bottom: 30px;
+  font-weight: normal;
 }
-
-.formarea.searchbox-content{
-	text-align: center;
+.formarea.searchbox-content {
+  text-align: center;
 }
-
-.formarea.searchbox-content input[type=text]{
-	line-height: 3.2rem; line-height: 32px;
-	font-size: 1.6rem; font-size: 16px;
-	color: #666;
-	width: 60%;
-	vertical-align: bottom;
-	border: 2px solid #3498DB;
+.formarea.searchbox-content input[type=text] {
+  line-height: 3.2rem;
+  line-height: 32px;
+  font-size: 1.6rem;
+  font-size: 16px;
+  color: #666;
+  width: 60%;
+  vertical-align: bottom;
+  border: 2px solid #3498DB;
 }
-
-.formarea.searchbox-content input[type=button]{
-	cursor: pointer;
-	background: #3498DB;
-	border: 1px solid #3498DB;
-	color: #FFF;
-	padding: 9px 16px;
-	font-size: 1.6rem; font-size: 16px;
-	margin-left: 8px;
+.formarea.searchbox-content input[type=button] {
+  cursor: pointer;
+  background: #3498DB;
+  border: 1px solid #3498DB;
+  color: #FFF;
+  padding: 9px 16px;
+  font-size: 1.6rem;
+  font-size: 16px;
+  margin-left: 8px;
 }
-
-#contents .newest ul{
-	overflow: hidden;
-	margin-left: -20px;
+#contents .newest ul {
+  overflow: hidden;
+  margin-left: -20px;
 }
-
-#contents .newest ul li{
-	float: left;
-	width: 176px;
-	margin-left: 20px;
-	height: 268px;
+#contents .newest ul li {
+  float: left;
+  width: 176px;
+  margin-left: 20px;
+  height: 268px;
 }
-
-#contents .newest .thumb{
-	height: 176px;
-	overflow: hidden;
-	background: #CCC;
-	margin-bottom: 8px;
+#contents .newest .thumb {
+  height: 176px;
+  overflow: hidden;
+  background: #CCC;
+  margin-bottom: 8px;
 }
-
-#contents .popular .thumb{
-	overflow: hidden;
-	background: #CCC;
-	margin-bottom: 8px;	
+#contents .popular .thumb {
+  overflow: hidden;
+  background: #CCC;
+  margin-bottom: 8px;
 }
-
 #contents .newest h3,
-#contents .popular h3{
-	margin-bottom: 8px;
-	font-size: 1.6rem; font-size: 16px;
+#contents .popular h3 {
+  margin-bottom: 8px;
+  font-size: 1.6rem;
+  font-size: 16px;
 }
-
 #contents .newest .location,
-#contents .popular .location{
-	background: url(../images/location.png) no-repeat left center;
-	font-size: 1.2rem; font-size: 12px;
-	padding-left: 14px;
+#contents .popular .location {
+  background: url(../images/location.png) no-repeat left center;
+  font-size: 1.2rem;
+  font-size: 12px;
+  padding-left: 14px;
 }
-
 #contents .newest .location a,
-#contents .popular .location a{
-	color: #666;
+#contents .popular .location a {
+  color: #666;
 }
-
-#contents .popular ul{
-	margin-left: -72px;
-	overflow: hidden;
+#contents .popular ul {
+  margin-left: -72px;
+  overflow: hidden;
 }
-
-.rank{
-	text-align: center;
-	font-size: 80px;
-	font-family: serif;
-	margin-bottom: 16px;
+.rank {
+  text-align: center;
+  font-size: 80px;
+  font-family: serif;
+  margin-bottom: 16px;
 }
-
-.num1 .rank{
-	color: #2ECC71;
+.num1 .rank {
+  color: #2ECC71;
 }
-
-.num2 .rank{
-	color: #3498DB;
+.num2 .rank {
+  color: #3498DB;
 }
-
-.num3 .rank{
-	color: #CC2E89;
+.num3 .rank {
+  color: #CC2E89;
 }
-
 #contents .popular .num1,
 #contents .popular .num2,
-#contents .popular .num3{
-	float: left;
-	width: 272px;
-	margin-left: 72px;
+#contents .popular .num3 {
+  float: left;
+  width: 272px;
+  margin-left: 72px;
 }
-
 #contents #main .more a,
-.home #contents .more a{
-	margin: 0 auto;
-	display: block;
-	width: 400px;
-	padding: 14px;
-	border: 2px solid #2ECC71;
-	text-align: center;
-	font-size: 1.4rem; font-size: 14px;
-	color: #2ECC71;
+.home #contents .more a {
+  margin: 0 auto;
+  display: block;
+  width: 400px;
+  padding: 14px;
+  border: 2px solid #2ECC71;
+  text-align: center;
+  font-size: 1.4rem;
+  font-size: 14px;
+  color: #2ECC71;
 }
-
 #contents #main .more a:hover,
-.home #contents .more a:hover{
-	background: #2ECC71;
-	color: #fff;
-	text-decoration: none;
+.home #contents .more a:hover {
+  background: #2ECC71;
+  color: #fff;
+  text-decoration: none;
 }
-
-#common-footer{
-	background: #2ECC71;
-	color: #FFF;
-	position: absolute;
-	bottom: 0;
-	width: 100%;
+#common-footer {
+  background: #2ECC71;
+  color: #FFF;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
 }
-
-#common-footer a{
-	color: #FFF;
-	font-size: 1.2rem; font-size: 12px;
+#common-footer a {
+  color: #FFF;
+  font-size: 1.2rem;
+  font-size: 12px;
 }
-
-#common-footer #sitemap{
-	float: left;
-	padding-top: 8px;
+#common-footer #sitemap {
+  float: left;
+  padding-top: 8px;
 }
-
-#common-footer ul{
-	overflow: hidden;
-	margin-bottom: 8px;
+#common-footer ul {
+  overflow: hidden;
+  margin-bottom: 8px;
 }
-
-#common-footer ul li{
-	line-height: 24px;
-	float: left;
-	margin-right: 24px;
+#common-footer ul li {
+  line-height: 24px;
+  float: left;
+  margin-right: 24px;
 }
-
-#copy{
-	clear: both;
-	border-top: 1px solid #fff;
-	padding: 8px 0 16px 0;
+#copy {
+  clear: both;
+  border-top: 1px solid #fff;
+  padding: 8px 0 16px 0;
 }
-
 /******************************
 
 	▼signup
 
 ******************************/
 
-.signup .formarea{
-	width: 560px;
-	margin: 0 auto 24px auto;
-	overflow: hidden;
+.signup .formarea {
+  width: 560px;
+  margin: 0 auto 24px auto;
+  overflow: hidden;
 }
-.signup .formarea>form>ul {
-	border-top: 1px solid #ccc;
-	padding-top: 24px;
+.signup .signup-form-box {
+  border-top: 1px solid #ccc;
+  padding-top: 24px;
 }
-.signup .formarea>form>ul>li{
-	margin-bottom: 24px;
-	overflow: hidden;
-	border-bottom: 1px solid #ccc;
+.signup ul.signup-form-box>li {
+  margin-bottom: 24px;
+  overflow: hidden;
+  border-bottom: 1px solid #ccc;
 }
-.signup .formarea ul li:last-child{
-	border: none;
+.signup .formarea ul li:last-child {
+  border: none;
 }
-
-.signup .formarea ul li p.question,
-.signup .formarea ul li p.answer{
-	font-size: 1.6rem; font-size: 16px;
-	line-height: 3.2rem; line-height: 32px;
-	float: left;
-	width: 160px;
-	text-align: left;
+.signup .formarea ul li .question,
+.signup .formarea ul li .answer {
+  font-size: 1.6rem;
+  font-size: 16px;
+  float: left;
+  width: 160px;
+  text-align: left;
+  margin: 0 0 20px 0;
 }
-
-.signup .formarea ul li p.answer{
-	color: #999;
-	width: 70%;
+.signup .formarea ul li .answer input{
+  line-height: 3.2rem;
+  line-height: 32px;
 }
-
-.signup .formarea ul li .answer{
-	float: right;
-	width: 400px;
+.signup .formarea ul li .answer li.attention {
+  line-height: 1.6rem;
+  line-height: 16px;
+  list-style-type: disc;
+  list-style-position: inside;
 }
-
+.signup .formarea ul li .answer {
+  float: right;
+  width: 400px;
+}
 .signup .formarea ul li input[type=text],
-.signup .formarea ul li input[type=password]{
-	font-size: 1.6rem; font-size: 16px;
-	line-height: 3.2rem; line-height: 32px;
-	width: 100%;
-	color: #666;	
+.signup .formarea ul li input[type=password] {
+  font-size: 1.6rem;
+  font-size: 16px;
+  line-height: 3.2rem;
+  line-height: 32px;
+  width: 99%;
+  color: #666;
 }
-.signup .formarea p span.half.first{
-	margin: 0 20px 0 0;
+.signup .formarea p span.half.first {
+  margin: 0 20px 0 0;
 }
-.signup .formarea p span.half{
-	width: 186px;
-	float: left;
+.signup .formarea p span.half {
+  width: 186px;
+  float: left;
 }
 .signup .formarea p span.half span.txt {
-	margin: 0 15px 0 0;
+  margin: 0 15px 0 0;
 }
-.signup .formarea p span.half input{
-	width: 151px;
+.signup .formarea p span.half input {
+  width: 151px;
 }
-.signup .formarea ul li label{
-	font-size: 1.6rem; font-size: 16px;
-	line-height: 3.2rem; line-height: 32px;
-	margin:0 48px 0 8px;	
+.signup .formarea ul li label {
+  font-size: 1.6rem;
+  font-size: 16px;
+  line-height: 3.2rem;
+  line-height: 32px;
+  margin: 0 48px 0 8px;
 }
-
-.signup .formarea ul li .kiyaku{
-	font-size: 1.4rem; font-size: 14px;
+.signup .formarea ul li .kiyaku {
+  font-size: 1.4rem;
+  font-size: 14px;
 }
-.signup .formarea a.return{
-	display: block;
-	text-align: center;
-	text-decoration: none;
+.signup .formarea a.return {
+  display: block;
+  text-align: center;
+  text-decoration: none;
 }
 .signup .formarea input[type=submit],
-.signup .formarea a.return{
-	cursor: pointer;
-	border: 2px solid #2ECC71;
-	color: #2ECC71;
-	background: #FFF;
-	width: 100%;
-	line-height: 5.6rem; line-height: 56px;
-	font-size: 1.6rem; font-size: 16px;
+.signup .formarea a.return {
+  cursor: pointer;
+  border: 2px solid #2ECC71;
+  color: #2ECC71;
+  background: #FFF;
+  width: 100%;
+  line-height: 5.6rem;
+  line-height: 56px;
+  font-size: 1.6rem;
+  font-size: 16px;
 }
-
 .signup .formarea input[type=submit]:hover,
-.signup .formarea a.return:hover{
-	border: 2px solid #2ECC71;
-	background: #2ECC71;
-	color: #fff;
+.signup .formarea a.return:hover {
+  border: 2px solid #2ECC71;
+  background: #2ECC71;
+  color: #fff;
 }
-
-.signup p.fl{
-	width: 40%;
-	margin-right: 10%;
+.signup p.fl {
+  width: 40%;
+  margin-right: 10%;
 }
-
-.signup p.confirm{
-	font-size: 1.4rem; font-size: 14px;
+.signup p.confirm {
+  font-size: 1.4rem;
+  font-size: 14px;
 }
-
-.signup .complete{
-	text-align: center;
-	font-size: 1.6rem; font-size: 16px;
+.signup .complete {
+  text-align: center;
+  font-size: 1.6rem;
+  font-size: 16px;
 }
-
-.signup .complete p{
-	margin-bottom: 24px;
+.signup .complete p {
+  margin-bottom: 24px;
 }
-
 /******************************
 
 	▼posts/add.php
 
 ******************************/
 
-.posts #main-contnets{
-	overflow: hidden;
+.posts #main-contnets {
+  overflow: hidden;
 }
-
-.posts .local-area{
-	overflow: hidden;
+.posts .local-area {
+  overflow: hidden;
 }
-
-.posts .local-area p{
-	float: left;
+.posts .local-area p {
+  float: left;
 }
-
 .posts.add .comments,
-.posts.edit .comments{
-	width: 100%;
-	min-height: 24px;
-	border: 1px solid #ccc;	
+.posts.edit .comments {
+  width: 100%;
+  min-height: 24px;
+  border: 1px solid #ccc;
 }
-
-#blacklayer{
-	background: #000;
-	top: 0;
-	width: 100%;
-	height: 100%;
-	position: fixed;
+#blacklayer {
+  background: #000;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  position: fixed;
 }
-
-#whitelayer{
-	position: fixed;
-	background: #FFF;
-	top: 3%;
-	left:50%;
-	width: 755px;
-	margin: 0 0 0 -370px;
-	height: 94%;
-	overflow: auto;
+#whitelayer {
+  position: fixed;
+  background: #FFF;
+  top: 3%;
+  left: 50%;
+  width: 755px;
+  margin: 0 0 0 -370px;
+  height: 94%;
+  overflow: auto;
 }
-
 #blacklayer,
-#whitelayer{
-	z-index: -1;
-	opacity: 0;
+#whitelayer {
+  z-index: -1;
+  opacity: 0;
 }
-
 #blacklayer.show,
-#whitelayer.show{
-	-webkit-transition: opacity 0.8s;
-	   -moz-transition: opacity 0.8s;
-	    -ms-transition: opacity 0.8s;
-	     -o-transition: opacity 0.8s;
-	        transition: opacity 0.8s;
+#whitelayer.show {
+  -webkit-transition: opacity 0.8s;
+  -moz-transition: opacity 0.8s;
+  -ms-transition: opacity 0.8s;
+  -o-transition: opacity 0.8s;
+  transition: opacity 0.8s;
 }
-
-#blacklayer.show{
-	opacity: 0.7;
-	z-index: 1000;
+#blacklayer.show {
+  opacity: 0.7;
+  z-index: 1000;
 }
-
-#whitelayer.show{
-	opacity: 1;
-	z-index: 1001;
+#whitelayer.show {
+  opacity: 1;
+  z-index: 1001;
 }
-
-#whitelayer ul{
-	overflow: hidden;
-	padding-right: 20px;
-	padding-top: 20px;
+#whitelayer ul {
+  overflow: hidden;
+  padding-right: 20px;
+  padding-top: 20px;
 }
-
-#whitelayer ul li{
-	float: left;
-	margin-left: 20px;
-	margin-bottom: 20px;
+#whitelayer ul li {
+  float: left;
+  margin-left: 20px;
+  margin-bottom: 20px;
 }
-
-#whitelayer ul li img{
-	cursor: pointer
+#whitelayer ul li img {
+  cursor: pointer
 }
-
 .posts.add section,
 .posts.edit section,
-.posts.confirm section{
-	float: left;
-	width: 620px;
+.posts.confirm section {
+  float: left;
+  width: 620px;
 }
-
 h2,
-h2{
-	text-align: left;
-	font-weight: normal;
-	margin-bottom: 16px;
-	font-size: 2.4rem; font-size: 24px;
+h2 {
+  text-align: left;
+  font-weight: normal;
+  margin-bottom: 16px;
+  font-size: 2.4rem;
+  font-size: 24px;
 }
-
 .posts h1,
 .posts p,
 .img-select,
 .posts .local-area,
+.posts .trip-type,
 .posts .thumb-area,
 .posts #main-contents .comments,
-.posts #main-contents .area-info{
-	margin-bottom: 30px;
+.posts #main-contents .area-info {
+  margin-bottom: 30px;
 }
-
 .posts.add .local-area,
-.posts.edit .local-area{
-	border: 1px solid #2ECC71;
-	padding-top: 24px;
-	padding-right: 24px;
+.posts.edit .local-area {
+  border: 1px solid #2ECC71;
+  padding-top: 24px;
+  padding-right: 24px;
 }
-
 .posts.add .local-area input,
-.posts.edit .local-area input{
-	font-size: 1.6rem; font-size: 16px;
-	margin-right: 4px;
+.posts.edit .local-area input {
+  font-size: 1.6rem;
+  font-size: 16px;
+  margin-right: 4px;
 }
-
 .posts.add .local-area p,
-.posts.edit .local-area p{
-	margin:0 0 24px 24px;
+.posts.edit .local-area p {
+  margin: 0 0 24px 24px;
 }
-
-#map{
-	width: 300px;
-	float: right;
+#map {
+  width: 300px;
+  float: right;
 }
-
-.posts .thumb-area{
-	width: 300px;
-	height: 300px;
-	background: #F3f3f3;
-	line-height: 320px;
-	text-align: center;
-	cursor: pointer;
-	font-size: 2.4rem; font-size: 24px;
+.posts .thumb-area {
+  width: 300px;
+  height: 300px;
+  background: #F3f3f3;
+  line-height: 320px;
+  text-align: center;
+  cursor: pointer;
+  font-size: 2.4rem;
+  font-size: 24px;
 }
-
-.posts .thumb-area img{
-	width: 100%;
-	height: auto;
+.posts .thumb-area img {
+  width: 100%;
+  height: auto;
 }
-
-.posts #main-contents{
-	border-top: 1px solid #ccc;
-	padding-top: 24px;
+.posts #main-contents {
+  border-top: 1px solid #ccc;
+  padding-top: 24px;
 }
-
-.posts #main-contents .time input[type=number]{
-	line-height: 2.4rem; line-height: 24px;
-	vertical-align: bottom;
-	margin-right: 8px;
-	font-size: 1.6rem; font-size: 16px;
+.posts #main-contents .time input[type=number] {
+  line-height: 2.4rem;
+  line-height: 24px;
+  vertical-align: bottom;
+  margin-right: 8px;
+  font-size: 1.6rem;
+  font-size: 16px;
 }
-
-.posts #main-contents .time span{
-	margin-right: 24px;
+.posts #main-contents .time span {
+  margin-right: 24px;
 }
-
-.posts #contents .post-title input[type=text]{
-	width: 100%;
-	line-height: 32px;
-	font-size: 2.4rem; font-size: 24px;
+.posts #contents .post-title input[type=text] {
+  width: 100%;
+  line-height: 32px;
+  font-size: 2.4rem;
+  font-size: 24px;
 }
-
-.posts #main-contents .event-title input[type=text]{
-	width: 100%;
-	line-height: 24px;
-	font-size: 1.6rem; font-size: 16px;
-	box-sizing: border-box;
+.posts #main-contents .event-title input[type=text] {
+  width: 100%;
+  line-height: 24px;
+  font-size: 1.6rem;
+  font-size: 16px;
+  box-sizing: border-box;
 }
-
-.posts #addpost-support{
-	clear: both;
-	width: 620px;
-	overflow: hidden;
+.posts #addpost-support {
+  clear: both;
+  width: 620px;
+  overflow: hidden;
 }
-
-.posts #main-contents .img-select li{
-	width: 290px;
-	height: 290px;
-	line-height: 300px;
-	background: #F3F3F3;
-	text-align: center;
-	font-size: 2.4rem; font-size: 24px;
-	float: left;
-	cursor: pointer;
+.posts #main-contents .img-select li {
+  width: 290px;
+  height: 290px;
+  line-height: 300px;
+  background: #F3F3F3;
+  text-align: center;
+  font-size: 2.4rem;
+  font-size: 24px;
+  float: left;
+  cursor: pointer;
 }
-
-.posts #main-contents .img-select li img{
-	width: 100%;
-	height: 100%;
+.posts #main-contents .img-select li img {
+  width: 100%;
+  height: 100%;
 }
-
-.posts #main-contents .img-select li:nth-child(odd){
-	margin: 0 30px 0 0 ;
+.posts #main-contents .img-select li:nth-child(odd) {
+  margin: 0 30px 0 0;
 }
-
 .posts.add #main-contents .comments,
 .posts.add #main-contents .area-info,
 .posts.edit #main-contents .comments,
-.posts.edit #main-contents .area-info{
-	clear: both;
-	min-height: 70px;
-	border: 1px solid #ccc;	
-	box-sizing: border-box;
+.posts.edit #main-contents .area-info {
+  clear: both;
+  min-height: 70px;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
 }
-
-.posts #main-contents section{
-	margin: 0 0 30px 0;
+.posts #main-contents section {
+  margin: 0 0 30px 0;
 }
-
-#addpost-support a{
-	text-align: center;
-	width: 30%;
-	line-height: 60px;
-	height: 60px;
-	display: block;
-	float: left;
-	margin: 0 5% 0 0;
+#addpost-support a {
+  text-align: center;
+  width: 30%;
+  line-height: 60px;
+  height: 60px;
+  display: block;
+  float: left;
+  margin: 0 5% 0 0;
 }
-
-#addpost-support a:last-child{
-	margin: 0;
+#addpost-support a:last-child {
+  margin: 0;
 }
-
-#addpost-support a.add-tday{
-	border: 2px solid #2ECC71;
-	background: #fff;
-	color: #2ECC71;
-	box-sizing: border-box;
+#addpost-support a.add-tday {
+  border: 2px solid #2ECC71;
+  background: #fff;
+  color: #2ECC71;
+  box-sizing: border-box;
 }
-
-#addpost-support a.add-tday:hover{
-	background: #2ECC71;
-	color: #FFF;
-	text-decoration: none;
+#addpost-support a.add-tday:hover {
+  background: #2ECC71;
+  color: #FFF;
+  text-decoration: none;
 }
-
-#addpost-support a.add-nday{
-	border: 2px solid #3498DB;
-	background: #fff;
-	color: #3498DB;
-	box-sizing: border-box;
+#addpost-support a.add-nday {
+  border: 2px solid #3498DB;
+  background: #fff;
+  color: #3498DB;
+  box-sizing: border-box;
 }
-
-#addpost-support a.add-nday:hover{
-	background: #3498DB;
-	color: #FFF;
-	text-decoration: none;
+#addpost-support a.add-nday:hover {
+  background: #3498DB;
+  color: #FFF;
+  text-decoration: none;
 }
-
-#addpost-support a.end-trip{
-	border: 2px solid #999;
-	box-sizing: border-box;
-	color: #999;
+#addpost-support a.end-trip {
+  border: 2px solid #999;
+  box-sizing: border-box;
+  color: #999;
 }
-
-#addpost-support a.end-trip:hover{
-	background: #999;
-	color: #FFF;
-	text-decoration: none;
+#addpost-support a.end-trip:hover {
+  background: #999;
+  color: #FFF;
+  text-decoration: none;
 }
-
 /******************************
 
 	▼posts/confirm.php
 
 ******************************/
 
-.confirm #contents .post-title{
-	font-size: 2.4rem; font-size: 24px;
+.confirm #contents .post-title {
+  font-size: 2.4rem;
+  font-size: 24px;
 }
-
-.posts.confirm h2{
-	font-weight: normal;
-	font-size: 1.6rem; font-size: 16px;
-	margin: 0 0 16px 0;
+.posts.confirm h2 {
+  font-weight: normal;
+  font-size: 1.6rem;
+  font-size: 16px;
+  margin: 0 0 16px 0;
 }
-
-.posts.confirm .txt-area{
-	float: left;
-	width: 620px;
+.posts.confirm .txt-area {
+  float: left;
+  width: 620px;
 }
-
-.posts.confirm .img-area{
-	float: right;
+.posts.confirm .img-area {
+  float: right;
 }
-
-.posts.confirm #main-contents{
-	clear: both;
+.posts.confirm #main-contents {
+  clear: both;
 }
-
-.posts.confirm #main-contents .time span{
-	margin: 0 8px 0 0;
+.posts.confirm #main-contents .time span {
+  margin: 0 8px 0 0;
 }
-
-.posts.confirm #main-contents .time p{
-	margin: 0 0 16px 0;
+.posts.confirm #main-contents .time p {
+  margin: 0 0 16px 0;
 }
-
-.posts.confirm #main-contents .time p:before{
-	content: "ー ";
+.posts.confirm #main-contents .time p:before {
+  content: "ー ";
 }
-
-.posts.confirm #main-contents .event-title{
-	font-size: 2.4rem; font-size: 24px;
+.posts.confirm #main-contents .event-title {
+  font-size: 2.4rem;
+  font-size: 24px;
 }
-
-.posts.confirm #main-contents .comments{
-	line-height: 24px;
-	padding-bottom: 24px;
-	border-bottom: 1px solid #ccc;
-	margin: 0 0 16px 0;
+.posts.confirm #main-contents .comments {
+  line-height: 24px;
+  padding-bottom: 24px;
+  border-bottom: 1px solid #ccc;
+  margin: 0 0 16px 0;
 }
-
-.posts.confirm #main-contents .area-info{
-	background: url(../images/location.png) no-repeat left center;
-	padding: 0 0 0 14px;
-	color: #999;
+.posts.confirm #main-contents .area-info {
+  background: url(../images/location.png) no-repeat left center;
+  padding: 0 0 0 14px;
+  color: #999;
 }
-
-.posts.confirm .post-amend{
-	border: 2px solid #2ECC71;
-	background: #fff;
-	color: #2ECC71;
-	box-sizing: border-box;
-	
+.posts.confirm .post-amend {
+  border: 2px solid #2ECC71;
+  background: #fff;
+  color: #2ECC71;
+  box-sizing: border-box;
 }
-.posts.confirm .post-complete{
-	border: 2px solid #2ECC71;
-	background: #fff;
-	color: #2ECC71;
-	box-sizing: border-box;	
+.posts.confirm .post-complete {
+  border: 2px solid #2ECC71;
+  background: #fff;
+  color: #2ECC71;
+  box-sizing: border-box;
 }
-
-.posts.confirm .post-amend{
-	border: 2px solid #2ECC71;
-	background: #fff;
-	color: #2ECC71;
-	box-sizing: border-box;
+.posts.confirm .post-amend {
+  border: 2px solid #2ECC71;
+  background: #fff;
+  color: #2ECC71;
+  box-sizing: border-box;
 }
-
-.posts.confirm .post-complete:hover{
-	background: #2ECC71;
-	color: #FFF;
-	text-decoration: none;
+.posts.confirm .post-complete:hover {
+  background: #2ECC71;
+  color: #FFF;
+  text-decoration: none;
 }
-
-.posts.confirm .post-amend:hover{
-	background: #2ECC71;
-	color: #FFF;
-	text-decoration: none;
+.posts.confirm .post-amend:hover {
+  background: #2ECC71;
+  color: #FFF;
+  text-decoration: none;
 }
-
 /******************************
 
 	▼post/view.php
 
 ******************************/
 
-#main{
-	float: left;
-	width: 620px;
+#main {
+  float: left;
+  width: 620px;
 }
-
-#sub{
-	float: right;
-	width: 300px;
+#sub {
+  float: right;
+  width: 300px;
 }
-
-#contents{
-	overflow: hidden;
+#contents {
+  overflow: hidden;
 }
-
-.posts.view #main #art-header p.local{
-	margin: 0 0 20px 0;
+.posts.view #main #art-header p.local {
+  margin: 0 0 20px 0;
 }
-
-.posts.view #main #art-header{
-	margin: 0 0 30px 0;
+.posts.view #main #art-header {
+  margin: 0 0 30px 0;
 }
-
-.posts.view #main #art-header #mainVisual{
-	text-align: center;
+.posts.view #main #art-header #mainVisual {
+  text-align: center;
 }
-
-.posts.view #main .day{
-	border-top: 1px solid #ccc;
-	padding: 10px 0 0 0;
-	margin: 0 0 50px 0;
+.posts.view #main .day {
+  border-top: 1px solid #ccc;
+  padding: 10px 0 0 0;
+  margin: 0 0 50px 0;
 }
-
-.posts.view #main .day .day-data{
-	font-size: 2.4rem; font-size: 24px;
-	font-weight: bold;
+.posts.view #main .day .day-data {
+  font-size: 2.4rem;
+  font-size: 24px;
+  font-weight: bold;
 }
-
-.posts.view #main .time .time-data{
-	margin: 0 0 10px 0;
+.posts.view #main .time .time-data {
+  margin: 0 0 10px 0;
 }
-
 .posts.view #main .time .time-data:before {
-	content: "ー ";
+  content: "ー ";
 }
-
-.posts.view #main .event-title{
-	font-size: 2.4rem; font-size: 24px;
-	margin: 0 0 30px 0;
+.posts.view #main .event-title {
+  font-size: 2.4rem;
+  font-size: 24px;
+  margin: 0 0 30px 0;
 }
-
-.posts.view #main .img-select{
-	overflow: hidden;
+.posts.view #main .img-select {
+  overflow: hidden;
 }
-
-.posts.view #main .img-select li{
-	float: left;
+.posts.view #main .img-select li {
+  float: left;
 }
-
-.posts.view #main .img-select li:nth-child(odd){
-	margin: 0 30px 0 0;
+.posts.view #main .img-select li:nth-child(odd) {
+  margin: 0 30px 0 0;
 }
-
-.posts.view #main section.time{
-	margin: 0 0 30px 0;
+.posts.view #main section.time {
+  margin: 0 0 30px 0;
 }
-
-.posts.view #main .comments{
-	line-height: 1.5;
+.posts.view #main .comments {
+  line-height: 1.5;
 }
-
-.posts.view #main .area-info{
-	background: url(../images/location.png) no-repeat left center;
-	padding: 0 0 0 14px;
-	color: #999;
-	margin: 10px 0 0 0;
+.posts.view #main .area-info {
+  background: url(../images/location.png) no-repeat left center;
+  padding: 0 0 0 14px;
+  color: #999;
+  margin: 10px 0 0 0;
 }
-
-.posts.view #main #art-comments h2{
-	margin: 0 0 20px 0;
+.posts.view #main #art-comments h2 {
+  margin: 0 0 20px 0;
 }
-
- #add-area{
-	padding: 10px;
-	border: 1px solid #ccc;
-	overflow: hidden;
-	margin: 0 0 20px 0;
+#add-area {
+  padding: 10px;
+  border: 1px solid #ccc;
+  overflow: hidden;
+  margin: 0 0 20px 0;
 }
-
-.posts.view #main #add-area .my-icon{
-	width: 48px;
-	height: 48px;
-	background: url(/images/user-icon-default.png) no-repeat 0 top;
-	background-size: 100%;
-	border: 1px solid #ccc;
-	float: left;
-	margin: 0 20px 0 0;
+.posts.view #main #add-area .my-icon {
+  width: 48px;
+  height: 48px;
+  background: url(/images/user-icon-default.png) no-repeat 0 top;
+  background-size: 100%;
+  border: 1px solid #ccc;
+  float: left;
+  margin: 0 20px 0 0;
 }
-
-.posts.view #main #add-area .comments{
-	float: left;
-	width: 526px;
-	min-height: 48px;
-	border: 1px solid #ccc;
+.posts.view #main #add-area .comments {
+  float: left;
+  width: 526px;
+  min-height: 48px;
+  border: 1px solid #ccc;
 }
-
-.posts.view #main #add-area .comments p{
-	min-height: 48px;
-	margin: 0;
+.posts.view #main #add-area .comments p {
+  min-height: 48px;
+  margin: 0;
 }
-
-.posts.view #main #add-area input[type=submit]{
-	height: 24px;
-	border: none;
-	padding: 0 10px;
-	margin: 10px 0 0 70px;
-	cursor: pointer;
+.posts.view #main #add-area input[type=submit] {
+  height: 24px;
+  border: none;
+  padding: 0 10px;
+  margin: 10px 0 0 70px;
+  cursor: pointer;
 }
-
-.posts.view #main #art-comments #comment-list li{
-	padding: 15px 0;
-	border-bottom: 1px solid #ccc;
-	overflow: hidden;
+.posts.view #main #art-comments #comment-list li {
+  padding: 15px 0;
+  border-bottom: 1px solid #ccc;
+  overflow: hidden;
 }
-
-.posts.view #main #art-comments #comment-list li:nth-child(odd) .user-icon{
-	float: left;
+.posts.view #main #art-comments #comment-list li:nth-child(odd) .user-icon {
+  float: left;
 }
-
-.posts.view #main #art-comments #comment-list li:nth-child(even) .user-icon{
-	float: right;
+.posts.view #main #art-comments #comment-list li:nth-child(even) .user-icon {
+  float: right;
 }
-
-.posts.view #main #art-comments #comment-list li:nth-child(odd) p{
-	margin: 0 0 0 70px;
+.posts.view #main #art-comments #comment-list li:nth-child(odd) p {
+  margin: 0 0 0 70px;
 }
-
-.posts.view #main #art-comments #comment-list li:nth-child(even) p{
-	margin: 0 70px 0 0;
+.posts.view #main #art-comments #comment-list li:nth-child(even) p {
+  margin: 0 70px 0 0;
 }
-
-.posts.view #main #art-comments #comment-list li p{
-	margin: 0 0 10px 0;
+.posts.view #main #art-comments #comment-list li p {
+  margin: 0 0 10px 0;
 }
-
-.posts.view #main #art-comments #comment-list li:nth-child(odd) p.data span{
-	margin: 0 20px 0 0;
-	color: #999;
+.posts.view #main #art-comments #comment-list li:nth-child(odd) p.data span {
+  margin: 0 20px 0 0;
+  color: #999;
 }
-
-.posts.view #main #art-comments #comment-list li:nth-child(odd) p.data{
-	font-size: 1.2rem; font-size: 12px;
-	margin: 0 0 10px 70px;
+.posts.view #main #art-comments #comment-list li:nth-child(odd) p.data {
+  font-size: 1.2rem;
+  font-size: 12px;
+  margin: 0 0 10px 70px;
 }
-
-.posts.view #main #art-comments #comment-list li:nth-child(even) p.data{
-	font-size: 1.2rem; font-size: 12px;
-	margin: 0 70px 10px 0;
+.posts.view #main #art-comments #comment-list li:nth-child(even) p.data {
+  font-size: 1.2rem;
+  font-size: 12px;
+  margin: 0 70px 10px 0;
 }
-
-.posts.view #main #art-comments #comment-list .user-icon{
-	width: 48px;
-	height: 48px;
-	background: url(/images/user-icon-default.png) no-repeat 0 top;
-	background-size: 100%;
-	border: 1px solid #ccc;
+.posts.view #main #art-comments #comment-list .user-icon {
+  width: 48px;
+  height: 48px;
+  background: url(/images/user-icon-default.png) no-repeat 0 top;
+  background-size: 100%;
+  border: 1px solid #ccc;
 }
-
-.posts.view #sub .user-prof{
-	border: 3px solid #333;
-	padding: 10px;
-	overflow: hidden;
-	margin: 0 0 10px 0;
+.posts.view #sub .user-prof {
+  border: 3px solid #333;
+  padding: 10px;
+  overflow: hidden;
+  margin: 0 0 10px 0;
 }
-
-.posts.view #sub .user-prof .thumb{
-	width: 48px;
-	height: 48px;
-	background: url(/images/user-icon-default.png) no-repeat 0 top;
-	background-size: 100%;
-	float: right;
-	border: 1px solid #ccc;
+.posts.view #sub .user-prof .thumb {
+  width: 48px;
+  height: 48px;
+  background: url(/images/user-icon-default.png) no-repeat 0 top;
+  background-size: 100%;
+  float: right;
+  border: 1px solid #ccc;
 }
-
-.posts.view #sub .user-prof .name{
-	margin: 0 0 10px 0;
-	font-size: 1.6rem; font-size: 16px;
+.posts.view #sub .user-prof .name {
+  margin: 0 0 10px 0;
+  font-size: 1.6rem;
+  font-size: 16px;
 }
-
-.posts.view #sub .local{
-	margin: 0;
-	background: url(../images/location.png) no-repeat left center;
-	padding: 0 0 0 14px;
-	font-size: 1.2rem; font-size: 12px;
+.posts.view #sub .local {
+  margin: 0;
+  background: url(../images/location.png) no-repeat left center;
+  padding: 0 0 0 14px;
+  font-size: 1.2rem;
+  font-size: 12px;
 }
-
-.posts.view #sub .bookmark{
-	border: 3px solid #2ECC71;
-	padding: 15px 15px 15px 40px;
-	overflow: hidden;
-	margin: 0 0 30px 0;
-	background: url(../images/bookmark.png) no-repeat 10px 50%;
-	background-size: 20px 20px;
+.posts.view #sub .bookmark {
+  border: 3px solid #2ECC71;
+  padding: 15px 15px 15px 40px;
+  overflow: hidden;
+  margin: 0 0 30px 0;
+  background: url(../images/bookmark.png) no-repeat 10px 50%;
+  background-size: 20px 20px;
 }
-
-.posts.view #sub .related  li{
-	padding: 10px 0;
-	border-top: 1px solid #ccc;
-	overflow: hidden;
+.posts.view #sub .related li {
+  padding: 10px 0;
+  border-top: 1px solid #ccc;
+  overflow: hidden;
 }
-
-.posts.view #sub .map{
-	margin: 0 0 30px 0;
+.posts.view #sub .map {
+  margin: 0 0 30px 0;
 }
-
-.posts.view #sub .related  ul{
-	border-bottom: 1px solid #ccc;
+.posts.view #sub .related ul {
+  border-bottom: 1px solid #ccc;
 }
-
-.posts.view #sub .related  ul a.thumb{
-	float: left;
+.posts.view #sub .related ul a.thumb {
+  float: left;
 }
-
-.posts.view #sub .related  ul a.thumb img{
-	width: 100px;
-	height: 100px;
+.posts.view #sub .related ul a.thumb img {
+  width: 100px;
+  height: 100px;
 }
-
-.posts.view #sub .related ul .txt{
-	float: right;
-	width: 190px;
+.posts.view #sub .related ul .txt {
+  float: right;
+  width: 190px;
 }
-
-.posts.view #sub .related  ul .txt h3{
-	margin: 0 0 10px 0;
+.posts.view #sub .related ul .txt h3 {
+  margin: 0 0 10px 0;
 }
-
-.posts.view #sub .related ul .txt p.data{
-	font-size: 1.2rem; font-size: 12px;
-	color: #999;
+.posts.view #sub .related ul .txt p.data {
+  font-size: 1.2rem;
+  font-size: 12px;
+  color: #999;
 }
-
 /******************************
 
 	▼mypage/index.php
@@ -1115,294 +1000,248 @@ h2{
 ******************************/
 
 .title-tab ul {
-	border-bottom: 1px solid #ccc;
+  border-bottom: 1px solid #ccc;
 }
-
 .title-tab {
-	margin: 0 0 10px 0;
+  margin: 0 0 10px 0;
 }
-
 .title-tab ul li {
-	border: 1px solid #ccc;
-	background: #f3f3f3;
+  border: 1px solid #ccc;
+  background: #f3f3f3;
 }
-
 .title-tab ul li.ui-state-active {
-	background: #FFF;
+  background: #FFF;
 }
-
 .title-tab ul li.ui-state-focus {
-	outline: none;
+  outline: none;
 }
-
 .post-list ul {
-	overflow: hidden;
-	margin-left: -19px;
+  overflow: hidden;
+  margin-left: -19px;
 }
-
-.post-list ul li{
-	float: left;
-	width: 194px;
-	margin-left: 19px;
+.post-list ul li {
+  float: left;
+  width: 194px;
+  margin-left: 19px;
 }
-
-.post-list ul li img{
-	height: 194px;
-	overflow: hidden;
-	background: #CCC;
-	margin-bottom: 8px;
+.post-list ul li img {
+  height: 194px;
+  overflow: hidden;
+  background: #CCC;
+  margin-bottom: 8px;
 }
-
-.post-list.post-style-01 li{
-	height: 296px;
+.post-list.post-style-01 li {
+  height: 296px;
 }
-
-.post-list.post-style-02 li{
-	height: 321px;
+.post-list.post-style-02 li {
+  height: 321px;
 }
-
-.post-list.post-style-02 li .location{
-	margin: 0 0 8px 0;
+.post-list.post-style-02 li .location {
+  margin: 0 0 8px 0;
 }
-
-.post-list.post-style-02 li .post-edit{
-	font-size: 1.2rem; font-size: 12px;
+.post-list.post-style-02 li .post-edit {
+  font-size: 1.2rem;
+  font-size: 12px;
 }
-
-.post-list.post-style-02 li .post-edit a:before{
-	content: ">";
+.post-list.post-style-02 li .post-edit a:before {
+  content: ">";
 }
-.post-list ul h3{
-	font-size: 1.6rem; font-size: 16px;
-	margin-bottom: 8px;
+.post-list ul h3 {
+  font-size: 1.6rem;
+  font-size: 16px;
+  margin-bottom: 8px;
 }
-
-.post-list ul .location{
-	background: url(../images/location.png) no-repeat left center;
-	font-size: 1.2rem;
-	font-size: 12px;
-	padding-left: 14px;
+.post-list ul .location {
+  background: url(../images/location.png) no-repeat left center;
+  font-size: 1.2rem;
+  font-size: 12px;
+  padding-left: 14px;
 }
-
-.post-list ul .location a{
-	color: #333;
+.post-list ul .location a {
+  color: #333;
 }
-
 .timeline .user-info {
-	overflow: hidden;
-	padding: 0 0 15px 0;
-	margin: 0 0 15px 0;
-	border-bottom: 1px solid #ccc;
+  overflow: hidden;
+  padding: 0 0 15px 0;
+  margin: 0 0 15px 0;
+  border-bottom: 1px solid #ccc;
 }
-
-.timeline .user-info .user-img{
-	float: left;
-	margin: 0 10px 0 0;
+.timeline .user-info .user-img {
+  float: left;
+  margin: 0 10px 0 0;
 }
-
-.timeline .user-info .user-img img{
-	display: block;
+.timeline .user-info .user-img img {
+  display: block;
 }
-
-.timeline .user-info .user-name{
-	font-size: 1.6rem; font-size: 16px;
-	margin: 0 0 10px 0;
+.timeline .user-info .user-name {
+  font-size: 1.6rem;
+  font-size: 16px;
+  margin: 0 0 10px 0;
 }
-
 .timeline .user-things {
-	overflow: hidden;
+  overflow: hidden;
 }
-
-.timeline .user-things .img{
-	float: left;
-	margin: 0 20px 0 0;
+.timeline .user-things .img {
+  float: left;
+  margin: 0 20px 0 0;
 }
-
-.timeline .user-things .ttl{
-	font-size: 1.6rem; font-size: 16px;
-	font-weight: bold;
-	margin: 0 0 10px 0;
+.timeline .user-things .ttl {
+  font-size: 1.6rem;
+  font-size: 16px;
+  font-weight: bold;
+  margin: 0 0 10px 0;
 }
-
-.timeline .user-things .txt{
-	line-height: 1.25;
-	margin: 0 0 10px 0;
+.timeline .user-things .txt {
+  line-height: 1.25;
+  margin: 0 0 10px 0;
 }
-
-.timeline .user-things .location{
-	background: url(../images/location.png) no-repeat left top;
-	float: left;
-	padding: 0 0 0 14px;
-	font-size: 1.2rem; font-size: 12px;
+.timeline .user-things .location {
+  background: url(../images/location.png) no-repeat left top;
+  float: left;
+  padding: 0 0 0 14px;
+  font-size: 1.2rem;
+  font-size: 12px;
 }
-
-.timeline ul li{
-	padding: 20px;
-	background: #f3f3f3;
-	margin: 0 0 20px 0;
+.timeline ul li {
+  padding: 20px;
+  background: #f3f3f3;
+  margin: 0 0 20px 0;
 }
-
-.timeline ul li .user-things a{
-	color: #666;
-	display: block;
-	overflow: hidden;
+.timeline ul li .user-things a {
+  color: #666;
+  display: block;
+  overflow: hidden;
 }
-
-.timeline ul li .user-things a:hover{
-	text-decoration: none;
+.timeline ul li .user-things a:hover {
+  text-decoration: none;
 }
-
-.timeline ul li a .ttl{
-	color: #333;
+.timeline ul li a .ttl {
+  color: #333;
 }
-
 .post-list,
 .timeline {
-	margin: 0 0 40px 0;
+  margin: 0 0 40px 0;
 }
-
 .post-list h2,
 .timeline h2 {
-	margin-bottom: 20px;
+  margin-bottom: 20px;
 }
-
 .user-area {
-	border: 1px solid #ccc;
-	width: 100%;
+  border: 1px solid #ccc;
+  width: 100%;
 }
-
 .user-area .user-head {
-	border-bottom: 1px solid #ccc;
-	overflow: hidden;
-	padding: 5px 10px;
+  border-bottom: 1px solid #ccc;
+  overflow: hidden;
+  padding: 5px 10px;
 }
-
 .user-area .user-head .txt {
-	float: left;
+  float: left;
 }
-
 .user-area .user-head .user-edit {
-	float: right;
+  float: right;
 }
-
 .user-area .user-info {
-	overflow: hidden;
+  overflow: hidden;
 }
-
 .user-area .user-info .user-img {
-	float: right;
+  float: right;
 }
-
-.user-area .user-info .user-img img{
-	display: block;
+.user-area .user-info .user-img img {
+  display: block;
 }
-
 .user-area .user-info .user-name {
-	font-size: 1.6rem; font-size: 16px;
-	padding: 10px;
+  font-size: 1.6rem;
+  font-size: 16px;
+  padding: 10px;
 }
-
 .user-info .location {
-	margin: 0 0 0 10px;
-	padding: 0 10px 10px 14px;
-	background: url(../images/location.png) no-repeat left top;
-	font-size: 1.2rem; font-size: 12px;
-	color: #666;
+  margin: 0 0 0 10px;
+  padding: 0 10px 10px 14px;
+  background: url(../images/location.png) no-repeat left top;
+  font-size: 1.2rem;
+  font-size: 12px;
+  color: #666;
 }
-
 .user-area .user-meta ul {
-	overflow: hidden;
+  overflow: hidden;
 }
-
-.user-area .user-meta ul li{
-	width: 50%;
-	float: left;
-	box-sizing: border-box;
-	border-right: 1px solid #ccc;
-	border-top: 1px solid #ccc;
+.user-area .user-meta ul li {
+  width: 50%;
+  float: left;
+  box-sizing: border-box;
+  border-right: 1px solid #ccc;
+  border-top: 1px solid #ccc;
 }
-
-.user-area .user-meta ul li:nth-child(even){
-	border-right: none;
+.user-area .user-meta ul li:nth-child(even) {
+  border-right: none;
 }
-
 .user-area .user-meta a .txt {
-	color: #666;
+  color: #666;
 }
-
 .user-area .user-meta a {
-	padding: 10px 20px;
-	display: block;
+  padding: 10px 20px;
+  display: block;
 }
-
-.user-area .user-meta a:hover{
-	text-decoration: none;
-	background: #f3f3f3;
+.user-area .user-meta a:hover {
+  text-decoration: none;
+  background: #f3f3f3;
 }
-
 .user-area .user-meta a .num {
-	text-align: right;
-	padding: 20px 0 0 0;
-	font-size: 2.4rem; font-size: 24px;
+  text-align: right;
+  padding: 20px 0 0 0;
+  font-size: 2.4rem;
+  font-size: 24px;
 }
-
-#sub .sub-button a{
-	background: #666;
-	padding: 20px;
-	display: block;
-	color: #FFF;
+#sub .sub-button a {
+  background: #666;
+  padding: 20px;
+  display: block;
+  color: #FFF;
 }
-#sub .sub-button a:hover{
-	background: #fff;
-	border: 3px solid #666;
-	color: #666;
-	padding: 17px;
-	text-decoration: none;
+#sub .sub-button a:hover {
+  background: #fff;
+  border: 3px solid #666;
+  color: #666;
+  padding: 17px;
+  text-decoration: none;
 }
 #sub .user-area,
 #sub .sub-button {
-	margin: 0 0 10px 0;
+  margin: 0 0 10px 0;
 }
-
 .comment-history {
-	border: 1px solid #ccc;
+  border: 1px solid #ccc;
 }
-
 .comment-history .ttl {
-	padding: 5px 10px;
-	border-bottom: 1px solid #ccc;
+  padding: 5px 10px;
+  border-bottom: 1px solid #ccc;
 }
-
 .comment-history ul {
-	padding: 0 10px;
-	border-bottom: 1px solid #ccc;
+  padding: 0 10px;
+  border-bottom: 1px solid #ccc;
 }
-
 .comment-history ul li {
-	max-height: 60px;
-	padding: 10px 0;
-	border-bottom: 1px solid #ccc;
-	font-size: 12px;
+  max-height: 60px;
+  padding: 10px 0;
+  border-bottom: 1px solid #ccc;
+  font-size: 12px;
 }
-
 .comment-history ul li .txt a {
-	line-height: 1.5;	
+  line-height: 1.5;
 }
-
-.comment-history ul li .time{
-	color: #999;
+.comment-history ul li .time {
+  color: #999;
 }
-
 .comment-history ul li:last-child {
-	border: none;
+  border: none;
 }
-
-.comment-history .more{
-	padding: 7px 10px;
-	text-align: right;
-	font-size: 1.2rem; font-size: 12px;
+.comment-history .more {
+  padding: 7px 10px;
+  text-align: right;
+  font-size: 1.2rem;
+  font-size: 12px;
 }
-
 /******************************
 
 	▼mypage/setting/
@@ -1410,192 +1249,168 @@ h2{
 ******************************/
 
 .setting .mysetting table {
-	width: 100%;
-	border: 1px solid #f3f3f3;
-	border-collapse: collapse;
+  width: 100%;
+  border: 1px solid #f3f3f3;
+  border-collapse: collapse;
 }
-
 .setting .mysetting table th {
-	padding: 15px 10px 10px 10px;
-	background: #f3f3f3;
-	vertical-align: top;
-	width: 20%;
+  padding: 15px 10px 10px 10px;
+  background: #f3f3f3;
+  vertical-align: top;
+  width: 20%;
 }
-
 .setting .mysetting table td {
-	padding: 10px;
-	border-bottom: 1px solid #f3f3f3;
+  padding: 10px;
+  border-bottom: 1px solid #f3f3f3;
 }
-
-.setting .mysetting table td input[type=text]{
-	width: 100%;
-	line-height: 24px;
-	box-sizing: border-box;
-	border: 2px solid #ccc;
+.setting .mysetting table td input[type=text] {
+  width: 100%;
+  line-height: 24px;
+  box-sizing: border-box;
+  border: 2px solid #ccc;
 }
-
-.setting .mysetting table td textarea{
-	width: 100%;
-	box-sizing: border-box;
-	border: 2px solid #ccc;
+.setting .mysetting table td textarea {
+  width: 100%;
+  box-sizing: border-box;
+  border: 2px solid #ccc;
 }
-.setting .mysetting table .tag-cell td input[type=text]{
-	width: 80%;
-	float: left;
+.setting .mysetting table .tag-cell td input[type=text] {
+  width: 80%;
+  float: left;
 }
-
-.tag-cell td .btn{
-	float: left;
-	width: 20%;
-	background: #666;
-	line-height: 26px;
-	height: 28px;
-	display: block;
-	text-align: center;
-	color: #FFF;
-	border: 2px solid #666;
-	box-sizing: border-box;
+.tag-cell td .btn {
+  float: left;
+  width: 20%;
+  background: #666;
+  line-height: 26px;
+  height: 28px;
+  display: block;
+  text-align: center;
+  color: #FFF;
+  border: 2px solid #666;
+  box-sizing: border-box;
 }
-
-.tag-cell td .btn:hover{
-	background: #fff;
-	border: 2px solid #666;
-	color: #666;
-	text-decoration: none;
+.tag-cell td .btn:hover {
+  background: #fff;
+  border: 2px solid #666;
+  color: #666;
+  text-decoration: none;
 }
-
 .tag-cell td .tag-list {
-	clear: both;
-	padding-top: 10px;
-	overflow: hidden;
+  clear: both;
+  padding-top: 10px;
+  overflow: hidden;
 }
-
-.tag-cell td .tag-list .tag-item{
-	float: left;
-	font-size: 1.2rem; font-size: 12px;
-	padding: 5px 8px;
-	margin: 0 5px 5px 0;
-	background: #ccc;
-	-webkit-border-radius: 2px;
-	        border-radius: 2px;
+.tag-cell td .tag-list .tag-item {
+  float: left;
+  font-size: 1.2rem;
+  font-size: 12px;
+  padding: 5px 8px;
+  margin: 0 5px 5px 0;
+  background: #ccc;
+  -webkit-border-radius: 2px;
+  border-radius: 2px;
 }
-
-.tag-cell td .tag-list .tag-item .tag-close{
-	background: url(/images/icon-close.png) no-repeat 0 0;
-	width: 10px;
-	height: 10px;
-	display: inline-block;
+.tag-cell td .tag-list .tag-item .tag-close {
+  background: url(/images/icon-close.png) no-repeat 0 0;
+  width: 10px;
+  height: 10px;
+  display: inline-block;
 }
-
 .setting .mysetting table td .ttl {
-	margin: 10px 0 10px 0;
+  margin: 10px 0 10px 0;
 }
-
 .setting .mysetting table td .ttl:first-child {
-	margin: 0 0 10px 0;
+  margin: 0 0 10px 0;
 }
-
 .setting .mysetting table td .attention {
-	margin: 10px 0 0 0;
+  margin: 10px 0 0 0;
 }
-
-.setting .confirm-btn a{
-	border: 2px solid #2ECC71;
-	background: #fff;
-	color: #2ECC71;
-	box-sizing: border-box;
-	text-align: center;
-	width: 30%;
-	line-height: 60px;
-	height: 60px;
-	display: block;
-	margin: 30px auto 0 auto;
+.setting .confirm-btn a {
+  border: 2px solid #2ECC71;
+  background: #fff;
+  color: #2ECC71;
+  box-sizing: border-box;
+  text-align: center;
+  width: 30%;
+  line-height: 60px;
+  height: 60px;
+  display: block;
+  margin: 30px auto 0 auto;
 }
-
-.setting .confirm-btn a:hover{
-	background: #2ECC71;
-	color: #FFF;
-	text-decoration: none;
+.setting .confirm-btn a:hover {
+  background: #2ECC71;
+  color: #FFF;
+  text-decoration: none;
 }
 .setting .thumb-area {
-	width: 200px;
-	height: 200px;
-	background: #F3f3f3;
-	line-height: 320px;
-	text-align: center;
-	cursor: pointer;
-	font-size: 2.4rem;
-	font-size: 24px;
-	float: left;
-	margin: 0 20px 20px 0;
+  width: 200px;
+  height: 200px;
+  background: #F3f3f3;
+  line-height: 320px;
+  text-align: center;
+  cursor: pointer;
+  font-size: 2.4rem;
+  font-size: 24px;
+  float: left;
+  margin: 0 20px 20px 0;
 }
-
 /******************************
 
 	▼mypage/follow/index.php
 
 ******************************/
 
-.follow-list ul  {
-	border-top: 1px solid #ccc;
-	margin-bottom: 20px;
-	overflow: hidden;
+.follow-list ul {
+  border-top: 1px solid #ccc;
+  margin-bottom: 20px;
+  overflow: hidden;
 }
-
 .follow-list ul li:nth-child(odd) {
-	border-right: 1px solid #ccc;
+  border-right: 1px solid #ccc;
 }
-
 .follow-list ul li {
-	width: 310px;
-	padding: 10px;
-	display: block;
-	float: left;
-	box-sizing: border-box;
+  width: 310px;
+  padding: 10px;
+  display: block;
+  float: left;
+  box-sizing: border-box;
 }
-
 .follow-list ul li {
-	border-bottom: 1px solid #ccc;
+  border-bottom: 1px solid #ccc;
 }
-
 .follow-list .more {
-	clear: both;
+  clear: both;
 }
-
 .follow-list .user-info .user-img {
-	float: left;
+  float: left;
 }
-
 .follow-list .user-info .fr {
-	width: 200px;
+  width: 200px;
 }
-
 .follow-list .user-info .user-name {
-	margin: 0 0 5px 0;
-	color: #333;
+  margin: 0 0 5px 0;
+  color: #333;
 }
-
 .follow-list .user-info .fr .txt {
-	font-size: 1.2rem; font-size: 12px;
-	color: #666;
-	overflow: hidden;
-	-ms-text-overflow: ellipsis;
-	    text-overflow: ellipsis;
-	margin: 0 0 5px 0;
+  font-size: 1.2rem;
+  font-size: 12px;
+  color: #666;
+  overflow: hidden;
+  -ms-text-overflow: ellipsis;
+  text-overflow: ellipsis;
+  margin: 0 0 5px 0;
 }
 .follow-list .user-info .location {
-	margin: 0;
-	padding: 0 0 0 14px;
+  margin: 0;
+  padding: 0 0 0 14px;
 }
-
 .follow-list .user-info {
-	overflow: hidden;
+  overflow: hidden;
 }
-
 .follow-list a {
-	display: block;
+  display: block;
 }
-
 .follow-list li:hover {
-	background: #f3f3f3;
+  background: #f3f3f3;
 }

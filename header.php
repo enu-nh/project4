@@ -4,6 +4,7 @@
 <head>
 	<link rel="stylesheet" href="<?php echo $home_url; ?>css/megamenu.css">
 	<link rel="stylesheet" href="<?php echo $home_url; ?>css/jquery-ui.min.css">
+	<link rel="stylesheet" href="<?php echo $home_url; ?>css/exvalidation.css">
 	<link rel="stylesheet" href="<?php echo $home_url; ?>css/common.css">
 	<meta charset="UTF-8">
     <meta name="robots" content="noindex" />

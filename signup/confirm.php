@@ -1,4 +1,19 @@
-<?php include '../header.php'; ?>
+<?php include($_SERVER['DOCUMENT_ROOT'] . '/function.php'); ?>
+<!doctype html>
+<html lang="ja-JP">
+<head>
+	<link rel="stylesheet" href="/css/megamenu.css">
+	<link rel="stylesheet" href="/css/jquery-ui.min.css">
+	<link rel="stylesheet" href="/css/exvalidation.css">
+	<link rel="stylesheet" href="/css/common.css">
+	<meta charset="UTF-8">
+    <meta name="robots" content="noindex" />
+	<meta name="description" content="">
+	<title>test</title>
+</head>
+<body class="<?php echo($body_class); ?>">
+	<div id="wrapper">
+<?php include($_SERVER['DOCUMENT_ROOT'] . '/header.php'); ?>
 	<div id="contents">
 			<div class="inner">
 				<h2>新規会員登録</h2>
@@ -6,6 +21,7 @@
 					<form action="complete.php">
 						<ul>
 							<li><p class="question">氏名</p><p class="answer">入力した内容</p></li>
+							<li><p class="question">ニックネーム</p><p class="answer">入力した内容</p></li>
 							<li><p class="question">E-mail</p><p class="answer">入力した内容</p></li>
 							<li><p class="question">パスワード</p><p class="answer">入力した内容</p></li>
 							<li><p class="question">パスワード（確認）</p><p class="answer">入力した内容</p></li>
@@ -21,8 +37,8 @@
 	<!-- /#contents -->
 	<?php include '../footer.php'; ?>
 	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
-	<script src="<?php echo $home_url; ?>js/jquery-accessibleMegaMenu.js"></script>
-	<script src="<?php echo $home_url; ?>js/jquery-ui.min.js"></script>
-	<script src="<?php echo $home_url; ?>js/style.js"></script>
+	<script src="/js/jquery-accessibleMegaMenu.js"></script>
+	<script src="/js/jquery-ui.min.js"></script>
+	<script src="/js/style.js"></script>
 </body>
 </html>

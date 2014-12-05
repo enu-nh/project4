@@ -1,4 +1,10 @@
 $(function () { 
+
+  //フッターの位置
+  var windowH = $(window).height();
+  if(windowH<$(document).height()){
+  }
+  
 	//画像の数
 	img_length = $(".img-select li").length;
 	for(i=0; i<img_length; i++){
@@ -20,22 +26,7 @@ $(function () {
 	    });
 	}
 
-	$("#addpost-support .add-tday").click(function(){
-		$.ajax({
-		  url: "tday.php",
-		}).done(function( html ) {
-		  $(".posts #main-contents section").append(html);
-		});
-		return false;
-	});
-	$("#addpost-support .add-nday").click(function(){
-		$.ajax({
-		  url: "nday.php",
-		}).done(function( html ) {
-		  $(".posts #main-contents").append(html);
-		});
-		return false;
-	});
+	
 	//画像拡大
 	$(".thumb-area").lightbox();
 	$(".img-select li").lightbox();
@@ -48,5 +39,5 @@ $(function () {
 
 	$('.ui-tabs-nav a').focusin(function(){
     this.blur();
-});
+  });
 });

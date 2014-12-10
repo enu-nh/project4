@@ -8,6 +8,7 @@
 <title>test</title>
 </head>
 <body class="<?php echo $body_class; ?>">
+<div id="wrapper">
 <?php include('../include/header.php'); ?>
 <div id="contents">
   <div class="inner">

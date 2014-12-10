@@ -52,10 +52,6 @@
       </div>
       <div id="sub">
         <div class="user-area">
-          <div class="user-head">
-            <div class="txt">プロフィール</div>
-            <div class="user-edit"><a href="/mypage/setting/index.php">編集</a></div>
-          </div>
           <div class="user-info">
             <div class="user-img"><img src="/images/user-icon-default.png" width="60" height="" alt=""></div>
             <div class="user-name">Nagata Hiroaki</div>
@@ -96,7 +92,7 @@
               <div class="txt"><a href="">近辺に住んでいる私の友人に聞いたところ、観光客は少なく穴場スポットであるようです。</a><span class="time">（9月14日）</span></div>
             </li>
           </ul>
-          <div class="more"> <a href="">もっと見る</a> </div>
+          <div class="more"> <a href="/mypage/comments/">もっと見る</a> </div>
         </div>
       </div>
     </div>

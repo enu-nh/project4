@@ -21,7 +21,7 @@
 						<div class="title-tab">
 							<ul>
 								<li><a href="#tabs-1">おすすめ</a></li>
-								<li><a href="#tabs-2">タイムライン</a></li>
+								<li><a href="#tabs-2">アクティビティ</a></li>
 							</ul>
 						</div>
 						<div id="tabs-1">
@@ -319,7 +319,7 @@
 							</li>
 						</ul>
 						<div class="more">
-							<a href="">もっと見る</a>
+							<a href="/mypage/comments/">もっと見る</a>
 						</div>
 					</div>
 				</div>

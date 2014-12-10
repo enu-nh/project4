@@ -1,10 +1,11 @@
 var map;
 var marker = null;
 var geocoder = new google.maps.Geocoder();
+var InitialLatLng = "35.021004,135.755608";
 //マップ初期化
 var mapOptions = {
-	center: new google.maps.LatLng(35.681382, 139.766084),
-	zoom: 4,
+	center: new google.maps.LatLng(35.021004,135.755608),
+	zoom: 1,
 	mapTypeId: google.maps.MapTypeId.RADMAP	
 };
 $(function($){

@@ -51,15 +51,21 @@ $(function(){
   $(".time input").pickatime();
   
   //地図
-  $(".event-map input").click(function(){
+  var initialLat;
+  var initialLng;
+  var latLngArray = [];
+  $(document).on("click",".event-map input",function(){
+      thisHtml = $(this);
+      initialLat = thisHtml.attr("data-lat");
+      initialLng = thisHtml.attr("data-lng");
     $("#map_canvas").remove();
     $(this).parent().append('<div id="map_canvas" style="width:500px; height:300px"></div>');
-    var eventSpotArea = $(this);
+    var eventSpotArea = thisHtml;
     console.log(eventSpotArea);
   
     var geocoder = new google.maps.Geocoder();
     var map;
-    var myLatlng = new google.maps.LatLng(35.6894875,139.6917064); // 座標の初期値
+    var myLatlng = new google.maps.LatLng(initialLat,initialLng); // 座標の初期値
     var marker;
 
     var myOptions = {
@@ -82,6 +88,8 @@ $(function(){
     google.maps.event.addListener(marker, "dragend", function() {
         setLatLng(marker);
         map.setCenter(marker.getPosition());
+        thisHtml.attr("data-lat",plat);
+        thisHtml.attr("data-lng",plng);
     });
 
     setLatLng(marker); // 座標書き出し
@@ -104,6 +112,8 @@ $(function(){
     function setLatLng(marker) {
         var p = marker.getPosition();
         gmap_init(p.lat(),p.lng());
+        plat = p.lat();
+        plng = p.lng();
     }
     
     
@@ -113,14 +123,11 @@ $(function(){
      
       geocoder.geocode({'latLng':latlng},function(results,status){
         if (status == google.maps.GeocoderStatus.OK) {
-          console.log(results[1].formatted_address);
           eventSpotArea.val(results[1].formatted_address);
-     
         } else {
           console.log(status);
         }
       });
-    }
-
+    }//gmap_init
   });
 });

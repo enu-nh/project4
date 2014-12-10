@@ -102,11 +102,11 @@
               </div>
               <h2>スポット名を入力</h2>
               <div class="mb30 event-spot">
-                <textarea name="eventSpot1"  id="eventSpot1" class="chkmax150 chkrequired input-type02" rows="1"></textarea>
+                <textarea name="eventSpot1"  id="eventSpot1" class="input-type02" rows="1"></textarea>
               </div>
               <h2>場所を指定</h2>
               <div class="mb30 event-map">
-                <input type="text" name="eventMap1"  id="eventMap1" class="chkmax150 chkrequired input-type02 chkrequired" rows="1" aria-haspopup="true" aria-expanded="false" readonly aria-readonly="false"/>
+                <input type="text" name="eventMap1"  id="eventMap1" class="chkmax150 chkrequired input-type02 chkrequired" rows="1" aria-haspopup="true" aria-expanded="false" readonly aria-readonly="false" data-lat="35.021004" data-lng="135.755608"/>
               </div>
             </section>
           </article>
@@ -117,10 +117,6 @@
       </div>
       <div id="sub">
         <div class="user-area">
-          <div class="user-head">
-            <div class="txt">プロフィール</div>
-            <div class="user-edit"><a href="/mypage/setting/index.php">編集</a></div>
-          </div>
           <div class="user-info">
             <div class="user-img"><img src="/images/user-icon-default.png" width="60" height="" alt=""></div>
             <div class="user-name">Nagata Hiroaki</div>
@@ -161,7 +157,7 @@
               <div class="txt"><a href="">近辺に住んでいる私の友人に聞いたところ、観光客は少なく穴場スポットであるようです。</a><span class="time">（9月14日）</span></div>
             </li>
           </ul>
-          <div class="more"> <a href="">もっと見る</a> </div>
+          <div class="more"> <a href="/mypage/comments/">もっと見る</a> </div>
         </div>
       </div>
     </div>
@@ -192,8 +188,7 @@
       <li><img src="http://lorempixel.com/160/160" alt=""></li>
     </ul>
   </div>
-  <div id="blacklayer"></div>
-  <?php include '../footer.php'; ?>
+<?php include '../footer.php'; ?>
 <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script> 
 <script src="/js/jquery-accessibleMegaMenu.js"></script> 
 <script src="/js/picker.js"></script> 

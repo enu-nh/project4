@@ -24,23 +24,16 @@ define('CLIENT_SECRET', '0afbfe8798ca4fe7a4de53a1e6f62448');
 function h($str){ return htmlspecialchars($str); } //HTMLに出力するときにエスケープする関数
 
 /************************bodyのclass振り分け処理***********************/
-$url = SITE_URL;
-$script_name = basename($_SERVER['SCRIPT_NAME']);
-//"http://".$_SERVER["HTTP_HOST"].$_SERVER["PHP_SELF"];
-	switch($script_name){
-		case 'index.php':
-			$body_class = 'home';
-			break;
-		case 'signup.php':
-			$body_class = 'signup';
-			break;
-		case 'confirm.php':
-			$body_class = 'signup';
-			break;
-		case 'complete.php':
-			$body_class = 'signup';
-			break;
-	}
+$home_url = "http://".$_SERVER["HTTP_HOST"]."/";
+$file_name = basename( $_SERVER['PHP_SELF'], ".php" );
+if($file_name !== "index"){
+  $body_class = basename(dirname($_SERVER["HTTP_HOST"].$_SERVER["REQUEST_URI"]))." ".$file_name;
+}else{
+  $body_class = basename(dirname($_SERVER['PHP_SELF']));
+  if($body_class == ""){
+    $body_class = "home";
+  }
+}
 /*************************************************************************/
 /********************************SQL文************************************
 create database instagram_test;

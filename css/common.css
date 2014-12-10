@@ -82,7 +82,22 @@ h2 span.attention {
 .mb30 {
   margin: 0 0  30px 0;
 }
-
+.btn {
+  line-height: 60px;
+  height: 60px;
+  width: 186px;
+  display: block;
+  text-align: center;
+  border: 2px solid #2ECC71;
+  background: #fff;
+  color: #2ECC71;
+  box-sizing: border-box;
+}
+.btn:hover {
+  background: #2ECC71;
+  color: #FFF;
+  text-decoration: none;
+}
 /******************************
 
 	▼home
@@ -192,7 +207,7 @@ section {
   color: #333;
   font-weight: bold;
 }
-.home #contents, .signup #contents {
+.home #contents, .signup #contents, .login #contents {
   clear: both;
   padding: 80px 0 155px 0;
 }
@@ -489,10 +504,10 @@ section {
 .posts #main-contnets {
   overflow: hidden;
 }
-.posts #localArea {
+#localArea {
   overflow: hidden;
 }
-.posts #localArea p {
+#localArea p {
   float: left;
 }
 .posts.add .comments, .posts.edit .comments {
@@ -566,19 +581,19 @@ h2, h2 {
   font-size: 2.4rem;
   font-size: 24px;
 }
-.posts h1, .posts p, .img-select, .posts #localArea, .posts #tripType, .posts .thumb-area, .posts #main-contents #comments, .posts #main-contents #areaInfo {
+.posts h1, .posts p, .img-select,#localArea,#tripType, .posts .thumb-area, .posts #main-contents #comments, .posts #main-contents #areaInfo {
   margin-bottom: 30px;
 }
-.posts.add #localArea, .posts.edit #localArea {
+#localArea {
   border: 1px solid #2ECC71;
   padding: 24px 24px 0 24px;
 }
-.posts.add #localArea input, .posts.edit #localArea input {
+#localArea input {
   font-size: 1.6rem;
   font-size: 16px;
   margin-right: 4px;
 }
-.posts.add #localArea p, .posts.edit #localArea p {
+#localArea p {
   width: 80px;
   margin: 0 0 24px 0;
 }
@@ -912,41 +927,46 @@ h2, h2 {
   margin: 10px 0 0 70px;
   cursor: pointer;
 }
-.posts.view #main #art-comments #comment-list li {
+#main #comment-list li {
   padding: 15px 0;
   border-bottom: 1px solid #ccc;
   overflow: hidden;
 }
-.posts.view #main #art-comments #comment-list li:nth-child(odd) .user-icon {
+.posts #main #comment-list li:nth-child(odd) .user-icon {
   float: left;
 }
-.posts.view #main #art-comments #comment-list li:nth-child(even) .user-icon {
+.posts #main #comment-list li:nth-child(even) .user-icon {
   float: right;
 }
-.posts.view #main #art-comments #comment-list li:nth-child(odd) p {
+.posts #main #comment-list li:nth-child(odd) p {
   margin: 0 0 0 70px;
 }
-.posts.view #main #art-comments #comment-list li:nth-child(even) p {
+.posts #main #comment-list li:nth-child(even) p {
   margin: 0 70px 0 0;
 }
-.posts.view #main #art-comments #comment-list li p {
+#main #comment-list li p {
+  margin: 0;
+}
+#main #comment-list li p.data {
   margin: 0 0 10px 0;
 }
-.posts.view #main #art-comments #comment-list li:nth-child(odd) p.data span {
+#main #comment-list li:nth-child(odd) p.data span {
   margin: 0 20px 0 0;
   color: #999;
 }
-.posts.view #main #art-comments #comment-list li:nth-child(odd) p.data {
+#main #comment-list li:nth-child(odd) p.data {
   font-size: 1.2rem;
   font-size: 12px;
+}
+.posts #main #comment-list li:nth-child(odd) p.data {
   margin: 0 0 10px 70px;
 }
-.posts.view #main #art-comments #comment-list li:nth-child(even) p.data {
+#main #comment-list li:nth-child(even) p.data {
   font-size: 1.2rem;
   font-size: 12px;
   margin: 0 70px 10px 0;
 }
-.posts.view #main #art-comments #comment-list .user-icon {
+#main #comment-list .user-icon {
   width: 48px;
   height: 48px;
   background: url(/images/user-icon-default.png) no-repeat 0 top;
@@ -1434,4 +1454,13 @@ h2, h2 {
 }
 .follow-list li:hover {
   background: #f3f3f3;
+}
+
+/******************************
+
+	▼search/index.php
+
+******************************/
+.formarea.type-search .btn {
+  margin: 0 auto;
 }

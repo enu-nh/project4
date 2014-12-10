@@ -130,7 +130,7 @@
 							</li>
 						</ul>
 						<div class="more">
-							<a href="">もっと見る</a>
+							<a href="/mypage/comments/">もっと見る</a>
 						</div>
 					</div>
 				</div>

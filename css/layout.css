@@ -1,0 +1,87 @@
+/*------------------------------------------------------------ ui-slider */
+.ui-slider {
+  height: .4em;
+  background: #eee;
+  border: 1px solid #eee;
+  border-radius: .4em;
+}
+.ui-slider .ui-slider-handle {
+  height: 1em;
+  width: 1em;
+  background: #5fc77a;
+  border-radius: 1em;
+}
+.slider-time {
+  margin: 0 0 15px 0;
+}
+.input-area01 {
+  margin: 0 0 30px 0;
+}
+
+/*------------------------------------------------------------ black&whitelayer */
+#blacklayer.show, #whitelayer.show {
+  -webkit-transition: opacity 0.8s;
+  -moz-transition: opacity 0.8s;
+  -ms-transition: opacity 0.8s;
+  -o-transition: opacity 0.8s;
+  transition: opacity 0.8s;
+}
+#blacklayer {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  opacity: 0;
+  width: 100%;
+  height: 100%;
+  background: #000;
+}
+#blacklayer.show {
+  opacity: 0.8;
+  z-index: 1000;
+}
+#whitelayer {
+  position: fixed;
+  top: 3%;
+  left: 50%;
+  z-index: -1;
+  opacity: 0;
+  width: 755px;
+  height: 90%;
+  max-height: 500px;
+  margin: 0 0 0 -375px;
+  background: #fff;
+}
+#whitelayer.show {
+  opacity: 1;
+  z-index: 2000;
+}
+#whitelayer ul {
+  overflow: auto;
+  height: 100%;
+}
+#whitelayer li {
+  float: left;
+  padding: 20px 0 0 20px;
+}
+#whitelayer .close {
+  margin: 10px 0 0 0;
+}
+#whitelayer .close a {
+  display: block;
+  width: 42px;
+  padding: 5px 0 0 30px;
+  color: #fff;
+  background: url(/images/ico_close01.png) no-repeat left top;
+}
+@media screen and (max-height: 500px) {
+   #whitelayer .close {
+     position: absolute;
+     bottom: 0;
+     right: -77px;
+     margin: 0;
+     overflow: hidden;
+     white-space: nowrap;
+     text-indent: 100%;
+  }
+}

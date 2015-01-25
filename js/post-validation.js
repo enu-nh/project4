@@ -23,12 +23,18 @@ $(function(){
 		$.ajax({
       type: "POST",
       data: {"click_id_num":click_id_num},
-		  url: "tday.php",
+		  url: "/posts/tday.php",
 		}).done(function( html ) {
-		  $(".posts #main-contents section").append(html);
+		  $(".event-area #addpost-support").prev().append(html);
     $(".formError").remove();
       post_vallidation();
       $(".time input").pickatime();
+      $(".img-select").sortable({
+        cancel: ".null",
+        update: function() {
+          addClassList();
+        }
+      });
     });
     return false;
 	});
@@ -38,17 +44,22 @@ $(function(){
 		$.ajax({
       type: "POST",
       data: {"click_id_num":click_id_num,"click_day_num":click_day_num},
-		  url: "nday.php",
+		  url: "/posts/nday.php",
 		}).done(function( html ) {
-		  $(".posts #main-contents").append(html);
+		  $(".event-area #addpost-support").before(html);
       $(".formError").remove();
       post_vallidation();
       $(".time input").pickatime();
+      $(".img-select").sortable({
+        cancel: ".null",
+        update: function() {
+          addClassList();
+        }
+      });
 		});
 		return false;
 	});
   $('#tripDeparture').pickadate();
-  $(".time input").pickatime();
   
   //地図
   var initialLat;
@@ -59,7 +70,7 @@ $(function(){
       initialLat = thisHtml.attr("data-lat");
       initialLng = thisHtml.attr("data-lng");
     $("#map_canvas").remove();
-    $(this).parent().append('<div id="map_canvas" style="width:500px; height:300px"></div>');
+    $(this).parent().append('<div id="map_canvas" style="width:620px; height:300px"></div>');
     var eventSpotArea = thisHtml;
     console.log(eventSpotArea);
   
@@ -86,6 +97,7 @@ $(function(){
 
     // ドラッグが終了した時の処理
     google.maps.event.addListener(marker, "dragend", function() {
+         console.log("hoge");
         setLatLng(marker);
         map.setCenter(marker.getPosition());
         thisHtml.attr("data-lat",plat);

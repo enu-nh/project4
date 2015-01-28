@@ -96,7 +96,38 @@ $preflist=array( '0'=>'北海道', '1'=>'青森県', '2'=>'秋田県', '3'=>'山
               <section class="comment-box01-wrap">
                 <h3 class="h2-ttl02">この旅についてのコメント</h3>
                 <div class="comment-box01">
-                  
+                  <div class="comment-box01-head">
+                    <div class="img"><a href="#"><img src="/images/user-icon-default.png" width="50" height="50" alt=""></a></div>
+                    <div class="input-area"><textarea name="" id="" ></textarea></div>
+                    <div class="btn"><a href="#"><img src="/images/btn_comment-post.gif" alt=""></a></div>
+                  </div>
+                  <div class="comment-box01-content">
+                    <div class="comment-box01-item">
+                      <div class="img"><a href="#"><img src="/images/user-icon-default.png" width="50" height="50" alt=""></a></div>
+                      <div class="colR">
+                        <div class="name"><a href="#">Nagata Hiroaki</a></div>
+                        <div class="time">2013年6月10日 2:26</div>
+                        <div class="txt">京都駅に到着。この日は快晴。駅を抜けるとすぐ目の前に京都タワー！</div>
+                      </div>
+                    </div>
+                    <div class="comment-box01-item">
+                      <div class="img"><a href="#"><img src="/images/user-icon-default.png" width="50" height="50" alt=""></a></div>
+                      <div class="colR">
+                        <div class="name"><a href="#">Nagata Hiroaki</a></div>
+                        <div class="time">2013年6月10日 2:26</div>
+                        <div class="txt">京都駅に到着。この日は快晴。駅を抜けるとすぐ目の前に京都タワー！</div>
+                      </div>
+                    </div>
+                    <div class="comment-box01-item">
+                      <div class="img"><a href="#"><img src="/images/user-icon-default.png" width="50" height="50" alt=""></a></div>
+                      <div class="colR">
+                        <div class="name"><a href="#">Nagata Hiroaki</a></div>
+                        <div class="time">2013年6月10日 2:26</div>
+                        <div class="txt">京都駅に到着。この日は快晴。駅を抜けるとすぐ目の前に京都タワー！</div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="btngroup"><a href="" class="btn07">もっとコメントを表示する</a></div>
                 </div>
               </section>
             </div>

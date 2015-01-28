@@ -55,6 +55,7 @@ body {
 }
 .h2-ttl02 {
   margin: 0 0 14px 0;
+  color: #333;
   font-size: 128.5%;
   font-weight: bold;
 }
@@ -745,10 +746,15 @@ a:hover .rank3 {
 .post-module04 .spot.show .maparea{
   height: 618px;
 }
-.post-module04-event:last-child {
-  padding: 0 0 25px 0;
-  margin: 0 0 30px 0;
-  border-bottom: 1px solid #eee;
+.btngroup {
+  padding: 25px 0 0 0;
+  margin: 25px 0 0 0;
+  border-top: 1px solid #eee;
+}
+/*-------------------------------------------------- comment-box01 */
+.comment-box01-wrap {
+  padding: 10px 0 0 0;
+  border-top: 1px solid #eee;
 }
 
 /*-------------------------------------------------- col3-type01 */

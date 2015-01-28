@@ -94,11 +94,11 @@ $preflist=array( '0'=>'北海道', '1'=>'青森県', '2'=>'秋田県', '3'=>'山
                       </div>
                     </div>
                   </div>
-                  <div class="btngroup">
-                    <a href="#" class="btn07">内容修正</a>
-                    <input class="btn07" type="submit" value="登録完了">
-                  </div>
                 </section>
+                <div class="btngroup">
+                  <a href="#" class="btn07">内容修正</a>
+                  <input class="btn07" type="submit" value="登録完了">
+                </div>
               </div>
             </div>
           </form>

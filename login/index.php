@@ -1,33 +1,56 @@
-<?php include(dirname(__FILE__)."/../include/config.php"); ?>
+<?php include($_SERVER[ 'DOCUMENT_ROOT'] . '/function.php'); ?>
 <!doctype html>
 <html lang="ja-JP">
-<head>
-<link rel="stylesheet" href="../css/common.css">
-<meta charset="UTF-8">
-<meta name="description" content="">
-<title>test</title>
-</head>
+  <head>
+    <link rel="stylesheet" href="/css/megamenu.css">
+    <link rel="stylesheet" href="/css/jquery-ui.min.css">
+    <link rel="stylesheet" href="/css/exvalidation.css">
+    <link rel="stylesheet" href="/css/common.css">
+    <link rel="stylesheet" href="/css/layout.css">
+    <link rel="stylesheet" href="/js/themes/default.css">
+    <link rel="stylesheet" href="/js/themes/default.date.css">
+    <link rel="stylesheet" href="/js/themes/default.time.css">
+    <meta charset="UTF-8">
+    <meta name="robots" content="noindex" />
+    <meta name="description" content="">
+    <title>test</title>
+  </head>
 <body class="<?php echo $body_class; ?>">
 <div id="wrapper">
-<?php include('../include/header.php'); ?>
+<?php include($_SERVER[ 'DOCUMENT_ROOT'] . '/header.php'); ?>
 <div id="contents">
   <div class="inner">
-    <div class="login-box">
-    <form action="login-by-email.php" method="post">
-      <table>
-        <tr>
-          <th>E-mail</th>
-          <td><input type="text" name="email"></td>
-        </tr>
-        
-          <th>パスワード</th>
-          <td><input type="password" name="password"></td>
-      </table>
-      <input type="submit" name="email-login" value="ログイン" class="btnGreen">
-    </form>
-    </div>
+    <section class="section">
+      <h1 class="h1-ttl01"><img src="/images/login_h001.gif" alt="ログイン"></h1>
+      <p class="txt-set01">既に会員の方はこちらからログインしてください。会員でない方は<a href="#">新規会員登録ページ</a>で会員登録をお願いいたします。</p>
+      <div class="login-box">
+        <form action="login-by-email.php" method="post">
+          <table>
+            <tr>
+              <th>E-mail</th>
+              <td><input type="text" name="email"></td>
+              <th>パスワード</th>
+              <td class="last"><input type="password" name="password"></td>
+            </tr>
+          </table>
+          <input type="submit" name="email-login" value="ログイン" class="btn07">
+        </form>
+      </div>
+    </section>
   </div>
 </div>
-<?php include('../include/footer.php'); ?>
+<?php include '../footer.php'; ?>
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+<script src="/js/jquery-accessibleMegaMenu.js"></script>
+<script src="/js/jquery-ui.min.js"></script>
+<script src="/js/style.js"></script>
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+var js, fjs = d.getElementsByTagName(s)[0];
+if (d.getElementById(id)) return;
+js = d.createElement(s); js.id = id;
+js.src = "//connect.facebook.net/ja_JP/sdk.js#xfbml=1&appId=212800035595968&version=v2.0";
+fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
 </body>
 </html>

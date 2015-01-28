@@ -85,3 +85,70 @@
      text-indent: 100%;
   }
 }
+
+/*------------------------------------------------------------ login-box */
+.login-box table{
+  margin-bottom: 30px;
+  border-top: 1px solid #eee;
+  border-bottom: 1px solid #eee;
+  border-collapse: collapse;
+}
+.login-box table th {
+  width: 105px;
+  font-weight: normal;
+  text-align: left;
+}
+.login-box table td {
+  padding: 15px 0;
+}
+.login-box table input{
+  width: 353px;
+  padding: 7px 5px 6px 5px;
+  margin-right: 20px;
+}
+.login-box table td.last input {
+  margin: 0;
+}
+/*------------------------------------------------------------ signup-form01 */
+.signup-form01 table {
+  width: 100%;
+  margin-bottom: 30px;
+  text-align: left;
+  border-top: 1px solid #eee;
+  border-collapse: collapse;
+}
+.signup-form01 td,
+.signup-form01 th {
+  border-bottom: 1px solid #eee;
+}
+.signup-form01 th {
+  width: 105px;
+  font-weight: normal;
+}
+.signup-form01 td:last-child {
+  padding: 0 0 0 20px;
+  color: #c7615f;
+  font-size: 85.7%;
+}
+.signup-form01 th .req {
+  margin-left: 5px;
+}
+.signup-form01 table td {
+  padding: 15px 0;
+}
+.signup-form01 .item2 {
+  width: 365px;
+}
+.signup-form01 .item3 {
+  width: 470px;
+  padding: 0 0 0 20px;
+}
+.signup-form01 .form-size01 {
+  margin: 0 0 0 10px;
+}
+.last-name {
+  margin-right: 11px;
+}
+.signup-form01 table input {
+  padding: 7px 5px 6px 5px;
+}

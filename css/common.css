@@ -171,9 +171,53 @@ body {
 .btn06:hover {
   background: #3f5f83;
 }
+#addpost-support {
+  letter-spacing: -.4em;
+}
 #addpost-support a,
 #addpost-support input {
+  letter-spacing: normal;
   display: inline-block;
+  vertical-align: middle;
+}
+#addpost-support a {
+  margin-right: 10px;
+}
+/* btn07 */
+.btn07 {
+  clear: both;
+}
+.btn07 {
+  display: inline-block;
+  vertical-align: middle;
+  width: 240px;
+  padding: 10px 0 9px 0;
+  margin: 0 auto;
+  color: #5fc77a;
+  font-size: 100%;
+  font-weight: bold;
+  text-align: center;
+  background: #fff;
+  border: 3px solid #5fc77a;
+  box-sizing: border-box;
+  transition: all 0.3s;
+  -webkit-transition : all 0.3s;
+  cursor: pointer;
+}
+.btn07:hover {
+  color: #fff;
+  background: #5fc77a;
+  border: 3px solid #5fc77a;
+}
+.btngroup {
+  text-align: center;
+  letter-spacing: -.4em;
+}
+.btngroup>* {
+  letter-spacing: normal;
+}
+.btngroup>*:first-child {
+  margin-right: 20px;
 }
 
 /*------------------------------------------------------------ link-set */
@@ -186,6 +230,14 @@ body {
 }
 .link-set01:hover {
   color: #fff;
+  text-decoration: underline;
+}
+/* link-set02 */
+.link-set02 {
+  padding: 0 0 0 7px;
+  background: url(/images/arrow_right01.gif) no-repeat left center ;
+}
+.link-set02:hover {
   text-decoration: underline;
 }
 
@@ -215,7 +267,8 @@ body {
 .table01 .type02 th{
   vertical-align: top;
 }
-input[type="text"] {
+input[type="text"],
+input[type="password"]{
   padding: 9px 5px 8px 5px;
   color: #666;
   font-size: 100%;
@@ -236,7 +289,8 @@ textarea {
 .radiotype-01 label{
   margin: 0 10px 0 0;
 }
-.radiotype-01 input[type="radio"] {
+.radiotype-01 input[type="radio"],
+.radiotype-01 input[type="checkbox"] {
   vertical-align: 1px;
 }
 .checktype-01 {
@@ -324,7 +378,12 @@ textarea {
 .img-select .menuImg:hover {
   opacity: 1;
 }
-
+.form-size01 {
+  width: 141px;
+}
+.form-size02 {
+  width: 353px;
+}
 
 /*------------------------------------------------------------ txt-set */
 /* txt-set01 */
@@ -402,6 +461,7 @@ textarea {
   font-size: 100%;
   line-height: 2.6em;
   border: none;
+  background: #fff;
 }
 .search-module01-start {
   padding-top: 51px;

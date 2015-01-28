@@ -41,7 +41,6 @@ body {
 /* h1-ttl01 */
 .h1-ttl01 {
   padding: 0 0 13px 0;
-  color: #333;
   font-size: 257.1%;
   font-weight: normal;
   line-height: 1;
@@ -65,7 +64,6 @@ body {
 }
 /* h3-ttl01 */
 .h3-ttl01 {
-  color: #333;
   font-size: 128.5%;
   font-weight: normal;
 }

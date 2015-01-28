@@ -152,3 +152,11 @@
 .signup-form01 table input {
   padding: 7px 5px 6px 5px;
 }
+
+/*------------------------------------------------------------ search/add.php */
+
+.post-num {
+  padding: 10px 0;
+  color: #333;
+  font-weight: bold;
+}

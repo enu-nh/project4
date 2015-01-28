@@ -66,146 +66,102 @@ $num=1 ; foreach($preflist as $key=>$value){ $num = $num+1; if($value == $_POST[
                 </table>
               </form>
             </div>
-            <div class="formarea type-search">
-              <form action="">
-                <section>
-                  <h2>旅の目的</h2>
-                  <div id="tripType">
-                    <input type="radio" name="tripType" value="家族旅行" id="tripType01">
-                    <label for="tripType01">家族旅行</label>
-                    <input type="radio" name="tripType" value="社員旅行" id="tripType02">
-                    <label for="tripType02">社員旅行</label>
-                    <input type="radio" name="tripType" value="卒業旅行" id="tripType03">
-                    <label for="tripType03">卒業旅行</label>
-                    <input type="radio" name="tripType" value="新婚旅行" id="tripType04">
-                    <label for="tripType04">新婚旅行</label>
-                    <input type="radio" name="tripType" value="女子旅" id="tripType05">
-                    <label for="tripType05">女子旅</label>
-                    <input type="radio" name="tripType" value="友人と" id="tripType06">
-                    <label for="tripType06">友人と</label>
-                  </div>
-                </section>
-                <section>
-                  <h2>地域を選択</h2>
-                  <div id="localArea" class="chkcheckbox">
-                    <?php //配列リストからoptionタグに展開。
-$num=1 ; foreach($preflist as $key=>$value){ $num = $num+1; if($value == $_POST["pref_return"]){ echo "
-                    <p>
-                      <label for='local".$num."'>
-                        <input type='checkbox' name='local' id='local".$num."' value='$value'>".$value."</label>
-                    </p>"; }else{ echo "
-                    <p>
-                      <label for='local".$num."'>
-                        <input type='checkbox' name='local' id='local".$num."' value='$value'>".$value."</label>
-                    </p>"; } } ?>
-                  </div>
-                </section>
-                <section>
-                  <h2>キーワードで探す</h2>
-                  <div>
-                    <input class="input-type02" type="text">
-                  </div>
-                </section>
-                <input class="btn" type="button" value="検索">
-              </form>
-            </div>
-          </section>
-          <section>
-            <div class="post-list post-style-01">
+            <div class="post-num">36件の記事が見つかりました。</div>
+            <div class="col3-type01">
               <ul>
                 <li>
-                  <p class="thumb">
+                  <div class="thumb">
                     <a href="">
-                      <img src="http://lorempixel.com/194/194" alt="">
+                      <img src="/images/img_posts_01.jpg" width="200" height="200" alt="">
                     </a>
-                  </p>
+                  </div>
                   <h3><a href="">タイトルタイトルタイトルタイトル</a></h3>
-                  <p class="location"><a href="">京都</a>
-                  </p>
+                  <div class="location"><a href="">京都</a>
+                  </div>
                 </li>
                 <li>
-                  <p class="thumb">
+                  <div class="thumb">
                     <a href="">
-                      <img src="http://lorempixel.com/194/194" alt="">
+                      <img src="/images/img_posts_01.jpg" width="200" height="200" alt="">
                     </a>
-                  </p>
+                  </div>
                   <h3><a href="">タイトルタイトルタイトルタイトル</a></h3>
-                  <p class="location"><a href="">京都</a>
-                  </p>
+                  <div class="location"><a href="">京都</a>
+                  </div>
                 </li>
                 <li>
-                  <p class="thumb">
+                  <div class="thumb">
                     <a href="">
-                      <img src="http://lorempixel.com/194/194" alt="">
+                      <img src="/images/img_posts_01.jpg" width="200" height="200" alt="">
                     </a>
-                  </p>
+                  </div>
                   <h3><a href="">タイトルタイトルタイトルタイトル</a></h3>
-                  <p class="location"><a href="">京都</a>
-                  </p>
+                  <div class="location"><a href="">京都</a>
+                  </div>
                 </li>
                 <li>
-                  <p class="thumb">
+                  <div class="thumb">
                     <a href="">
-                      <img src="http://lorempixel.com/194/194" alt="">
+                      <img src="/images/img_posts_01.jpg" width="200" height="200" alt="">
                     </a>
-                  </p>
+                  </div>
                   <h3><a href="">タイトルタイトルタイトルタイトル</a></h3>
-                  <p class="location"><a href="">京都</a>
-                  </p>
+                  <div class="location"><a href="">京都</a>
+                  </div>
                 </li>
                 <li>
-                  <p class="thumb">
+                  <div class="thumb">
                     <a href="">
-                      <img src="http://lorempixel.com/194/194" alt="">
+                      <img src="/images/img_posts_01.jpg" width="200" height="200" alt="">
                     </a>
-                  </p>
+                  </div>
                   <h3><a href="">タイトルタイトルタイトルタイトル</a></h3>
-                  <p class="location"><a href="">京都</a>
-                  </p>
+                  <div class="location"><a href="">京都</a>
+                  </div>
                 </li>
                 <li>
-                  <p class="thumb">
+                  <div class="thumb">
                     <a href="">
-                      <img src="http://lorempixel.com/194/194" alt="">
+                      <img src="/images/img_posts_01.jpg" width="200" height="200" alt="">
                     </a>
-                  </p>
+                  </div>
                   <h3><a href="">タイトルタイトルタイトルタイトル</a></h3>
-                  <p class="location"><a href="">京都</a>
-                  </p>
+                  <div class="location"><a href="">京都</a>
+                  </div>
                 </li>
                 <li>
-                  <p class="thumb">
+                  <div class="thumb">
                     <a href="">
-                      <img src="http://lorempixel.com/194/194" alt="">
+                      <img src="/images/img_posts_01.jpg" width="200" height="200" alt="">
                     </a>
-                  </p>
+                  </div>
                   <h3><a href="">タイトルタイトルタイトルタイトル</a></h3>
-                  <p class="location"><a href="">京都</a>
-                  </p>
+                  <div class="location"><a href="">京都</a>
+                  </div>
                 </li>
                 <li>
-                  <p class="thumb">
+                  <div class="thumb">
                     <a href="">
-                      <img src="http://lorempixel.com/194/194" alt="">
+                      <img src="/images/img_posts_01.jpg" width="200" height="200" alt="">
                     </a>
-                  </p>
+                  </div>
                   <h3><a href="">タイトルタイトルタイトルタイトル</a></h3>
-                  <p class="location"><a href="">京都</a>
-                  </p>
+                  <div class="location"><a href="">京都</a>
+                  </div>
                 </li>
                 <li>
-                  <p class="thumb">
+                  <div class="thumb">
                     <a href="">
-                      <img src="http://lorempixel.com/194/194" alt="">
+                      <img src="/images/img_posts_01.jpg" width="200" height="200" alt="">
                     </a>
-                  </p>
+                  </div>
                   <h3><a href="">タイトルタイトルタイトルタイトル</a></h3>
-                  <p class="location"><a href="">京都</a>
-                  </p>
+                  <div class="location"><a href="">京都</a>
+                  </div>
                 </li>
               </ul>
-              <div class="more"> <a href="">もっと見る</a> 
-              </div>
+            </div>
+            <div class="btngroup"><a href="#" class="btn07">もっと見る</a> 
             </div>
           </section>
         </div>
@@ -213,10 +169,13 @@ $num=1 ; foreach($preflist as $key=>$value){ $num = $num+1; if($value == $_POST[
           <div class="user-area">
             <div class="user-info">
               <div class="user-img">
-                <img src="/images/user-icon-default.png" width="60" height="" alt="">
+                <img src="/images/user-icon-default.png" width="36" height="" alt="">
               </div>
-              <div class="user-name">Nagata Hiroaki</div>
-              <div class="location">京都</div>
+              <div class="txt">
+                <div class="user-name">Nagata Hiroaki</div>
+                <div class="location"><a href="#">京都</a>
+                </div>
+              </div>
             </div>
             <div class="user-meta">
               <ul>
@@ -247,34 +206,52 @@ $num=1 ; foreach($preflist as $key=>$value){ $num = $num+1; if($value == $_POST[
               </ul>
             </div>
           </div>
-          <div class="sub-button">
-            <a href="">新規投稿</a>
-          </div>
-          <div class="comment-history">
-            <div class="ttl">あなたのコメント履歴</div>
-            <ul>
-              <li>
-                <div class="txt"><a href="">私もそこに行ってみたいです。</a><span class="time">（9月14日）</span>
+          <section>
+            <h2 class="h2-ttl03"><img src="/images/side_related_h001.gif" alt="関連するコンテンツ"></h2>
+            <div class="related-box01">
+              <div class="related-box01-item">
+                <div class="img"><a href="#"><img src="/images/search_img01.gif" alt=""></a></div>
+                <div class="txt">
+                  <div class="ttl"><a href="#">2泊3日で京都旅行</a></div>
+                  <div class="location"><a href="#">京都</a></div>
                 </div>
-              </li>
-              <li>
-                <div class="txt"><a href="">そのお店は定休日はございますか。</a><span class="time">（9月14日）</span>
+              </div>
+              <div class="related-box01-item">
+                <div class="img"><a href="#"><img src="/images/search_img01.gif" alt=""></a></div>
+                <div class="txt">
+                  <div class="ttl"><a href="#">2泊3日で京都旅行</a></div>
+                  <div class="location"><a href="#">京都</a></div>
                 </div>
-              </li>
-              <li>
-                <div class="txt"><a href="">近辺に住んでいる私の友人に聞いたところ、観光客は少なく穴場スポットであるようです。</a><span class="time">（9月14日）</span>
+              </div>
+              <div class="related-box01-item">
+                <div class="img"><a href="#"><img src="/images/search_img01.gif" alt=""></a></div>
+                <div class="txt">
+                  <div class="ttl"><a href="#">2泊3日で京都旅行</a></div>
+                  <div class="location"><a href="#">京都</a></div>
                 </div>
-              </li>
-            </ul>
-            <div class="more">
-              <a href="/mypage/comments/">もっと見る</a>
+              </div>
+              <div class="related-box01-item">
+                <div class="img"><a href="#"><img src="/images/search_img01.gif" alt=""></a></div>
+                <div class="txt">
+                  <div class="ttl"><a href="#">2泊3日で京都旅行</a></div>
+                  <div class="location"><a href="#">京都</a></div>
+                </div>
+              </div>
+              <div class="related-box01-item">
+                <div class="img"><a href="#"><img src="/images/search_img01.gif" alt=""></a></div>
+                <div class="txt">
+                  <div class="ttl"><a href="#">2泊3日で京都旅行</a></div>
+                  <div class="location"><a href="#">京都</a></div>
+                </div>
+              </div>
             </div>
-          </div>
+          </section>
         </div>
       </div>
     </div>
+  </div>
     <!-- /#contents -->
-    <?php include '../../footer.php'; ?>
+    <?php include '/footer.php'; ?>
     <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
     <script src="/js/jquery-accessibleMegaMenu.js"></script>
     <script src="/js/jquery-ui.min.js"></script>

@@ -35,6 +35,7 @@ body {
 .section {
   padding-bottom: 50px;
 }
+
 /*layout*/
 /*------------------------------------------------------------ ttl */
 /* h1-ttl01 */
@@ -56,6 +57,10 @@ body {
   margin: 0 0 14px 0;
   font-size: 128.5%;
   font-weight: bold;
+}
+.h2-ttl03 {
+  padding: 0 0 4px 0;
+  border-bottom: 1px solid #f3f3f3;
 }
 /* h3-ttl01 */
 .h3-ttl01 {
@@ -254,6 +259,7 @@ body {
   width: 110px;
   font-weight: normal;
   text-align: left;
+  vertical-align: top;
 }
 .table01 th,
 .table01 td {
@@ -647,6 +653,37 @@ a:hover .rank3 {
   top: -5px;
 }
 
+/*-------------------------------------------------- col3-type01 */
+.col3-type01 ul {
+  letter-spacing: -.4em;
+  margin: 0 0 20px -10px;
+}
+.col3-type01 li {
+  letter-spacing: normal;
+  display: inline-block;
+  width: 200px;
+  margin: 0 0 10px 10px;
+  border: 1px solid #f3f3f3;
+  box-shadow: 1px 1px 1px #f3f3f3;
+  box-sizing: border-box;
+}
+.col3-type01 li h3{
+  padding: 0 10px;
+  font-size: 87.5%;
+  font-weight: normal;
+}
+.col3-type01 li h3 a {
+  color: #333;
+}
+.col3-type01 .location {
+  padding: 0 10px 10px 10px;
+}
+.col3-type01 .location a {
+  font-size: 87.5%;
+  padding: 0 0 0 13px;
+  background: url(/images/bg_ico_location.gif)no-repeat left center;
+}
+
 /*-------------------------------------------------- col4-type01 */
 .col4-type01 {
   margin: 0 0 10px -20px;
@@ -679,8 +716,6 @@ a:hover .rank3 {
   font-size: 87.5%;
   padding: 0 0 0 13px;
   background: url(/images/bg_ico_location.gif)no-repeat left center;
-}
-.col4-type01 .location a:hover {
 }
 /*-------------------------------------------------- common-header */
 #common-header {
@@ -796,6 +831,7 @@ a:hover .rank3 {
 
 /*---------------------------------------- user-area */
 .user-area {
+  margin: 0 0 15px 0;
   border: 1px solid #eee;
 }
 .user-info {
@@ -847,6 +883,38 @@ a:hover .rank3 {
   display: block;
   padding: 5px;
 }
+/*-------------------------------------------------- related-box01 */
+.related-box01 {
+  padding-top: 5px;
+}
+.related-box01-item {
+  padding: 10px 0 0 0;
+  letter-spacing: -.4em;
+}
+.related-box01-item .img,
+.related-box01-item .txt {
+  letter-spacing: normal;
+  display: inline-block;
+  vertical-align: middle;
+}
+.related-box01-item .img img {
+  display: block;
+}
+.related-box01-item .txt {
+  width: 240px;
+  margin: 0 0 0 10px;
+  vertical-align: top;
+  font-size: 87.5%;
+}
+.related-box01-item .ttl a {
+  color: #333;
+}
+.related-box01-item .location a {
+  font-size: 87.5%;
+  padding: 0 0 0 13px;
+  background: url(/images/bg_ico_location.gif)no-repeat left center;
+}
+
 /*---------------------------------------- footer-social */
 .footer-social {
   float: left;

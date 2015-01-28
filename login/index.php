@@ -33,7 +33,7 @@
               <td class="last"><input type="password" name="password"></td>
             </tr>
           </table>
-          <input type="submit" name="email-login" value="ログイン" class="btn07">
+          <div class="btngroup"><input type="submit" name="email-login" value="ログイン" class="btn07"></div>
         </form>
       </div>
     </section>

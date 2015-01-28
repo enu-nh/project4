@@ -24,7 +24,7 @@ a:hover {
 }
 body {
   font-family: Verdana, "游ゴシック", YuGothic, "ヒラギノ角ゴ ProN W3", "Hiragino Kaku Gothic ProN", "メイリオ", Meiryo, sans-serif;
-  color: #666;
+  color: #333;
   height: 100%;
   font-size: 87.5%;
   line-height: 1.5;
@@ -34,6 +34,13 @@ body {
 }
 .section {
   padding-bottom: 50px;
+}
+
+.mb10 {
+  margin-bottom: 10px;
+}
+.mb30 {
+  margin-bottom: 30px;
 }
 
 /*layout*/
@@ -224,6 +231,15 @@ body {
 .btngroup>*:first-child {
   margin-right: 20px;
 }
+.btn08 a {
+  display: inline-block;
+  width: 68px;
+  padding: 2px 0;
+  color: #fff;
+  font-size: 87.5%;
+  text-align: center;
+  background: #5f89c7;
+}
 
 /*------------------------------------------------------------ link-set */
 /* link-set01 */
@@ -248,6 +264,7 @@ body {
 
 /*------------------------------------------------------------ table01 */
 .table01 {
+  width: 100%;
   border-top: 1px solid #eee;
   border-collapse: collapse;
 }
@@ -259,6 +276,9 @@ body {
   width: 110px;
   font-weight: normal;
   text-align: left;
+  vertical-align: middle;
+}
+.table01 th.type1 {
   vertical-align: top;
 }
 .table01 th,
@@ -661,6 +681,7 @@ a:hover .rank3 {
 /*-------------------------------------------------- post-module03 */
 .post-module03 {
   letter-spacing: -.4em;
+  color: #666;
 }
 .post-module03 .img,
 .post-module03 .txt {
@@ -684,6 +705,9 @@ a:hover .rank3 {
   margin: 0 0 22px 0;
 }
 /*-------------------------------------------------- post-module04 */
+.post-module04 {
+  color: #666;
+}
 .post-module04 .time {
   font-size: 87.5%;
 }
@@ -693,6 +717,7 @@ a:hover .rank3 {
 }
 .post-module04 .h3-ttl01 {
   margin: 0 0 10px 0;
+  color: #333;
 }
 .post-module04 .img-list {
   letter-spacing: -.4em;
@@ -809,16 +834,72 @@ post-module04 .btngroup {
   display: inline-block;
   line-height: 1;
 }
-.comment-box01-item .time a {
+.comment-box01-item .time {
   color: #999;
 }
-.comment-box01-item .name a,
-.comment-box01-item .time a {
+.comment-box01-item .name a{
   line-height: 1;
+}
+.comment-box01-item .name {
+  margin-right: 10px;
 }
 .comment-box01-item .txt {
   padding-top: 5px;
   width: 540px;
+}
+
+/*-------------------------------------------------- comment-box02 */
+.comment-box02 {
+  border-top: 1px solid #ccc;
+}
+.comment-box02-item a {
+  font-size: 87.5%;
+  letter-spacing: -.4em;
+  padding: 9px;
+  border-bottom: 1px dotted #ccc;
+}
+.comment-box02-item:last-child a {
+  border: none;
+}
+.comment-box02-content {
+  margin-bottom: 30px;
+  border-bottom: 1px solid #ccc;
+}
+.comment-box02-content .img,
+.comment-box02-content .colR {
+  display: inline-block;
+  vertical-align: top;
+  letter-spacing: normal;
+}
+.comment-box02-content .img {
+  margin-right: 10px;
+}
+.comment-box02-item .name {
+  margin-right: 10px;
+}
+.comment-box02-item .name,
+.comment-box02-item .time {
+  display: inline-block;
+  line-height: 1;
+}
+.comment-box02-item a .time {
+  color: #999;
+}
+.comment-box02-item .name a{
+  line-height: 1;
+}
+.comment-box02-item .txt {
+  padding-top: 5px;
+  width: 541px;
+}
+.comment-box02-item a .txt{
+  color: #333;
+}
+.comment-box02-item a {
+  display: block;
+}
+.comment-box02-item a:hover {
+  background: #f3f3f3;
 }
 
 /*-------------------------------------------------- col3-type01 */
@@ -849,9 +930,45 @@ post-module04 .btngroup {
 .col3-type01 .location a {
   font-size: 87.5%;
   padding: 0 0 0 13px;
-  background: url(/images/bg_ico_location.gif)no-repeat left center;
+  background: url(/images/bg_ico_location.png)no-repeat left center;
 }
-
+/*-------------------------------------------------- col3-type02 */
+.col3-type02 ul {
+  letter-spacing: -.4em;
+  margin: 0 0 20px -10px;
+}
+.col3-type02 li {
+  letter-spacing: normal;
+  display: inline-block;
+  width: 200px;
+  margin: 0 0 10px 10px;
+  border: 1px solid #f3f3f3;
+  box-shadow: 1px 1px 1px #f3f3f3;
+  box-sizing: border-box;
+  vertical-align: top;
+}
+.col3-type02 li h3{
+  padding: 0 10px;
+  font-size: 87.5%;
+  font-weight: normal;
+}
+.col3-type02 li h3 a {
+  color: #333;
+}
+.col3-type02 .location {
+  padding: 0 10px 0px 10px;
+}
+.col3-type02 .location a {
+  font-size: 87.5%;
+  padding: 0 0 0 13px;
+  background: url(/images/bg_ico_location.png)no-repeat left center;
+}
+.col3-type02 .link {
+  font-size: 87.5%;
+  padding: 0 10px 0 10px;
+  margin: 0 0 5px 10px;
+  background: url(/images/arrow_right01.gif) no-repeat left center;
+}
 /*-------------------------------------------------- col4-type01 */
 .col4-type01 {
   margin: 0 0 10px -20px;
@@ -883,7 +1000,7 @@ post-module04 .btngroup {
 .col4-type01 .location a {
   font-size: 87.5%;
   padding: 0 0 0 13px;
-  background: url(/images/bg_ico_location.gif)no-repeat left center;
+  background: url(/images/bg_ico_location.png)no-repeat left center;
 }
 /*-------------------------------------------------- common-header */
 #common-header {
@@ -998,6 +1115,11 @@ post-module04 .btngroup {
 }
 
 /*---------------------------------------- user-area */
+.user-area .setting {
+  padding: 2px 0 1px 9px;
+  font-size: 87.5%;
+  border-bottom: 1px solid #eee;
+}
 .user-area {
   margin: 0 0 15px 0;
   border: 1px solid #eee;
@@ -1028,7 +1150,7 @@ post-module04 .btngroup {
   padding: 0 0 0 13px;
   font-size: 87.5%;
   line-height: 1;
-  background: url(/images/bg_ico_location.gif)no-repeat left center;
+  background: url(/images/bg_ico_location.png)no-repeat left center;
 }
 .user-meta .txt {
   color: #333;
@@ -1051,6 +1173,20 @@ post-module04 .btngroup {
   display: block;
   padding: 5px;
 }
+
+/*---------------------------------------- side-list01 */
+.side-list01 {
+  margin-bottom: 10px;
+}
+.side-list01 li {
+  padding: 7px 0;
+  font-size: 87.5%;
+  border-bottom: 1px dotted #f3f3f3;
+}
+.side-list01 .time {
+  color: #666;
+}
+
 /*-------------------------------------------------- related-box01 */
 .related-box01 {
   padding-top: 5px;
@@ -1080,7 +1216,7 @@ post-module04 .btngroup {
 .related-box01-item .location a {
   font-size: 87.5%;
   padding: 0 0 0 13px;
-  background: url(/images/bg_ico_location.gif)no-repeat left center;
+  background: url(/images/bg_ico_location.png)no-repeat left center;
 }
 
 /*---------------------------------------- footer-social */

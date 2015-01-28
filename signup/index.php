@@ -53,7 +53,7 @@
                   </tr>
                 </tbody>
               </table>
-              <input class="btn07" type="submit" value="入力内容を送信">
+              <div class="btngroup"><input class="btn07" type="submit" value="入力内容を送信"></div>
             </form>
           </div>
         </section>

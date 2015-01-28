@@ -48,7 +48,7 @@ $preflist=array( '0'=>'北海道', '1'=>'青森県', '2'=>'秋田県', '3'=>'山
                       </td>
                     </tr>
                     <tr>
-                      <th class="ttl">地域を選択</th>
+                      <th class="ttl type1">地域を選択</th>
                       <td class="input-area">
                         <div class="checktype-01">
                           <?php //配列リストからoptionタグに展開。
@@ -251,7 +251,7 @@ $num=1 ; foreach($preflist as $key=>$value){ $num = $num+1; if($value == $_POST[
     </div>
   </div>
     <!-- /#contents -->
-    <?php include '/footer.php'; ?>
+    <?php include '../footer.php'; ?>
     <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
     <script src="/js/jquery-accessibleMegaMenu.js"></script>
     <script src="/js/jquery-ui.min.js"></script>

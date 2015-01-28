@@ -22,7 +22,7 @@
         <p class="txt-set01">TRIPPOSTは旅行に興味を持っているユーザが、旅行をするまでの手助けをするサービスです。TRIPPOST旅行に興味を持っているユーザが、旅行をするまでの手助けをするサービスです。TRIPPOSTは旅行に興味を持っているユーザが、旅行をするまでの手助けをするサービスです。</p>
     <div class="box-entry01">
       <a href="/signup/index.php" class="btn01">メールで登録</a>
-      <a href="/signup/index.php" class="btn01">Instagramで登録</a>
+      <a href="http://trip-post.com/" class="btn01">Instagramで登録／ログイン</a>
     </div>
     <p><a href="/login/" class="link-set01">既に登録されている方はこちら</a></p>
     </section>

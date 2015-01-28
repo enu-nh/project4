@@ -18,6 +18,26 @@
   margin: 0 0 30px 0;
 }
 
+/*------------------------------------------------------------ ui-tab */
+.ui-state-default {
+  background: #f3f3f3;
+  border-left: 1px solid #fff;
+  border-right: 1px solid #fff;
+  border-top: 1px solid #f3f3f3;
+  border-collapse: collapse;
+}
+.ui-tabs-active {
+  background: #fff;
+  border-left: 1px solid #f3f3f3;
+  border-right: 1px solid #f3f3f3;
+  border-top: 1px solid #f3f3f3;
+}
+.title-tab {
+  margin: 0 0 10px 0;
+}
+.ui-tabs-nav {
+  border-bottom: 1px solid #f3f3f3;
+}
 /*------------------------------------------------------------ black&whitelayer */
 #blacklayer.show, #whitelayer.show {
   -webkit-transition: opacity 0.8s;
@@ -159,4 +179,65 @@
   padding: 10px 0;
   color: #333;
   font-weight: bold;
+}
+
+/*------------------------------------------------------------ /mypage/follow/ */
+.follow-list ul {
+  letter-spacing: -.4em;
+  margin: 0 0 30px 0;
+}
+.follow-list li {
+  letter-spacing: normal;
+  display: inline-block;
+  width: 50%;
+  border-bottom: 1px dotted #ccc;
+}
+.follow-list li:nth-child(odd) {
+  box-sizing: border-box;
+  border-right: 1px dotted #ccc;
+}
+.follow-list li a {
+  display: block;
+  padding: 10px;
+}
+.follow-list li a:hover {
+  background: #f3f3f3;
+}
+.follow-list .txt {
+  color: #666;
+  font-size: 87.5%;
+}
+.follow-list .location {
+  font-size: 87.5%;
+  padding: 0 0 0 13px;
+  background: url(/images/bg_ico_location.png)no-repeat left center;
+}
+.follow-list .user-img,
+.follow-list .colR {
+  display: inline-block;
+}
+.follow-list li>a {
+  letter-spacing: -.4em;
+}
+.follow-list .user-img {
+  letter-spacing: normal;
+  margin: 0 20px 0 0;
+}
+.follow-list .colR {
+  letter-spacing: normal;
+  width: 219px;
+}
+
+/*------------------------------------------------------------ /mypage/Setting/ */
+.btn-insta {
+  display: block;
+  background: url(/images/btn-Instagram_c.gif) no-repeat left;
+}
+.btn-insta img {
+  display: block;
+  transition: all 0.3s;
+  -webkit-transition : all 0.3s;
+}
+.btn-insta.current img {
+  opacity: 0;
 }

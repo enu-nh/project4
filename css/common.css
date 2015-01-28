@@ -64,6 +64,7 @@ body {
 }
 /* h3-ttl01 */
 .h3-ttl01 {
+  color: #333;
   font-size: 128.5%;
   font-weight: normal;
 }
@@ -400,6 +401,12 @@ textarea {
 .txt-set02 {
   padding: 0 0 10px 0;
 }
+.txt-set03 {
+  line-height: 1.8;
+  padding-bottom: 25px;
+  margin-bottom: 25px;
+  border-bottom: 1px solid #eee;
+}
 
 /*------------------------------------------------------------ top */
 /*-------------------------------------------------- mainVisual */
@@ -651,6 +658,97 @@ a:hover .rank3 {
 .post-module02 .r-event {
   left: -191px;
   top: -5px;
+}
+/*-------------------------------------------------- post-module03 */
+.post-module03 {
+  letter-spacing: -.4em;
+}
+.post-module03 .img,
+.post-module03 .txt {
+  letter-spacing: normal;
+  display: inline-block;
+  vertical-align: middle;
+}
+.post-module03 .txt {
+  vertical-align: top;
+}
+.post-module03 .img {
+  margin: 0 20px 0 0;
+}
+.post-module03 .img img {
+  display: block;
+}
+.post-module03 .txt .ttl {
+  color: #333;
+}
+.post-module03-item {
+  margin: 0 0 22px 0;
+}
+/*-------------------------------------------------- post-module04 */
+.post-module04 .time {
+  font-size: 87.5%;
+}
+.post-module04 .time:before {
+  content: "-";
+  margin-right: 3px;
+}
+.post-module04 .h3-ttl01 {
+  margin: 0 0 10px 0;
+}
+.post-module04 .img-list {
+  letter-spacing: -.4em;
+}
+.post-module04 .img-list li {
+  letter-spacing: normal;
+  display: inline-block;
+  width: 300px;
+  margin-bottom: 20px;
+  vertical-align: top;
+}
+.post-module04 .img-list li:nth-child(odd) {
+  margin-right: 20px;
+}
+.post-module04 .spot {
+  border: 1px solid #d38381;
+}
+.post-module04 .spot {
+  letter-spacing: -.4em;
+  margin-bottom: 25px;
+}
+.post-module04 .spot .btn-map,
+.post-module04 .spot .spot-name{
+  letter-spacing: normal;
+  display: inline-block;
+}
+.post-module04 .spot .btn-map {
+  cursor: pointer;
+  vertical-align: middle;
+  background: url(/images/btn_map_close.gif) no-repeat left ;
+}
+.post-module04 .spot .spot-name {
+  vertical-align: top;
+  width: 510px;
+  padding: 8px 15px;
+  font-size: 171.4%;
+}
+.post-module04 .spot .btn-map img {
+  display: block;
+}
+.post-module04 .spot .maparea {
+  height: 0;
+  overflow: hidden;
+  border-top: 1px solid #d38381;
+}
+.post-module04 .spot.show img {
+  opacity: 0;
+}
+.post-module04 .spot.show .maparea{
+  height: 618px;
+}
+.post-module04-event:last-child {
+  padding: 0 0 25px 0;
+  margin: 0 0 30px 0;
+  border-bottom: 1px solid #eee;
 }
 
 /*-------------------------------------------------- col3-type01 */

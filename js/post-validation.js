@@ -1,7 +1,7 @@
 $(function(){
   //変数
-  var click_id_num = 1;
-  var click_day_num = 1;
+  click_id_num = 1;
+  click_day_num = 1;
   //関数
   function post_vallidation(){
       $("#post-add-form")
@@ -17,16 +17,15 @@ $(function(){
   
   //初期実行
   post_vallidation();
-  
   $("#addpost-support .add-tday").click(function(){
     click_id_num = click_id_num + 1;
-		$.ajax({
+    $.ajax({
       type: "POST",
       data: {"click_id_num":click_id_num},
-		  url: "/posts/tday.php",
-		}).done(function( html ) {
-		  $(".event-area #addpost-support").prev().append(html);
-    $(".formError").remove();
+      url: "/posts/tday.php",
+    }).done(function( html ) {
+      $(".event-area #addpost-support").prev().append(html);
+      $(".formError").remove();
       post_vallidation();
       $(".time input").pickatime();
       $(".img-select").sortable({
@@ -37,16 +36,17 @@ $(function(){
       });
     });
     return false;
-	});
-	$("#addpost-support .add-nday").click(function(){
+  });
+  $("#addpost-support .add-nday").click(function(){
     click_day_num = click_day_num + 1;
     click_id_num = click_id_num + 1;
-		$.ajax({
+    console.log(click_day_num );
+    $.ajax({
       type: "POST",
       data: {"click_id_num":click_id_num,"click_day_num":click_day_num},
-		  url: "/posts/nday.php",
-		}).done(function( html ) {
-		  $(".event-area #addpost-support").before(html);
+      url: "/posts/nday.php",
+    }).done(function( html ) {
+      $(".event-area #addpost-support").before(html);
       $(".formError").remove();
       post_vallidation();
       $(".time input").pickatime();
@@ -56,10 +56,12 @@ $(function(){
           addClassList();
         }
       });
-		});
-		return false;
-	});
+    });
+    return false;
+  });
+  
   $('#tripDeparture').pickadate();
+  
   
   //地図
   var initialLat;

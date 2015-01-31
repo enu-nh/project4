@@ -912,20 +912,27 @@ post-module04 .btngroup {
   display: inline-block;
   width: 200px;
   margin: 0 0 10px 10px;
-  border: 1px solid #f3f3f3;
   box-shadow: 1px 1px 1px #f3f3f3;
   box-sizing: border-box;
 }
+.col3-type01 li img{
+  display: block;
+}
 .col3-type01 li h3{
-  padding: 0 10px;
+  padding: 0 9px;
   font-size: 87.5%;
   font-weight: normal;
+  border-left: 1px solid #f3f3f3;
+  border-right: 1px solid #f3f3f3;
 }
 .col3-type01 li h3 a {
   color: #333;
 }
 .col3-type01 .location {
-  padding: 0 10px 10px 10px;
+  padding: 0 9px 10px 9px;
+  border-left: 1px solid #f3f3f3;
+  border-right: 1px solid #f3f3f3;
+  border-bottom: 1px solid #f3f3f3;
 }
 .col3-type01 .location a {
   font-size: 87.5%;

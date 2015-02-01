@@ -20,7 +20,7 @@
 				<div id="main">
 				  <h1 class="h1-ttl01">お気に入り一覧</h1>
 					<div class="section">
-                          <div class="col3-type01">
+                          <div class="col3-type02">
                             <ul>
                               <li>
                                 <div class="thumb">
@@ -31,6 +31,7 @@
                                 <div class="ttl"><h3><a href="">タイトルタイトルタイトルタイトル</a></h3></div>
                                 <div class="location"><a href="">京都</a>
                                 </div>
+                                <div class="link"><a href="#">お気に入りから削除</a></div>
                               </li>
                               <li>
                                 <div class="thumb">
@@ -41,6 +42,7 @@
                                 <div class="ttl"><h3><a href="">タイトルタイトルタイトルタイトル</a></h3></div>
                                 <div class="location"><a href="">京都</a>
                                 </div>
+                                <div class="link"><a href="#">お気に入りから削除</a></div>
                               </li>
                               <li>
                                 <div class="thumb">
@@ -51,6 +53,7 @@
                                 <div class="ttl"><h3><a href="">タイトルタイトルタイトルタイトル</a></h3></div>
                                 <div class="location"><a href="">京都</a>
                                 </div>
+                                <div class="link"><a href="#">お気に入りから削除</a></div>
                               </li>
                               <li>
                                 <div class="thumb">
@@ -61,6 +64,7 @@
                                 <div class="ttl"><h3><a href="">タイトルタイトルタイトルタイトル</a></h3></div>
                                 <div class="location"><a href="">京都</a>
                                 </div>
+                                <div class="link"><a href="#">お気に入りから削除</a></div>
                               </li>
                               <li>
                                 <div class="thumb">
@@ -71,6 +75,7 @@
                                 <div class="ttl"><h3><a href="">タイトルタイトルタイトルタイトル</a></h3></div>
                                 <div class="location"><a href="">京都</a>
                                 </div>
+                                <div class="link"><a href="#">お気に入りから削除</a></div>
                               </li>
                               <li>
                                 <div class="thumb">
@@ -81,6 +86,7 @@
                                 <div class="ttl"><h3><a href="">タイトルタイトルタイトルタイトル</a></h3></div>
                                 <div class="location"><a href="">京都</a>
                                 </div>
+                                <div class="link"><a href="#">お気に入りから削除</a></div>
                               </li>
                               <li>
                                 <div class="thumb">
@@ -91,6 +97,7 @@
                                 <div class="ttl"><h3><a href="">タイトルタイトルタイトルタイトル</a></h3></div>
                                 <div class="location"><a href="">京都</a>
                                 </div>
+                                <div class="link"><a href="#">お気に入りから削除</a></div>
                               </li>
                               <li>
                                 <div class="thumb">
@@ -101,6 +108,7 @@
                                 <div class="ttl"><h3><a href="">タイトルタイトルタイトルタイトル</a></h3></div>
                                 <div class="location"><a href="">京都</a>
                                 </div>
+                                <div class="link"><a href="#">お気に入りから削除</a></div>
                               </li>
                               <li>
                                 <div class="thumb">
@@ -111,6 +119,7 @@
                                 <div class="ttl"><h3><a href="">タイトルタイトルタイトルタイトル</a></h3></div>
                                 <div class="location"><a href="">京都</a>
                                 </div>
+                                <div class="link"><a href="#">お気に入りから削除</a></div>
                               </li>
                             </ul>
                           </div>

@@ -5,7 +5,8 @@
 	<link rel="stylesheet" href="/css/megamenu.css">
 	<link rel="stylesheet" href="/css/jquery-ui.min.css">
 	<link rel="stylesheet" href="/css/exvalidation.css">
-	<link rel="stylesheet" href="/css/common.css">
+  <link rel="stylesheet" href="/css/common.css">
+  <link rel="stylesheet" href="/css/layout.css">
 	<meta charset="UTF-8">
     <meta name="robots" content="noindex" />
 	<meta name="description" content="">
@@ -17,13 +18,14 @@
 	<div id="contents">
 			<div class="inner">
 				<div id="main">
-          <div class="user-info type-user">
-            <div class="user-img"><img src="/images/user-icon-default.png" width="60" height="" alt=""></div>
-            <div class="txt">
-              <div class="user-name">Mori Akinobu<span>&nbsp;さんのページ</span></div>
-              <div class="location">京都</div>
-            </div>
-          </div>
+                  <div class="section">
+                  <div class="user-info type-user">
+                    <div class="user-img"><img src="/images/user-icon-default.png" width="60" height="" alt=""></div>
+                    <div class="txt">
+                      <div class="user-name">Mori Akinobu<span>&nbsp;さんのページ</span></div>
+                      <div class="location">京都</div>
+                    </div>
+                  </div>
 					<div class="tab-contents">
 						<div class="title-tab">
 							<ul>
@@ -50,61 +52,68 @@
             <?php include($_SERVER['DOCUMENT_ROOT'] . '/user/user-album.php'); ?>
 						</div>
 					</div>
+                  </div>
 				</div>
-				<div id="sub">
-					<div class="user-area">
-						<div class="user-info">
-							<div class="user-img"><img src="/images/user-icon-default.png" width="60" height="" alt=""></div>
-							<div class="user-name">Nagata Hiroaki</div>
-							<div class="location">京都</div>
-						</div>
-						<div class="user-meta">
-							<ul>
-								<li>
-									<a href="/mypage/follow/index.php">
-										<p class="txt">フォロー</p>
-										<p class="num">100</p>
-									</a>
-								</li>
-								<li>
-									<a href="/mypage/follow/index.php?tab=1">
-										<p class="txt">フォロワー</p>
-										<p class="num">80</p>
-									</a>
-								</li>
-								<li>
-									<a href="/mypage/favorite/index.php">
-										<p class="txt">お気に入り</p>
-										<p class="num">6</p>
-									</a>
-								</li>
-								<li>
-									<a href="/mypage/album/index.php">
-										<p class="txt">アルバム</p>
-										<p class="num">8</p>
-									</a>
-								</li>
-							</ul>
-						</div>
-					</div>
-					<div class="comment-history">
-						<div class="ttl">あなたのコメント履歴</div>
-						<ul>
-							<li>
-								<div class="txt"><a href="">私もそこに行ってみたいです。</a><span class="time">（9月14日）</span></div>
-							</li>
-							<li>
-								<div class="txt"><a href="">そのお店は定休日はございますか。</a><span class="time">（9月14日）</span></div>
-							</li>
-							<li>
-								<div class="txt"><a href="">近辺に住んでいる私の友人に聞いたところ、観光客は少なく穴場スポットであるようです。</a><span class="time">（9月14日）</span></div>
-							</li>
-						</ul>
-						<div class="more">
-							<a href="/mypage/comments/">もっと見る</a>
-						</div>
-					</div>
-				</div>
+              <div id="sub">
+                <div class="btn09 btn-follow">フォローする</div>
+                <div class="user-area">
+                  <div class="user-info">
+                    <div class="user-img">
+                      <img src="/images/user-icon-default.png" width="36" height="" alt="">
+                    </div>
+                    <div class="txt">
+                      <div class="user-name">Nagata Hiroaki</div>
+                      <div class="location"><a href="#">京都</a>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="user-meta">
+                    <ul>
+                      <li>
+                        <a href="/mypage/follow/index.php">
+                          <p class="txt">フォロー</p>
+                          <p class="num">100</p>
+                        </a>
+                      </li>
+                      <li>
+                        <a href="/mypage/follow/index.php?tab=1">
+                          <p class="txt">フォロワー</p>
+                          <p class="num">80</p>
+                        </a>
+                      </li>
+                      <li>
+                        <a href="/mypage/favorite/index.php">
+                          <p class="txt">お気に入り</p>
+                          <p class="num">6</p>
+                        </a>
+                      </li>
+                      <li>
+                        <a href="/mypage/album/index.php">
+                          <p class="txt">アルバム</p>
+                          <p class="num">8</p>
+                        </a>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+                <div class="comment-history">
+                  <h2 class="h2-ttl03"><img src="/images/side_commnet_h001.gif" alt="あなたのコメント履歴"></h2>
+                  <ul class="side-list01">
+                    <li>
+                      <div class="txt"><a href="">私もそこに行ってみたいです。</a><span class="time">（9月14日）</span></div>
+                    </li>
+                    <li>
+                      <div class="txt"><a href="">そのお店は定休日はございますか。</a><span class="time">（9月14日）</span></div>
+                    </li>
+                    <li>
+                      <div class="txt"><a href="">近辺に住んでいる私の友人に聞いたところ、観光客は少なく穴場スポットであるようです。</a><span class="time">（9月14日）</span></div>
+                    </li>
+                  </ul>
+                  <div class="btn08">
+                    <a href="/mypage/comments/">もっと見る</a>
+                  </div>
+                </div>
+              </div>
 			</div>
 	</div>
 	<!-- /#contents -->

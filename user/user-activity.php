@@ -39,5 +39,5 @@
         </a> </div>
     </li>
   </ul>
-  <div class="more"> <a href="">もっと見る</a> </div>
 </div>
+<div class="btngroup"><a href="#" class="btn07">もっと見る</a></div>

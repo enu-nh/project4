@@ -1,88 +1,96 @@
-<div class="post-list post-style-01">
-   <ul>
-      <li>
-          <p class="thumb">
-              <a href="">
-                  <img src="http://lorempixel.com/194/194" alt="">
-              </a>
-          </p>
-          <h3><a href="">タイトルタイトルタイトルタイトル</a></h3>
-          <p class="location"><a href="">京都</a></p>
-      </li>
-      <li>
-          <p class="thumb">
-              <a href="">
-                  <img src="http://lorempixel.com/194/194" alt="">
-              </a>
-          </p>
-          <h3><a href="">タイトルタイトルタイトルタイトル</a></h3>
-          <p class="location"><a href="">京都</a></p>
-      </li>
-      <li>
-          <p class="thumb">
-              <a href="">
-                  <img src="http://lorempixel.com/194/194" alt="">
-              </a>
-          </p>
-          <h3><a href="">タイトルタイトルタイトルタイトル</a></h3>
-          <p class="location"><a href="">京都</a></p>
-      </li>
-      <li>
-          <p class="thumb">
-              <a href="">
-                  <img src="http://lorempixel.com/194/194" alt="">
-              </a>
-          </p>
-          <h3><a href="">タイトルタイトルタイトルタイトル</a></h3>
-          <p class="location"><a href="">京都</a></p>
-      </li>
-      <li>
-          <p class="thumb">
-              <a href="">
-                  <img src="http://lorempixel.com/194/194" alt="">
-              </a>
-          </p>
-          <h3><a href="">タイトルタイトルタイトルタイトル</a></h3>
-          <p class="location"><a href="">京都</a></p>
-      </li>
-      <li>
-          <p class="thumb">
-              <a href="">
-                  <img src="http://lorempixel.com/194/194" alt="">
-              </a>
-          </p>
-          <h3><a href="">タイトルタイトルタイトルタイトル</a></h3>
-          <p class="location"><a href="">京都</a></p>
-      </li>
-      <li>
-          <p class="thumb">
-              <a href="">
-                  <img src="http://lorempixel.com/194/194" alt="">
-              </a>
-          </p>
-          <h3><a href="">タイトルタイトルタイトルタイトル</a></h3>
-          <p class="location"><a href="">京都</a></p>
-      </li>
-      <li>
-          <p class="thumb">
-              <a href="">
-                  <img src="http://lorempixel.com/194/194" alt="">
-              </a>
-          </p>
-          <h3><a href="">タイトルタイトルタイトルタイトル</a></h3>
-          <p class="location"><a href="">京都</a></p>
-      </li>
-      <li>
-          <p class="thumb">
-              <a href="">
-                  <img src="http://lorempixel.com/194/194" alt="">
-              </a>
-          </p>
-          <h3><a href="">タイトルタイトルタイトルタイトル</a></h3>
-          <p class="location"><a href="">京都</a></p>
-      </li>
+<div class="col3-type01">
+  <ul>
+    <li>
+      <div class="thumb">
+        <a href="">
+          <img src="/images/img_posts_01.jpg" width="200" height="200" alt="">
+        </a>
+      </div>
+      <div class="ttl"><h3><a href="">タイトルタイトルタイトルタイトル</a></h3></div>
+      <div class="location"><a href="">京都</a>
+      </div>
+    </li>
+    <li>
+      <div class="thumb">
+        <a href="">
+          <img src="/images/img_posts_01.jpg" width="200" height="200" alt="">
+        </a>
+      </div>
+      <div class="ttl"><h3><a href="">タイトルタイトルタイトルタイトル</a></h3></div>
+      <div class="location"><a href="">京都</a>
+      </div>
+    </li>
+    <li>
+      <div class="thumb">
+        <a href="">
+          <img src="/images/img_posts_01.jpg" width="200" height="200" alt="">
+        </a>
+      </div>
+      <div class="ttl"><h3><a href="">タイトルタイトルタイトルタイトル</a></h3></div>
+      <div class="location"><a href="">京都</a>
+      </div>
+    </li>
+    <li>
+      <div class="thumb">
+        <a href="">
+          <img src="/images/img_posts_01.jpg" width="200" height="200" alt="">
+        </a>
+      </div>
+      <div class="ttl"><h3><a href="">タイトルタイトルタイトルタイトル</a></h3></div>
+      <div class="location"><a href="">京都</a>
+      </div>
+    </li>
+    <li>
+      <div class="thumb">
+        <a href="">
+          <img src="/images/img_posts_01.jpg" width="200" height="200" alt="">
+        </a>
+      </div>
+      <div class="ttl"><h3><a href="">タイトルタイトルタイトルタイトル</a></h3></div>
+      <div class="location"><a href="">京都</a>
+      </div>
+    </li>
+    <li>
+      <div class="thumb">
+        <a href="">
+          <img src="/images/img_posts_01.jpg" width="200" height="200" alt="">
+        </a>
+      </div>
+      <div class="ttl"><h3><a href="">タイトルタイトルタイトルタイトル</a></h3></div>
+      <div class="location"><a href="">京都</a>
+      </div>
+    </li>
+    <li>
+      <div class="thumb">
+        <a href="">
+          <img src="/images/img_posts_01.jpg" width="200" height="200" alt="">
+        </a>
+      </div>
+      <div class="ttl"><h3><a href="">タイトルタイトルタイトルタイトル</a></h3></div>
+      <div class="location"><a href="">京都</a>
+      </div>
+    </li>
+    <li>
+      <div class="thumb">
+        <a href="">
+          <img src="/images/img_posts_01.jpg" width="200" height="200" alt="">
+        </a>
+      </div>
+      <div class="ttl"><h3><a href="">タイトルタイトルタイトルタイトル</a></h3></div>
+      <div class="location"><a href="">京都</a>
+      </div>
+    </li>
+    <li>
+      <div class="thumb">
+        <a href="">
+          <img src="/images/img_posts_01.jpg" width="200" height="200" alt="">
+        </a>
+      </div>
+      <div class="ttl"><h3><a href="">タイトルタイトルタイトルタイトル</a></h3></div>
+      <div class="location"><a href="">京都</a>
+      </div>
+    </li>
   </ul>
-  <div class="more">
-      <a href="">もっと見る</a>
-  </div>
+</div>
+<div class="btngroup"><a href="#" class="btn07">もっと見る</a> 
 </div>

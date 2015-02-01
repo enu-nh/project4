@@ -121,7 +121,12 @@ $(function () {
     }
   },".r-day");
   
-  
+  //スポット表示
+  $(document).on({
+    click: function(){
+      $(this).parents(".spot").toggleClass("show");
+    }
+  },".btn-map")
   
   
   //画像拡大
@@ -132,7 +137,7 @@ $(function () {
   //tab化
   var pn = location.search.match(/(\?|&)tab=(\d+)(&|\b)/) ? RegExp.$2 : '0';
 
-  $(".tab-contents").tabs().tabs("option", "active", parseInt(pn));
+  $(".tab-contents").tabs().tabs( "option", "show", { effect: "blind", duration: 1000 } );
 
   $('.ui-tabs-nav a').focusin(function () {
     this.blur();

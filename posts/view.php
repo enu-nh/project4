@@ -134,6 +134,7 @@ $preflist=array( '0'=>'北海道', '1'=>'青森県', '2'=>'秋田県', '3'=>'山
           </form>
         </div>
         <div id="sub">
+          <div class="btn09 btn-bookmark">お気に入りに追加</div>
           <div class="user-area">
             <div class="user-info">
               <div class="user-img">

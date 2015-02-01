@@ -240,6 +240,32 @@ body {
   text-align: center;
   background: #5f89c7;
 }
+/* btn07 */
+.btn09 {
+  clear: both;
+}
+.btn09 {
+  display: inline-block;
+  vertical-align: middle;
+  width: 300px;
+  padding: 10px 0 9px 0;
+  margin: 0 auto 10px auto;
+  color: #5fc77a;
+  font-size: 100%;
+  font-weight: bold;
+  text-align: center;
+  background: #fff;
+  border: 3px solid #5fc77a;
+  box-sizing: border-box;
+  transition: all 0.3s;
+  -webkit-transition : all 0.3s;
+  cursor: pointer;
+}
+.btn09:hover {
+  color: #fff;
+  background: #5fc77a;
+  border: 3px solid #5fc77a;
+}
 
 /*------------------------------------------------------------ link-set */
 /* link-set01 */
@@ -761,6 +787,8 @@ a:hover .rank3 {
 .post-module04 .spot .maparea {
   height: 0;
   overflow: hidden;
+  transition: all 0.3s;
+  -webkit-transition : all 0.3s;
 }
 .post-module04 .spot.show img {
   opacity: 0;

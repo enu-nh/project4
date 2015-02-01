@@ -14,7 +14,7 @@ $(function () {
       stepValidation: true,
       errTipCloseBtn: false,
       errTipPos: "left", // 吹き出しが表示される位置（左右）
-      errHoverHide: false, // マウスオーバーで消える
+      errHoverHide: true, // マウスオーバーで消える
       scrollToErr: true // 
     });
 });

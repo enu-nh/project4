@@ -37,7 +37,7 @@
                                     <img src="/images/img_posts_01.jpg" width="200" height="200" alt="">
                                   </a>
                                 </div>
-                                <h3><a href="">タイトルタイトルタイトルタイトル</a></h3>
+                                <div class="ttl"><h3><a href="">タイトルタイトルタイトルタイトル</a></h3></div>
                                 <div class="location"><a href="">京都</a>
                                 </div>
                               </li>
@@ -47,7 +47,7 @@
                                     <img src="/images/img_posts_01.jpg" width="200" height="200" alt="">
                                   </a>
                                 </div>
-                                <h3><a href="">タイトルタイトルタイトルタイトル</a></h3>
+                                <div class="ttl"><h3><a href="">タイトルタイトルタイトルタイトル</a></h3></div>
                                 <div class="location"><a href="">京都</a>
                                 </div>
                               </li>
@@ -57,7 +57,7 @@
                                     <img src="/images/img_posts_01.jpg" width="200" height="200" alt="">
                                   </a>
                                 </div>
-                                <h3><a href="">タイトルタイトルタイトルタイトル</a></h3>
+                                <div class="ttl"><h3><a href="">タイトルタイトルタイトルタイトル</a></h3></div>
                                 <div class="location"><a href="">京都</a>
                                 </div>
                               </li>
@@ -67,7 +67,7 @@
                                     <img src="/images/img_posts_01.jpg" width="200" height="200" alt="">
                                   </a>
                                 </div>
-                                <h3><a href="">タイトルタイトルタイトルタイトル</a></h3>
+                                <div class="ttl"><h3><a href="">タイトルタイトルタイトルタイトル</a></h3></div>
                                 <div class="location"><a href="">京都</a>
                                 </div>
                               </li>
@@ -77,7 +77,7 @@
                                     <img src="/images/img_posts_01.jpg" width="200" height="200" alt="">
                                   </a>
                                 </div>
-                                <h3><a href="">タイトルタイトルタイトルタイトル</a></h3>
+                                <div class="ttl"><h3><a href="">タイトルタイトルタイトルタイトル</a></h3></div>
                                 <div class="location"><a href="">京都</a>
                                 </div>
                               </li>
@@ -87,7 +87,7 @@
                                     <img src="/images/img_posts_01.jpg" width="200" height="200" alt="">
                                   </a>
                                 </div>
-                                <h3><a href="">タイトルタイトルタイトルタイトル</a></h3>
+                                <div class="ttl"><h3><a href="">タイトルタイトルタイトルタイトル</a></h3></div>
                                 <div class="location"><a href="">京都</a>
                                 </div>
                               </li>
@@ -97,7 +97,7 @@
                                     <img src="/images/img_posts_01.jpg" width="200" height="200" alt="">
                                   </a>
                                 </div>
-                                <h3><a href="">タイトルタイトルタイトルタイトル</a></h3>
+                                <div class="ttl"><h3><a href="">タイトルタイトルタイトルタイトル</a></h3></div>
                                 <div class="location"><a href="">京都</a>
                                 </div>
                               </li>
@@ -107,7 +107,7 @@
                                     <img src="/images/img_posts_01.jpg" width="200" height="200" alt="">
                                   </a>
                                 </div>
-                                <h3><a href="">タイトルタイトルタイトルタイトル</a></h3>
+                                <div class="ttl"><h3><a href="">タイトルタイトルタイトルタイトル</a></h3></div>
                                 <div class="location"><a href="">京都</a>
                                 </div>
                               </li>
@@ -117,7 +117,7 @@
                                     <img src="/images/img_posts_01.jpg" width="200" height="200" alt="">
                                   </a>
                                 </div>
-                                <h3><a href="">タイトルタイトルタイトルタイトル</a></h3>
+                                <div class="ttl"><h3><a href="">タイトルタイトルタイトルタイトル</a></h3></div>
                                 <div class="location"><a href="">京都</a>
                                 </div>
                               </li>
@@ -135,7 +135,7 @@
                                     <img src="/images/img_posts_01.jpg" width="200" height="200" alt="">
                                   </a>
                                 </div>
-                                <h3><a href="">タイトルタイトルタイトルタイトル</a></h3>
+                                <div class="ttl"><h3><a href="">タイトルタイトルタイトルタイトル</a></h3></div>
                                 <div class="location"><a href="">京都</a>
                                 </div>
                               </li>
@@ -145,7 +145,7 @@
                                     <img src="/images/img_posts_01.jpg" width="200" height="200" alt="">
                                   </a>
                                 </div>
-                                <h3><a href="">タイトルタイトルタイトルタイトル</a></h3>
+                                <div class="ttl"><h3><a href="">タイトルタイトルタイトルタイトル</a></h3></div>
                                 <div class="location"><a href="">京都</a>
                                 </div>
                               </li>
@@ -155,7 +155,7 @@
                                     <img src="/images/img_posts_01.jpg" width="200" height="200" alt="">
                                   </a>
                                 </div>
-                                <h3><a href="">タイトルタイトルタイトルタイトル</a></h3>
+                                <div class="ttl"><h3><a href="">タイトルタイトルタイトルタイトル</a></h3></div>
                                 <div class="location"><a href="">京都</a>
                                 </div>
                               </li>
@@ -165,7 +165,7 @@
                                     <img src="/images/img_posts_01.jpg" width="200" height="200" alt="">
                                   </a>
                                 </div>
-                                <h3><a href="">タイトルタイトルタイトルタイトル</a></h3>
+                                <div class="ttl"><h3><a href="">タイトルタイトルタイトルタイトル</a></h3></div>
                                 <div class="location"><a href="">京都</a>
                                 </div>
                               </li>
@@ -175,7 +175,7 @@
                                     <img src="/images/img_posts_01.jpg" width="200" height="200" alt="">
                                   </a>
                                 </div>
-                                <h3><a href="">タイトルタイトルタイトルタイトル</a></h3>
+                                <div class="ttl"><h3><a href="">タイトルタイトルタイトルタイトル</a></h3></div>
                                 <div class="location"><a href="">京都</a>
                                 </div>
                               </li>
@@ -185,7 +185,7 @@
                                     <img src="/images/img_posts_01.jpg" width="200" height="200" alt="">
                                   </a>
                                 </div>
-                                <h3><a href="">タイトルタイトルタイトルタイトル</a></h3>
+                                <div class="ttl"><h3><a href="">タイトルタイトルタイトルタイトル</a></h3></div>
                                 <div class="location"><a href="">京都</a>
                                 </div>
                               </li>
@@ -195,7 +195,7 @@
                                     <img src="/images/img_posts_01.jpg" width="200" height="200" alt="">
                                   </a>
                                 </div>
-                                <h3><a href="">タイトルタイトルタイトルタイトル</a></h3>
+                                <div class="ttl"><h3><a href="">タイトルタイトルタイトルタイトル</a></h3></div>
                                 <div class="location"><a href="">京都</a>
                                 </div>
                               </li>
@@ -205,7 +205,7 @@
                                     <img src="/images/img_posts_01.jpg" width="200" height="200" alt="">
                                   </a>
                                 </div>
-                                <h3><a href="">タイトルタイトルタイトルタイトル</a></h3>
+                                <div class="ttl"><h3><a href="">タイトルタイトルタイトルタイトル</a></h3></div>
                                 <div class="location"><a href="">京都</a>
                                 </div>
                               </li>
@@ -215,7 +215,7 @@
                                     <img src="/images/img_posts_01.jpg" width="200" height="200" alt="">
                                   </a>
                                 </div>
-                                <h3><a href="">タイトルタイトルタイトルタイトル</a></h3>
+                                <div class="ttl"><h3><a href="">タイトルタイトルタイトルタイトル</a></h3></div>
                                 <div class="location"><a href="">京都</a>
                                 </div>
                               </li>
@@ -233,7 +233,7 @@
                                     <img src="/images/img_posts_01.jpg" width="200" height="200" alt="">
                                   </a>
                                 </div>
-                                <h3><a href="">タイトルタイトルタイトルタイトル</a></h3>
+                                <div class="ttl"><h3><a href="">タイトルタイトルタイトルタイトル</a></h3></div>
                                 <div class="location"><a href="">京都</a>
                                 </div>
                               </li>
@@ -243,7 +243,7 @@
                                     <img src="/images/img_posts_01.jpg" width="200" height="200" alt="">
                                   </a>
                                 </div>
-                                <h3><a href="">タイトルタイトルタイトルタイトル</a></h3>
+                                <div class="ttl"><h3><a href="">タイトルタイトルタイトルタイトル</a></h3></div>
                                 <div class="location"><a href="">京都</a>
                                 </div>
                               </li>
@@ -253,7 +253,7 @@
                                     <img src="/images/img_posts_01.jpg" width="200" height="200" alt="">
                                   </a>
                                 </div>
-                                <h3><a href="">タイトルタイトルタイトルタイトル</a></h3>
+                                <div class="ttl"><h3><a href="">タイトルタイトルタイトルタイトル</a></h3></div>
                                 <div class="location"><a href="">京都</a>
                                 </div>
                               </li>
@@ -263,7 +263,7 @@
                                     <img src="/images/img_posts_01.jpg" width="200" height="200" alt="">
                                   </a>
                                 </div>
-                                <h3><a href="">タイトルタイトルタイトルタイトル</a></h3>
+                                <div class="ttl"><h3><a href="">タイトルタイトルタイトルタイトル</a></h3></div>
                                 <div class="location"><a href="">京都</a>
                                 </div>
                               </li>
@@ -273,7 +273,7 @@
                                     <img src="/images/img_posts_01.jpg" width="200" height="200" alt="">
                                   </a>
                                 </div>
-                                <h3><a href="">タイトルタイトルタイトルタイトル</a></h3>
+                                <div class="ttl"><h3><a href="">タイトルタイトルタイトルタイトル</a></h3></div>
                                 <div class="location"><a href="">京都</a>
                                 </div>
                               </li>
@@ -283,7 +283,7 @@
                                     <img src="/images/img_posts_01.jpg" width="200" height="200" alt="">
                                   </a>
                                 </div>
-                                <h3><a href="">タイトルタイトルタイトルタイトル</a></h3>
+                                <div class="ttl"><h3><a href="">タイトルタイトルタイトルタイトル</a></h3></div>
                                 <div class="location"><a href="">京都</a>
                                 </div>
                               </li>
@@ -293,7 +293,7 @@
                                     <img src="/images/img_posts_01.jpg" width="200" height="200" alt="">
                                   </a>
                                 </div>
-                                <h3><a href="">タイトルタイトルタイトルタイトル</a></h3>
+                                <div class="ttl"><h3><a href="">タイトルタイトルタイトルタイトル</a></h3></div>
                                 <div class="location"><a href="">京都</a>
                                 </div>
                               </li>
@@ -303,7 +303,7 @@
                                     <img src="/images/img_posts_01.jpg" width="200" height="200" alt="">
                                   </a>
                                 </div>
-                                <h3><a href="">タイトルタイトルタイトルタイトル</a></h3>
+                                <div class="ttl"><h3><a href="">タイトルタイトルタイトルタイトル</a></h3></div>
                                 <div class="location"><a href="">京都</a>
                                 </div>
                               </li>
@@ -313,7 +313,7 @@
                                     <img src="/images/img_posts_01.jpg" width="200" height="200" alt="">
                                   </a>
                                 </div>
-                                <h3><a href="">タイトルタイトルタイトルタイトル</a></h3>
+                                <div class="ttl"><h3><a href="">タイトルタイトルタイトルタイトル</a></h3></div>
                                 <div class="location"><a href="">京都</a>
                                 </div>
                               </li>

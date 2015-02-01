@@ -351,6 +351,7 @@ input[type="password"]{
   font-size: 100%;
   background: #f3f3f3;
   border: 1px solid #eee;
+  outline: none;
 }
 textarea {
   padding: 9px 5px 8px 5px;
@@ -358,6 +359,7 @@ textarea {
   font-size: 100%;
   background: #f3f3f3;
   border: 1px solid #eee;
+  outline: none;
 }
 .input-type01 {
   width: 100%;
@@ -417,7 +419,7 @@ textarea {
   text-align: center;
   vertical-align: middle;
   background: #000;
-  opacity: .8;
+  opacity: .3;
 }
 .thumb-area .menuImgBg {
   width: 514px;
@@ -974,7 +976,7 @@ post-module04 .btngroup {
   height: auto;
 }
 .col3-type01 li h3{
-  padding: 0 9px;
+  padding: 6px 9px 0 9px;
   font-size: 87.5%;
   font-weight: normal;
   border-left: 1px solid #f3f3f3;

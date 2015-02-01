@@ -15,7 +15,7 @@ $(function () {
     console.log("ok");
     if(window.confirm('ログアウトしますか？')){
 
-      location.href = "/"; // example_confirm.html へジャンプ
+      location.href = "/logout.php"; // example_confirm.html へジャンプ
 
     }
     return false;
@@ -95,8 +95,16 @@ $(function () {
   $(document).on({
     click: function(){
       if($(this).parents(".post-module02").children().length>3){
-        $(this).parent().remove();
-        addClassList();
+        $(this).parent().css("overflow","hidden").animate({
+          "height": 0,
+          "opacity": 0
+        },{
+          "duration":500,
+          "complete": function(){
+            $(this).remove();
+            addClassList();
+          }
+        });
       }
       return false;
     }
@@ -106,17 +114,24 @@ $(function () {
     click: function(){
       console.log($('.post-module02').length);
       if(!$(this).parent().hasClass("day1")){
-        $(this).parent().remove();
-        dayNum = $('.post-module02').length;
-        for(var i=0;i < dayNum;i++){
-          console.log(i);
-          $(".post-module02").eq(i).attr("class","post-module02 day"+(i+1));
-          $(".post-module02").eq(i).children("h2").text((i+1)+"日目");
-        }
-        click_day_num = click_day_num - 1;
+        $(this).parent().css("overflow","hidden").animate({
+          "height": 0,
+          "opacity": 0
+        },{
+          "duration":500,
+          "complete": function(){
+            $(this).remove();
+            addClassList();
+            dayNum = $('.post-module02').length;
+            for(var i=0;i < dayNum;i++){
+              console.log(i);
+              $(".post-module02").eq(i).attr("class","post-module02 day"+(i+1));
+              $(".post-module02").eq(i).children("h2").text((i+1)+"日目");
+            }
+            click_day_num = click_day_num - 1;
+          }
+        });
       }
-      
-      addClassList();
       return false;
     }
   },".r-day");

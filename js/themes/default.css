@@ -120,7 +120,7 @@
     font-size: 1.25em;
   }
 }
-@media (min-height: 33.875em) {
+@media (min-height: 50.875em) {
   .picker__box {
     display: block;
     font-size: 1.33em;

@@ -1093,7 +1093,7 @@ post-module04 .btngroup {
 .gnav ul li {
   display: block;
   float: left;
-  width: 25%;
+  width: 50%;
   text-align: center;
 }
 .gnav ul li a {
@@ -1106,9 +1106,6 @@ post-module04 .btngroup {
   color: #333;
   font-size: 87.5%;
   font-weight: bold;
-}
-.gnav.type-on {
-  display: none;
 }
 .gnav.type-on .menu-search,
 .gnav.type-on .menu-posts,
@@ -1144,19 +1141,13 @@ post-module04 .btngroup {
   background: #f3f3f3;
 }
 .gnav.type-off .menu-search a {
-  background-position: 4.5em center;
-}
-.gnav.type-off .menu-posts a {
-  background-position: 4.8em center;
-}
-.gnav.type-off .menu-my a {
-  background-position: 5.8em center;
+  background-position: 14.2em center;
 }
 .gnav.type-off .menu-in a {
-  background: url(/images/bg_gnav_05.gif)no-repeat 5.8em center;
+  background: url(/images/bg_gnav_05.gif)no-repeat 15.8em center;
 }
 .gnav.type-off .menu-in a:hover {
-  background: #f3f3f3 url(/images/bg_gnav_05.gif)no-repeat 5.8em center;
+  background: #f3f3f3 url(/images/bg_gnav_05.gif)no-repeat 15.8em center;
 }
 
 /*-------------------------------------------------- contents */

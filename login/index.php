@@ -24,13 +24,13 @@
       <h1 class="h1-ttl01"><img src="/images/login_h001.gif" alt="ログイン"></h1>
       <p class="txt-set01">既に会員の方はこちらからログインしてください。会員でない方は<a href="#">新規会員登録ページ</a>で会員登録をお願いいたします。</p>
       <div class="login-box">
-        <form action="login-by-email.php" method="post">
+        <form action="login-by-email.php" method="post" id="login-form">
           <table>
             <tr>
               <th>E-mail</th>
-              <td><input type="text" name="email"></td>
+              <td><input type="text" name="email" id="email"></td>
               <th>パスワード</th>
-              <td class="last"><input type="password" name="password"></td>
+              <td class="last"><input type="password" name="password" id="password"></td>
             </tr>
           </table>
           <div class="btngroup"><input type="submit" name="email-login" value="ログイン" class="btn07"></div>
@@ -42,7 +42,10 @@
 <?php include '../footer.php'; ?>
 <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
 <script src="/js/jquery-accessibleMegaMenu.js"></script>
-<script src="/js/jquery-ui.min.js"></script>
+  <script src="/js/jquery-ui.min.js"></script>
+  <script src="/js/exvalidation.js"></script>
+  <script src="/js/exchecker-ja.js"></script>
+  <script src="/js/validation.js"></script>
 <script src="/js/style.js"></script>
 <div id="fb-root"></div>
 <script>(function(d, s, id) {

@@ -20,6 +20,7 @@
         <h1 class="logo"><img src="/images/txt_logo.png" alt="Trippost"></h1>
         <h2><img src="/images/txt_index_01.png" alt="旅の思い出共有サービス"></h2>
         <p class="txt-set01">TRIPPOSTは旅行に興味を持っているユーザが、旅行をするまでの手助けをするサービスです。TRIPPOST旅行に興味を持っているユーザが、旅行をするまでの手助けをするサービスです。TRIPPOSTは旅行に興味を持っているユーザが、旅行をするまでの手助けをするサービスです。</p>
+        <!-- ここから修正箇所 1日 18:45 -->
         <!-- ここからログオフ時 -->
         <div class="box-entry01">
           <a href="/signup/index.php" class="btn01">メールで登録</a>
@@ -33,7 +34,8 @@
           <a href="/mypage/" class="btn10">マイページへ移動</a>
         </div>
         <p>あなたは現在ログインしています</p>
-        ここまでログイン時 -->
+ここまでログイン時 -->
+        <!-- ここまで修正箇所 1日 18:45 -->
       </section>
     </div>
     <!-- #mainVisual -->

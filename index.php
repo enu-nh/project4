@@ -24,7 +24,7 @@
       <a href="/signup/index.php" class="btn01">メールで登録</a>
       <a href="http://trip-post.com/" class="btn01">Instagramで登録／ログイン</a>
     </div>
-    <p><a href="/login/" class="link-set01">既に登録されている方はこちら</a></p>
+    <p><a href="/login/" class="link-set01">Instagram以外で既に登録されている方はこちら</a></p>
     </section>
   </div>
   <!-- #mainVisual -->

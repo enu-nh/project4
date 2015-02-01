@@ -74,7 +74,6 @@ $(function(){
     $("#map_canvas").remove();
     $(this).parent().append('<div id="map_canvas" style="width:620px; height:300px"></div>');
     var eventSpotArea = thisHtml;
-    console.log(eventSpotArea);
   
     var geocoder = new google.maps.Geocoder();
     var map;
@@ -99,7 +98,6 @@ $(function(){
 
     // ドラッグが終了した時の処理
     google.maps.event.addListener(marker, "dragend", function() {
-         console.log("hoge");
         setLatLng(marker);
         map.setCenter(marker.getPosition());
         thisHtml.attr("data-lat",plat);
@@ -110,17 +108,28 @@ $(function(){
     
     // 住所から検索
     function codeAddress() {
-        var address = document.getElementById("address").value;
+        console.log(address);
         geocoder.geocode( { 'address': address}, function(results, status) {
             if (status == google.maps.GeocoderStatus.OK) {
                 map.setCenter(results[0].geometry.location);
                 marker.setPosition(results[0].geometry.location);
                 setLatLng(marker); // 座標書き出し
+              thisHtml.attr("data-lat",plat);
+              thisHtml.attr("data-lng",plng);
             } else {
                 alert("Geocode was not successful for the following reason: " + status);
             }
         });
     }
+    //更新クリック時にマーカー位置修正
+    $(document).on({
+      click: function(){
+        address = $(this).next().val();
+        console.log(address);
+        codeAddress();
+        return false;
+      }
+    },".btn-ref");
     
     // マーカーの位置をテキストフィールドに書きだす。
     function setLatLng(marker) {

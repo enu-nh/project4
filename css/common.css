@@ -153,21 +153,23 @@ body {
   width: 200px;
   padding: 10px 0 11px 0;
   margin: 0 auto;
-  color: #fff;
   font-size: 100%;
   font-weight: bold;
   text-align: center;
   background: #fff;
-  border: none;
+  box-sizing: border-box;
 }
 .btn04 {
-  background: #5fc77a;
+  color: #5fc77a;
+  border: 3px solid #5fc77a;
 }
 .btn05 {
-  background: #cf7775;
+  color: #cf7775;
+  border: 3px solid #cf7775;
 }
 .btn06 {
-  background: #5f89c7;
+  color: #5f89c7;
+  border: 3px solid #5f89c7;
 }
 .btn04:hover,
 .btn05:hover,
@@ -175,13 +177,13 @@ body {
   color: #fff;
 }
 .btn04:hover {
-  background: #3f833f;
+  background: #5fc77a;
 }
 .btn05:hover {
-  background: #83403f;
+  background: #cf7775;
 }
 .btn06:hover {
-  background: #3f5f83;
+  background: #5f89c7;
 }
 #addpost-support {
   letter-spacing: -.4em;
@@ -364,6 +366,26 @@ textarea {
 .input-type01 {
   width: 100%;
   box-sizing: border-box;
+}
+.event-map {
+  letter-spacing: -.4em;
+  vertical-align: middle;
+}
+.btn-ref {
+  vertical-align: top;
+  letter-spacing: normal;
+  width: 80px;
+  padding: 7px 0 8px 0;
+  text-align: center;
+  color: #fff;
+  background: #5fc77a;
+  cursor: pointer;
+  display: inline-block;
+}
+.input-type02 {
+  width: 528px;
+  letter-spacing: normal;
+  display: inline-block;
 }
 .radiotype-01 label{
   margin: 0 10px 0 0;

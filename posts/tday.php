@@ -48,7 +48,10 @@
       <h3 class="h3-ttl02">場所を指定</h3>
     </div>
     <div class="input-area01 event-map">
-      <input type="text" name="eventMap<?php echo($click_id_num); ?>" id="eventMap<?php echo($click_id_num); ?>" class="input-type01 chkmax150" rows="1" aria-haspopup="true" aria-expanded="false" readonly aria-readonly="false" data-lat="35.021004" data-lng="135.755608" />
+      <!-- ここから修正箇所 1日 22:30 -->
+      <div class="btn-ref">更新</div>
+      <input type="text" name="eventMap<?php echo($click_id_num); ?>" id="eventMap<?php echo($click_id_num); ?>" class="input-type02 chkmax150" rows="1" aria-haspopup="true" aria-expanded="false" aria-readonly="false" data-lat="35.021004" data-lng="135.755608" />
+      <!-- ここまで修正箇所 1日 22:30 -->
     </div>
   </div>
   <div class="r-event"><span>このイベントを消す</span></div>

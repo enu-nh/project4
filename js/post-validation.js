@@ -125,6 +125,7 @@ $(function(){
     $(document).on({
       click: function(){
         address = $(this).next().val();
+        eventSpotArea = $(this).next();
         console.log(address);
         codeAddress();
         return false;

@@ -2,9 +2,9 @@ $(function () {
   var validation1 = $("#signup-form").exValidation({
       // それぞれの項目に「class="chkrequired chkkatakana"」のように記述しているのと同じことをしています。
       rules: {
-        last_name: "chkrequired chknochar",
-        first_name: "chkrequired chknochar",
-        nickname: "chkhankaku chknochar",
+        last_name: "chkrequired chknochar chkmax10",
+        first_name: "chkrequired chknochar chkmax10",
+        nickname: "chkhankaku chknochar chkmax20",
         name_: "laterCall",
         email: "chkrequired chkemail chkhankaku",
         password: "chkrequired chknochar chkmin8 chkmax16",

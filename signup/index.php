@@ -28,7 +28,7 @@
                 <tbody>
                   <tr>
                     <th>氏名<span class="req">※</span></th>
-                    <td class="item2"><span class="last-name">性<input type="text" name="last_name" class="form-size01"></span><span class="first-name">名<input type="text" name="first_name" class="form-size01"></span></td>
+                    <td class="item2"><span class="last-name">姓<input type="text" name="last_name" id="last_name" class="form-size01"></span><span class="first-name">名<input type="text" name="first_name" id="first_name" class="form-size01"></span></td>
                     <td class="item3"><span class="attention">半角英数字のみ使用出来ます</span></td>
                   </tr>
                   <tr>

@@ -25,6 +25,21 @@ $(function(){
       url: "/posts/tday.php",
     }).done(function( html ) {
       $(".event-area #addpost-support").prev().append(html);
+      //時間スライダーを追加
+      $(".slider-time").next().slider({
+        min: 0,
+        max: 1440,
+        step: 10,
+        values: [0],
+        slide: function (e, ui) {
+          var hours1 = Math.floor(ui.values[0] / 60);
+          var minutes1 = ui.values[0] - (hours1 * 60);
+          if (hours1.length == 1) hours1 = '0' + hours1;
+          if (minutes1.length == 1) minutes1 = '0' + minutes1;
+          if (minutes1 == 0) minutes1 = '00';
+          $(this).prev().html(hours1 + ':' + minutes1);
+        }
+      });
       $(".formError").remove();
       post_vallidation();
       $(".time input").pickatime();
@@ -47,6 +62,21 @@ $(function(){
       url: "/posts/nday.php",
     }).done(function( html ) {
       $(".event-area #addpost-support").before(html);
+      //時間スライダーを追加
+      $(".slider-time").next().slider({
+        min: 0,
+        max: 1440,
+        step: 10,
+        values: [0],
+        slide: function (e, ui) {
+          var hours1 = Math.floor(ui.values[0] / 60);
+          var minutes1 = ui.values[0] - (hours1 * 60);
+          if (hours1.length == 1) hours1 = '0' + hours1;
+          if (minutes1.length == 1) minutes1 = '0' + minutes1;
+          if (minutes1 == 0) minutes1 = '00';
+          $(this).prev().html(hours1 + ':' + minutes1);
+        }
+      });
       $(".formError").remove();
       post_vallidation();
       $(".time input").pickatime();
@@ -108,7 +138,6 @@ $(function(){
     
     // 住所から検索
     function codeAddress() {
-        console.log(address);
         geocoder.geocode( { 'address': address}, function(results, status) {
             if (status == google.maps.GeocoderStatus.OK) {
                 map.setCenter(results[0].geometry.location);
@@ -126,7 +155,6 @@ $(function(){
       click: function(){
         address = $(this).next().val();
         eventSpotArea = $(this).next();
-        console.log(address);
         codeAddress();
         return false;
       }

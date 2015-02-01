@@ -6,7 +6,7 @@
     </div>
     <div class="input-area01">
       <div id="slider-time<?php echo($click_id_num); ?>" class="slider-time">0:00</div>
-      <div id="slider1"></div>
+      <div id="slider<?php echo($click_id_num); ?>"></div>
     </div>
   </div>
   <div class="post-module02-item">

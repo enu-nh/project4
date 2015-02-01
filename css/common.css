@@ -371,6 +371,9 @@ textarea {
   letter-spacing: -.4em;
   vertical-align: middle;
 }
+#map_canvas {
+  letter-spacing: normal;
+}
 .btn-ref {
   vertical-align: top;
   letter-spacing: normal;
@@ -393,6 +396,10 @@ textarea {
 .radiotype-01 input[type="radio"],
 .radiotype-01 input[type="checkbox"] {
   vertical-align: 1px;
+}
+input[type="submit"] {
+  outline: none;
+  cursor: pointer;
 }
 .checktype-01 {
   margin: 0 0 -8px 0;

@@ -152,7 +152,7 @@ $(function () {
   //tab化
   var pn = location.search.match(/(\?|&)tab=(\d+)(&|\b)/) ? RegExp.$2 : '0';
 
-  $(".tab-contents").tabs().tabs( "option", "show", { effect: "blind", duration: 1000 } );
+  $(".tab-contents").tabs().tabs( "option","active",parseInt(pn) ).tabs( "option", "show", { effect: "blind", duration: 1000 } );
 
   $('.ui-tabs-nav a').focusin(function () {
     this.blur();
@@ -161,6 +161,7 @@ $(function () {
 
 timeSlider(1);
 //時間スライダー
+
 function timeSlider(id){
 	if(id == 1){
 		$('#slider'+id).slider({

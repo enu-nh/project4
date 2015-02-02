@@ -1351,11 +1351,19 @@ post-module04 .btngroup {
   position: fixed;
   right: 36px;
   bottom: 36px;
+  max-width: 300px;
   padding: 18px 0 0 0;
   opacity: 0;
   background: url(/images/ico_arrow_top.gif) no-repeat center top;
 }
-.menu-fixed>div,
+.menu-fixed .pagetop a {
+  display: block;
+  padding: 10px;
+  background: #5fc77a;
+}
+.menu-fixed a:hover {
+  text-decoration: underline;
+}
 .menu-fixed>nav{
   padding: 10px;
   background: #5fc77a;
@@ -1372,9 +1380,11 @@ post-module04 .btngroup {
 .menu-fixed .child li {
   margin: 0 0 5px 0;
   color: #fff;
-  font-size: 87.5%;
+  font-size: 71.4%;
   list-style: decimal;
   list-style-position: inside;
+  text-indent: -1.4em;
+  padding: 0 0 0 1.4em;
 }
 .menu-view {
   max-height: 180px;

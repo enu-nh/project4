@@ -55,7 +55,7 @@ $preflist=array( '0'=>'北海道', '1'=>'青森県', '2'=>'秋田県', '3'=>'山
                   <div class="post-module04-event">
                     <div class="time">8時30分</div>
                     <div class="post-module04-eventitem">
-                      <h3 class="h3-ttl01">京都駅に到着</h3>
+                      <h3 class="h3-ttl01">京都駅に到着京都駅に到着京都駅に到着京都駅に到着京都駅に到着</h3>
                       <ul class="img-list">
                         <li><a href="#" class="null"><img src="/images/post_view_img01.jpg" width="300" height="300" alt=""></a></li>
                         <li><a href="#" class="null"><img src="/images/post_view_img01.jpg" width="300" height="300" alt=""></a></li>

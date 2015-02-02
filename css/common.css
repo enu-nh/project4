@@ -1346,6 +1346,40 @@ post-module04 .btngroup {
 #footer-nav li a:hover {
   color: #5f89c7;
 }
+/*---------------------------------------- menu-fixed */
+.menu-fixed {
+  position: fixed;
+  right: 36px;
+  bottom: 36px;
+  padding: 18px 0 0 0;
+  opacity: 0;
+  background: url(/images/ico_arrow_top.gif) no-repeat center top;
+}
+.menu-fixed>div,
+.menu-fixed>nav{
+  padding: 10px;
+  background: #5fc77a;
+}
+.menu-fixed a{
+  color: #fff;
+}
+.menu-fixed .menu-view {
+  border-top: 1px solid #3f833f;
+}
+.menu-fixed .child {
+  margin: 5px 0 10px 0;
+}
+.menu-fixed .child li {
+  margin: 0 0 5px 0;
+  color: #fff;
+  font-size: 87.5%;
+  list-style: decimal;
+  list-style-position: inside;
+}
+.menu-view {
+  max-height: 180px;
+  overflow: scroll;
+}
 
 /*------------------------------------------------------------ cf */
 

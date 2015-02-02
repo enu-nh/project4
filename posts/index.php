@@ -27,7 +27,6 @@ $preflist=array( '0'=>'北海道', '1'=>'青森県', '2'=>'秋田県', '3'=>'山
     <div id="contents">
       <div class="inner">
         <div id="main">
-          <form id="post-add-form" action="confirm.php">
             <section class="section">
               <h1 class="h1-ttl01">1泊2日で関西旅行</h1>
               <div class="post-module03">
@@ -50,8 +49,9 @@ $preflist=array( '0'=>'北海道', '1'=>'青森県', '2'=>'秋田県', '3'=>'山
             </section>
             <div class="section event-area">
               <div class="post-module04">
-                <section class="day1 post-module04-item">
-                  <h2 class="bg01 h2-ttl02">１日目</h2>
+                <!-- id修正 2日 23:37 -->
+                <section class="post-module04-item">
+                  <h2 class="bg01 h2-ttl02">1日目</h2>
                   <div class="post-module04-event">
                     <div class="time">8時30分</div>
                     <div class="post-module04-eventitem">
@@ -92,6 +92,69 @@ $preflist=array( '0'=>'北海道', '1'=>'青森県', '2'=>'秋田県', '3'=>'山
                     </div>
                   </div>
                 </section>
+                <!-- ここから追加 2日 23:53 -->
+                <section class="post-module04-item">
+                  <h2 class="bg01 h2-ttl02">2日目</h2>
+                  <div class="post-module04-event">
+                    <div class="time">8時30分</div>
+                    <div class="post-module04-eventitem">
+                      <h3 class="h3-ttl01">京都駅に到着</h3>
+                      <ul class="img-list">
+                        <li><a href="#" class="null"><img src="/images/post_view_img01.jpg" width="300" height="300" alt=""></a></li>
+                        <li><a href="#" class="null"><img src="/images/post_view_img01.jpg" width="300" height="300" alt=""></a></li>
+                      </ul>
+                      <div class="comment txt-set01">京都駅に到着。この日は快晴。駅を抜けるとすぐ目の前に京都タワー！<br>
+                        京都にきたって実感しますね。<br>
+                        水族館へ向かうバスが出ていますが、すごい行列。たいした距離でもないので徒歩で向かいます。</div>
+                      <div class="spot">
+                        <div class="btn-map"><img src="/images/btn_map_open.gif" alt="地図で見る"></div>
+                        <div class="spot-name">ここにスポット名を出力</div>
+                        <div class="maparea">
+                          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3268.849192846663!2d135.758466!3d34.985442000000006!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x600108ae918b02ef%3A0xb61a446e74a21c08!2z5Lqs6YO96aeF!5e0!3m2!1sja!2sjp!4v1422413059740" width="618" height="618" frameborder="0" style="border:0"></iframe>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="post-module04-event">
+                    <div class="time">8時30分</div>
+                    <div class="post-module04-eventitem">
+                      <h3 class="h3-ttl01">京都駅に到着</h3>
+                      <ul class="img-list">
+                        <li><a href="#" class="null"><img src="/images/post_view_img01.jpg" width="300" height="300" alt=""></a></li>
+                        <li class="txt-set01">京都駅に到着。この日は快晴。駅を抜けるとすぐ目の前に京都タワー！<br>
+                          京都にきたって実感しますね。<br>
+                          水族館へ向かうバスが出ていますが、すごい行列。たいした距離でもないので徒歩で向かいます。</li>
+                      </ul>
+                      <div class="spot">
+                        <div class="btn-map"><img src="/images/btn_map_open.gif" alt="地図で見る"></div>
+                        <div class="spot-name">ここにスポット名を出力</div>
+                        <div class="maparea">
+                          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3268.849192846663!2d135.758466!3d34.985442000000006!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x600108ae918b02ef%3A0xb61a446e74a21c08!2z5Lqs6YO96aeF!5e0!3m2!1sja!2sjp!4v1422413059740" width="618" height="618" frameborder="0" style="border:0"></iframe>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="post-module04-event">
+                    <div class="time">8時30分</div>
+                    <div class="post-module04-eventitem">
+                      <h3 class="h3-ttl01">京都駅に到着</h3>
+                      <ul class="img-list">
+                        <li><a href="#" class="null"><img src="/images/post_view_img01.jpg" width="300" height="300" alt=""></a></li>
+                        <li class="txt-set01">京都駅に到着。この日は快晴。駅を抜けるとすぐ目の前に京都タワー！<br>
+                          京都にきたって実感しますね。<br>
+                          水族館へ向かうバスが出ていますが、すごい行列。たいした距離でもないので徒歩で向かいます。</li>
+                      </ul>
+                      <div class="spot">
+                        <div class="btn-map"><img src="/images/btn_map_open.gif" alt="地図で見る"></div>
+                        <div class="spot-name">ここにスポット名を出力</div>
+                        <div class="maparea">
+                          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3268.849192846663!2d135.758466!3d34.985442000000006!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x600108ae918b02ef%3A0xb61a446e74a21c08!2z5Lqs6YO96aeF!5e0!3m2!1sja!2sjp!4v1422413059740" width="618" height="618" frameborder="0" style="border:0"></iframe>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </section>
+                <!-- ここまで追加 2日 23:53 -->
               </div>
               <section class="comment-box01-wrap">
                 <h3 class="h2-ttl02">この旅についてのコメント</h3>
@@ -131,7 +194,6 @@ $preflist=array( '0'=>'北海道', '1'=>'青森県', '2'=>'秋田県', '3'=>'山
                 </div>
               </section>
             </div>
-          </form>
         </div>
         <div id="sub">
           <div class="btn09 btn-bookmark">お気に入りに追加</div>
@@ -275,6 +337,8 @@ $preflist=array( '0'=>'北海道', '1'=>'青森県', '2'=>'秋田県', '3'=>'山
     <script src="/js/validation.js"></script>
     <script src="http://maps.googleapis.com/maps/api/js?&sensor=true"></script>
     <script src="/js/style.js"></script>
+    <!-- view.jsを読み込み -->
+    <script src="/js/view.js"></script>
     <div id="fb-root"></div>
     <script>
       (function (d, s, id) {

@@ -2,7 +2,8 @@
 $click_id_num = $_POST[click_id_num];
 $click_day_num = $_POST[click_day_num];
 ?>
-<section class="day<?php echo($click_day_num); ?> post-module02">
+<!-- idに変更 3日1:50 -->
+<section id="day<?php echo($click_day_num); ?>" class="post-module02">
   <h2 class="bg01 h2-ttl02"><?php echo($click_day_num); ?>日目</h2>
   <div class="post-module02-event">
     <div class="post-module02-item">

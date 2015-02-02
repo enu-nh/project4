@@ -17,4 +17,9 @@
 			</div>
 		</footer>
 		<!-- /#common-footer -->
+		<!-- ここから追加 23:30 -->
+        <div class="menu-fixed">
+          <div class="pagetop"><a href="#">ページ上部へ移動</a></div>
+        </div>
+        <!-- ここまで追加 23:30 -->
 	</div>

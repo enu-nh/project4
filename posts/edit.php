@@ -96,7 +96,8 @@ foreach($preflist as $key=>$value){
               </table>
             </section>
             <div class="section event-area">
-              <section class="day1 post-module02">
+              <!-- idに変更 3日1:50 -->
+              <section id="day1" class="post-module02">
                 <h2 class="bg01 h2-ttl02">１日目</h2>
                 <div class="post-module02-event">
                   <div class="post-module02-item">

@@ -101,6 +101,16 @@ $(function () {
         },{
           "duration":500,
           "complete": function(){
+            var textArray = [];
+            textArray[0] = $(this).find(".post-module02-item").eq(1).find("input").attr("id");
+            textArray[1] = $(this).find(".post-module02-item").eq(3).find("textarea").attr("id");
+            textArray[2] = $(this).find(".post-module02-item").eq(5).find("input").attr("id");
+            var i = 0;
+            while(i < 3) {
+              console.log(textArray[i]);
+              $("#err_"+ textArray[i]).remove();
+              i = i+1;
+            }
             $(this).remove();
             addClassList();
           }
@@ -112,7 +122,6 @@ $(function () {
   //日を削除
   $(document).on({
     click: function(){
-      console.log($('.post-module02').length);
       if(!$(this).parent().hasClass("day1")){
         $(this).parent().css("overflow","hidden").animate({
           "height": 0,
@@ -120,11 +129,22 @@ $(function () {
         },{
           "duration":500,
           "complete": function(){
+            for(var i=0; i<$(this).children(".post-module02-event").length; i++ ){
+              var textArray2 = [];
+              textArray2[0] = $(this).children(".post-module02-event").eq(i).find(".post-module02-item").eq(1).find("input").attr("id");
+              textArray2[1] = $(this).children(".post-module02-event").eq(i).find(".post-module02-item").eq(3).find("textarea").attr("id");
+              textArray2[2] = $(this).children(".post-module02-event").eq(i).find(".post-module02-item").eq(5).find("input").attr("id");
+              var j = 0;
+              while(j < 3) {
+                console.log(textArray2[j]);
+                $("#err_"+ textArray2[j]).remove();
+                j = j+1;
+              }
+            }
             $(this).remove();
             addClassList();
             dayNum = $('.post-module02').length;
             for(var i=0;i < dayNum;i++){
-              console.log(i);
               $(".post-module02").eq(i).attr("class","post-module02 day"+(i+1));
               $(".post-module02").eq(i).children("h2").text((i+1)+"日目");
             }
